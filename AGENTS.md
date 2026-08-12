@@ -312,4 +312,4 @@ npm run test:e2e
 
 ## Contact
 
-For questions or clarifications, refer to this file first, then check relevant skills in `.opencode/skills/`.
+For questions or clarifications, refer to this file first, then check relevant skills in `.opencode/skills/`

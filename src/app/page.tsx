@@ -1,69 +1,240 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
+    <main className="min-h-screen bg-slate-50">
+      {/* Hero section */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
+          <p className="text-sm font-semibold uppercase tracking-wide text-blue-700">
+            Find Emergency Plumbing
+          </p>
+
+          <h1 className="mt-4 text-4xl font-bold tracking-tight text-slate-950 sm:text-5xl">
+            Find Emergency Plumbers in Your City
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
+            Connect with emergency plumbing providers available 24/7 in your
+            area. Browse local listings, review service information, and call
+            directly for urgent plumbing help.
+          </p>
+
+          <div className="mt-10 flex flex-wrap gap-4">
+            <Link
+              href="/plumbers"
+              className="inline-flex items-center justify-center rounded-lg bg-blue-700 px-6 py-3 text-base font-semibold text-white transition hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
+              Browse all cities
+            </Link>
             <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              href="#how-it-works"
+              className="inline-flex items-center justify-center rounded-lg border border-slate-300 bg-white px-6 py-3 text-base font-semibold text-slate-700 transition hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2"
             >
-              Learning
-            </a>{" "}
-            center.
+              How it works
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured cities */}
+      <section className="border-t border-slate-200">
+        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-slate-950">
+            Available cities
+          </h2>
+
+          <p className="mt-3 text-slate-600">
+            Browse emergency plumbing providers in these test locations. More
+            cities coming soon.
+          </p>
+
+          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <Link
+              href="/plumbers/miami-fl"
+              className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-blue-300 hover:shadow-md"
+            >
+              <h3 className="text-lg font-semibold text-slate-950 group-hover:text-blue-700">
+                Miami, FL
+              </h3>
+              <p className="mt-2 text-sm text-slate-600">
+                Example ZIP: 33101
+              </p>
+              <p className="mt-3 text-sm font-medium text-blue-700">
+                View providers →
+              </p>
+            </Link>
+
+            <Link
+              href="/plumbers/austin-tx"
+              className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-blue-300 hover:shadow-md"
+            >
+              <h3 className="text-lg font-semibold text-slate-950 group-hover:text-blue-700">
+                Austin, TX
+              </h3>
+              <p className="mt-2 text-sm text-slate-600">
+                Example ZIP: 78701
+              </p>
+              <p className="mt-3 text-sm font-medium text-blue-700">
+                View providers →
+              </p>
+            </Link>
+
+            <Link
+              href="/plumbers/denver-co"
+              className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-blue-300 hover:shadow-md"
+            >
+              <h3 className="text-lg font-semibold text-slate-950 group-hover:text-blue-700">
+                Denver, CO
+              </h3>
+              <p className="mt-2 text-sm text-slate-600">
+                Example ZIP: 80202
+              </p>
+              <p className="mt-3 text-sm font-medium text-blue-700">
+                View providers →
+              </p>
+            </Link>
+          </div>
+
+          <div className="mt-8">
+            <Link
+              href="/plumbers"
+              className="text-sm font-medium text-blue-700 hover:text-blue-800"
+            >
+              View all cities →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* How it works */}
+      <section id="how-it-works" className="border-t border-slate-200 bg-white">
+        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-slate-950">
+            How it works
+          </h2>
+
+          <div className="mt-8 grid gap-8 md:grid-cols-3">
+            <div>
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-100 text-blue-800">
+                <svg
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+              </div>
+
+              <h3 className="mt-4 text-lg font-semibold text-slate-900">
+                1. Choose your city
+              </h3>
+
+              <p className="mt-2 text-slate-600">
+                Select your city from our directory or browse all available
+                locations to find emergency plumbing providers in your area.
+              </p>
+            </div>
+
+            <div>
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-100 text-blue-800">
+                <svg
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+
+              <h3 className="mt-4 text-lg font-semibold text-slate-900">
+                2. Review providers
+              </h3>
+
+              <p className="mt-2 text-slate-600">
+                Browse available emergency plumbing listings, check service
+                details, and identify providers that match your needs.
+              </p>
+            </div>
+
+            <div>
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-100 text-blue-800">
+                <svg
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+              </div>
+
+              <h3 className="mt-4 text-lg font-semibold text-slate-900">
+                3. Call for help
+              </h3>
+
+              <p className="mt-2 text-slate-600">
+                Contact providers directly by phone to discuss your plumbing
+                emergency, availability, and service details.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA final */}
+      <section className="border-t border-slate-200">
+        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
+          <div className="rounded-2xl border border-slate-200 bg-slate-50 p-8 text-center">
+            <h2 className="text-2xl font-bold text-slate-950">
+              Need emergency plumbing help now?
+            </h2>
+
+            <p className="mt-3 text-slate-600">
+              Browse our directory of emergency plumbing providers and contact
+              one directly.
+            </p>
+
+            <div className="mt-6">
+              <Link
+                href="/plumbers"
+                className="inline-flex items-center justify-center rounded-lg bg-blue-700 px-6 py-3 text-base font-semibold text-white transition hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
+              >
+                Browse all cities
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Disclaimer */}
+      <section className="border-t border-slate-200 bg-white">
+        <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
+          <p className="text-sm leading-6 text-slate-500">
+            This MVP uses controlled test data for development purposes.
+            Provider information, availability, service areas, and phone numbers
+            must be verified before publishing real listings. Do not rely on
+            this data for actual emergency services.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+      </section>
+    </main>
   );
 }

@@ -178,6 +178,89 @@ export default async function CityPlumbersPage({
           before publishing real listings.
         </p>
       </section>
+
+      {/* Sección informativa orientada a SEO y conversión */}
+      <section className="border-t border-slate-200 bg-white">
+        <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-slate-950">
+            What to do during a plumbing emergency
+          </h2>
+
+          <div className="mt-6 grid gap-8 md:grid-cols-2">
+            <div>
+              <h3 className="text-lg font-semibold text-slate-900">
+                Immediate steps to take
+              </h3>
+
+              <ul className="mt-3 list-disc space-y-2 pl-5 text-slate-600">
+                <li>
+                  Shut off the main water valve if you have a major leak or
+                  burst pipe.
+                </li>
+                <li>
+                  Turn off the water heater if there is no water supply or if
+                  you suspect a problem.
+                </li>
+                <li>
+                  Use buckets and towels to contain water and minimize damage.
+                </li>
+                <li>
+                  Avoid using chemical drain cleaners, which can worsen some
+                  plumbing issues.
+                </li>
+                <li>
+                  Contact an emergency plumbing provider as soon as possible.
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold text-slate-900">
+                Common plumbing emergencies
+              </h3>
+
+              <ul className="mt-3 list-disc space-y-2 pl-5 text-slate-600">
+                <li>Burst or leaking pipes.</li>
+                <li>Severely clogged drains or toilets.</li>
+                <li>Water heater failures or leaks.</li>
+                <li>Gas line leaks (evacuate and call emergency services).</li>
+                <li>Sewer line backups or foul odors.</li>
+                <li>
+                  Overflowing toilets or fixtures that will not stop running.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-8">
+            <h3 className="text-lg font-semibold text-slate-900">
+              When to call an emergency plumber
+            </h3>
+
+            <p className="mt-3 text-slate-600">
+              Call an emergency plumbing service immediately if you notice
+              significant water leakage, loss of water pressure, sewage odors,
+              or any situation that could cause property damage or health risks.
+              Many providers in {city.name} offer 24/7 availability for urgent
+              situations.
+            </p>
+          </div>
+
+          <div className="mt-8">
+            <h3 className="text-lg font-semibold text-slate-900">
+              How to choose a provider
+            </h3>
+
+            <p className="mt-3 text-slate-600">
+              When selecting an emergency plumber, consider their response time,
+              service area, availability outside regular business hours, and
+              whether they handle your specific type of emergency. Always
+              confirm pricing, service fees, and payment methods before work
+              begins.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

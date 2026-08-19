@@ -1,0 +1,162 @@
+{
+  "mesa-az": {
+    "intro": "Mesa is one of the largest cities in Arizona, with a growing population and a high demand for reliable emergency plumbing services. Local providers handle everything from residential leaks to commercial pipe failures.",
+    "coverage": "Emergency plumbers in Mesa typically serve central Mesa, East Mesa, West Mesa, and nearby areas such as Gilbert, Tempe, and Apache Junction. Coverage may extend to surrounding ZIP codes depending on the company.",
+    "commonIssues": "Common emergencies include burst pipes during rare cold snaps, water heater failures in summer, and severe drain clogs in older neighborhoods. Many calls also involve slab leaks and irrigation system problems.",
+    "localTips": "In winter, even short cold spells can affect exposed pipes. Knowing the location of your main water shut-off valve can save time and reduce damage during an emergency. Regularly inspecting irrigation lines can also prevent costly leaks.",
+    "howToUse": "Use this directory to browse plumbing listings in Mesa. Check each provider's details, service area, and availability before calling. For urgent issues, contact a provider immediately and describe your situation clearly.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "miami-fl": {
+    "intro": "Miami's dense urban layout and coastal climate create specific plumbing challenges, from corrosion due to humidity to issues in high-rise buildings and older properties.",
+    "coverage": "Emergency plumbers in Miami often cover the city center, Brickell, Little Havana, Coconut Grove, and nearby areas such as Miami Beach, Coral Gables, and Hialeah.",
+    "commonIssues": "Frequent calls involve sewer line backups, water heater leaks, and problems in older properties where pipes may be corroded or poorly maintained. Storm-related drainage issues are also common.",
+    "localTips": "During hurricane season, heavy rains can stress drainage systems. Clearing gutters and checking outdoor drains before storms can help prevent flooding and plumbing issues. Installing backflow valves may also reduce sewer backup risks.",
+    "howToUse": "Browse Miami plumbing listings to find local providers. Review their details and service areas, then call directly to discuss your emergency and confirm availability.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "san-diego-ca": {
+    "intro": "San Diego's mix of coastal neighborhoods, older homes, and new developments creates diverse plumbing needs. Local emergency providers handle a wide range of residential and commercial issues.",
+    "coverage": "Providers in San Diego typically serve areas such as Downtown, La Jolla, Pacific Beach, Hillcrest, Chula Vista, and National City, with some covering broader parts of San Diego County.",
+    "commonIssues": "Common emergencies include water heater failures, slab leaks, sewer line problems, and clogged drains. Coastal properties may also face corrosion and salt-related pipe issues.",
+    "localTips": "Older homes in San Diego may have aging pipes that are more prone to leaks. Regular inspections and knowing your main shut-off valve location can help you respond quickly in an emergency.",
+    "howToUse": "Use this directory to explore plumbing listings in San Diego. Check each provider's details and service area, then contact them directly for urgent repairs.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "dallas-tx": {
+    "intro": "Dallas is a major Texas city with a high volume of plumbing emergencies, from residential leaks to commercial pipe failures. Local providers offer a range of emergency and after-hours services.",
+    "coverage": "Emergency plumbers in Dallas often serve central Dallas, Uptown, Oak Lawn, Lakewood, and nearby areas such as Irving, Grand Prairie, and Farmers Branch.",
+    "commonIssues": "Frequent issues include burst pipes during winter freezes, water heater failures, sewer line backups, and clogged drains. Many older homes also deal with aging pipe systems.",
+    "localTips": "Winter freezes can cause significant pipe damage in Dallas. Insulating exposed pipes and knowing how to shut off your water quickly can reduce damage during cold snaps.",
+    "howToUse": "Browse Dallas plumbing listings to find local providers. Review their details and service areas, then call directly to discuss your emergency and confirm availability.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "chula-vista-ca": {
+    "intro": "Chula Vista is a growing city in San Diego County with a mix of residential neighborhoods and commercial areas. Local plumbers handle a variety of emergency and routine plumbing needs.",
+    "coverage": "Providers in Chula Vista typically serve the city center, eastern and western neighborhoods, and nearby areas such as National City, San Diego, and Bonita.",
+    "commonIssues": "Common emergencies include water heater leaks, drain clogs, slab leaks, and sewer line issues. Some properties also face irrigation and outdoor plumbing problems.",
+    "localTips": "Regularly checking irrigation systems and outdoor faucets can help prevent leaks. Knowing the location of your main water valve is essential for quick response in an emergency.",
+    "howToUse": "Use this directory to browse plumbing listings in Chula Vista. Check each provider's details and service area, then contact them directly for urgent repairs.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "gilbert-az": {
+    "intro": "Gilbert is a fast-growing town in Arizona with many new homes and businesses. Local emergency plumbers handle a range of issues, from new construction plumbing to repairs in established neighborhoods.",
+    "coverage": "Providers in Gilbert typically serve the town center, surrounding neighborhoods, and nearby areas such as Mesa, Chandler, and Queen Creek.",
+    "commonIssues": "Common emergencies include water heater failures, slab leaks, clogged drains, and irrigation system problems. Newer homes may also face issues with modern plumbing fixtures.",
+    "localTips": "In summer, heavy use of air conditioning and irrigation can stress plumbing systems. Regularly inspecting visible pipes and fixtures can help catch small issues before they become emergencies.",
+    "howToUse": "Browse Gilbert plumbing listings to find local providers. Review their details and service areas, then call directly to discuss your emergency and confirm availability.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "irving-tx": {
+    "intro": "Irving is a key city in the Dallas-Fort Worth metro area, with a mix of residential, commercial, and industrial plumbing needs. Local providers offer emergency and after-hours services.",
+    "coverage": "Emergency plumbers in Irving often serve central Irving, Las Colinas, Valley Ranch, and nearby areas such as Dallas, Grand Prairie, and Grapevine.",
+    "commonIssues": "Frequent issues include burst pipes during winter freezes, water heater failures, sewer line backups, and clogged drains. Commercial properties may also face complex plumbing emergencies.",
+    "localTips": "Winter freezes can cause significant pipe damage in Irving. Insulating exposed pipes and knowing how to shut off your water quickly can reduce damage during cold snaps.",
+    "howToUse": "Use this directory to explore plumbing listings in Irving. Check each provider's details and service area, then contact them directly for urgent repairs.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "miami-beach-fl": {
+    "intro": "Miami Beach is a coastal city with unique plumbing challenges, including salt-related corrosion, high-rise building systems, and heavy use during tourist seasons.",
+    "coverage": "Providers in Miami Beach typically serve the island, South Beach, Mid-Beach, North Beach, and nearby areas such as Miami and Surfside.",
+    "commonIssues": "Common emergencies include water heater leaks, sewer line backups, clogged drains, and corrosion-related pipe failures. High-rise buildings may also face complex plumbing issues.",
+    "localTips": "Coastal properties should regularly inspect pipes and fixtures for corrosion. During peak tourist seasons, heavy use can stress plumbing systems in hotels and short-term rentals.",
+    "howToUse": "Browse Miami Beach plumbing listings to find local providers. Review their details and service areas, then call directly to discuss your emergency and confirm availability.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "boston-ma": {
+    "intro": "Boston is a historic city with many older buildings and complex plumbing systems. Local emergency plumbers handle a wide range of residential and commercial issues.",
+    "coverage": "Providers in Boston typically serve downtown, Back Bay, Beacon Hill, South End, Fenway, and nearby areas such as Cambridge, Quincy, and Dorchester.",
+    "commonIssues": "Common emergencies include frozen or burst pipes in winter, sewer line backups, water heater failures, and issues in aging pipe systems. Many older buildings also face basement flooding risks.",
+    "localTips": "Winter in Boston can be harsh on plumbing. Insulating pipes, keeping heat on in vacant properties, and knowing your main shut-off valve can help prevent and manage emergencies.",
+    "howToUse": "Use this directory to browse plumbing listings in Boston. Check each provider's details and service area, then contact them directly for urgent repairs.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "national-city-ca": {
+    "intro": "National City is a compact community in San Diego County with a mix of older homes and new developments. Local plumbers handle a variety of emergency and routine plumbing needs.",
+    "coverage": "Providers in National City typically serve the city center, surrounding neighborhoods, and nearby areas such as Chula Vista, San Diego, and Bonita.",
+    "commonIssues": "Common emergencies include water heater leaks, drain clogs, slab leaks, and sewer line issues. Some properties also face irrigation and outdoor plumbing problems.",
+    "localTips": "Regularly checking irrigation systems and outdoor faucets can help prevent leaks. Knowing the location of your main water valve is essential for quick response in an emergency.",
+    "howToUse": "Browse National City plumbing listings to find local providers. Review their details and service areas, then call directly to discuss your emergency and confirm availability.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "quincy-ma": {
+    "intro": "Quincy is a coastal city south of Boston with a mix of residential neighborhoods and commercial areas. Local emergency plumbers handle a range of plumbing issues year-round.",
+    "coverage": "Providers in Quincy typically serve the city center, North Quincy, West Quincy, and nearby areas such as Boston, Dorchester, and Milton.",
+    "commonIssues": "Common emergencies include frozen or burst pipes in winter, water heater failures, sewer line backups, and issues in older properties with aging pipe systems.",
+    "localTips": "Winter weather can be tough on plumbing in Quincy. Insulating exposed pipes and knowing how to shut off your water quickly can reduce damage during cold snaps.",
+    "howToUse": "Use this directory to explore plumbing listings in Quincy. Check each provider's details and service area, then contact them directly for urgent repairs.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "cambridge-ma": {
+    "intro": "Cambridge is a dense urban city next to Boston, with many older buildings and a high concentration of residential and commercial properties. Local plumbers handle diverse emergency needs.",
+    "coverage": "Providers in Cambridge typically serve Harvard Square, Central Square, Porter Square, East Cambridge, and nearby areas such as Boston, Somerville, and Brookline.",
+    "commonIssues": "Common emergencies include frozen pipes in winter, sewer line backups, water heater failures, and issues in aging plumbing systems. Multi-unit buildings may also face complex emergencies.",
+    "localTips": "Older buildings in Cambridge may have outdated plumbing. Regular inspections and knowing your main shut-off valve can help you respond quickly in an emergency.",
+    "howToUse": "Browse Cambridge plumbing listings to find local providers. Review their details and service areas, then call directly to discuss your emergency and confirm availability.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "doral-fl": {
+    "intro": "Doral is a planned community in Miami-Dade County with many residential neighborhoods and commercial areas. Local plumbers handle a variety of emergency and routine plumbing needs.",
+    "coverage": "Providers in Doral typically serve the city center, surrounding neighborhoods, and nearby areas such as Miami, Miami Beach, and Hialeah.",
+    "commonIssues": "Common emergencies include water heater leaks, drain clogs, sewer line backups, and issues in newer constructions with modern plumbing systems.",
+    "localTips": "During hurricane season, heavy rains can stress drainage systems. Clearing gutters and checking outdoor drains before storms can help prevent flooding and plumbing issues.",
+    "howToUse": "Use this directory to browse plumbing listings in Doral. Check each provider's details and service area, then contact them directly for urgent repairs.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "dorchester-ma": {
+    "intro": "Dorchester is a large neighborhood of Boston with a mix of older homes, multi-family buildings, and commercial properties. Local plumbers handle diverse emergency plumbing needs.",
+    "coverage": "Providers in Dorchester typically serve the neighborhood center, surrounding streets, and nearby areas such as South Boston, Roxbury, and Quincy.",
+    "commonIssues": "Common emergencies include frozen or burst pipes in winter, sewer line backups, water heater failures, and issues in aging pipe systems. Basements may also face flooding risks.",
+    "localTips": "Winter weather can be harsh on plumbing in Dorchester. Insulating pipes, keeping heat on in vacant properties, and knowing your main shut-off valve can help prevent and manage emergencies.",
+    "howToUse": "Browse Dorchester plumbing listings to find local providers. Review their details and service areas, then call directly to discuss your emergency and confirm availability.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "farmers-branch-tx": {
+    "intro": "Farmers Branch is a suburban city in the Dallas-Fort Worth metro area, with a mix of residential and commercial plumbing needs. Local providers offer emergency and after-hours services.",
+    "coverage": "Providers in Farmers Branch typically serve the city center, surrounding neighborhoods, and nearby areas such as Dallas, Irving, and Carrollton.",
+    "commonIssues": "Common emergencies include burst pipes during winter freezes, water heater failures, sewer line backups, and clogged drains. Many homes also deal with aging pipe systems.",
+    "localTips": "Winter freezes can cause significant pipe damage in Farmers Branch. Insulating exposed pipes and knowing how to shut off your water quickly can reduce damage during cold snaps.",
+    "howToUse": "Use this directory to explore plumbing listings in Farmers Branch. Check each provider's details and service area, then contact them directly for urgent repairs.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "fort-worth-tx": {
+    "intro": "Fort Worth is a major Texas city with a high volume of plumbing emergencies, from residential leaks to commercial pipe failures. Local providers offer a range of emergency and after-hours services.",
+    "coverage": "Emergency plumbers in Fort Worth often serve downtown, Cultural District, Arlington Heights, and nearby areas such as Grand Prairie, Euless, and Bedford.",
+    "commonIssues": "Frequent issues include burst pipes during winter freezes, water heater failures, sewer line backups, and clogged drains. Many older homes also deal with aging pipe systems.",
+    "localTips": "Winter freezes can cause significant pipe damage in Fort Worth. Insulating exposed pipes and knowing how to shut off your water quickly can reduce damage during cold snaps.",
+    "howToUse": "Browse Fort Worth plumbing listings to find local providers. Review their details and service areas, then call directly to discuss your emergency and confirm availability.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "grand-prairie-tx": {
+    "intro": "Grand Prairie is a growing city between Dallas and Fort Worth, with a mix of residential and commercial plumbing needs. Local providers handle a variety of emergency calls.",
+    "coverage": "Providers in Grand Prairie typically serve the city center, surrounding neighborhoods, and nearby areas such as Arlington, Irving, and Cedar Hill.",
+    "commonIssues": "Common emergencies include burst pipes during winter freezes, water heater failures, sewer line backups, and clogged drains. Many properties also face irrigation system issues.",
+    "localTips": "Winter freezes can cause significant pipe damage in Grand Prairie. Insulating exposed pipes and knowing how to shut off your water quickly can reduce damage during cold snaps.",
+    "howToUse": "Use this directory to browse plumbing listings in Grand Prairie. Check each provider's details and service area, then contact them directly for urgent repairs.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "grapevine-tx": {
+    "intro": "Grapevine is a suburban city near Dallas-Fort Worth International Airport, with a mix of residential neighborhoods and commercial areas. Local plumbers handle diverse emergency needs.",
+    "coverage": "Providers in Grapevine typically serve the city center, surrounding neighborhoods, and nearby areas such as Colleyville, Southlake, and Bedford.",
+    "commonIssues": "Common emergencies include burst pipes during winter freezes, water heater failures, sewer line backups, and clogged drains. Some properties also face irrigation and outdoor plumbing issues.",
+    "localTips": "Winter freezes can cause significant pipe damage in Grapevine. Insulating exposed pipes and knowing how to shut off your water quickly can reduce damage during cold snaps.",
+    "howToUse": "Browse Grapevine plumbing listings to find local providers. Review their details and service areas, then call directly to discuss your emergency and confirm availability.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "north-miami-fl": {
+    "intro": "North Miami is a coastal city in Miami-Dade County with a mix of residential and commercial properties. Local plumbers handle a variety of emergency and routine plumbing needs.",
+    "coverage": "Providers in North Miami typically serve the city center, surrounding neighborhoods, and nearby areas such as Miami, Miami Beach, and Aventura.",
+    "commonIssues": "Common emergencies include water heater leaks, drain clogs, sewer line backups, and corrosion-related pipe failures. Some properties also face storm-related drainage issues.",
+    "localTips": "During hurricane season, heavy rains can stress drainage systems. Clearing gutters and checking outdoor drains before storms can help prevent flooding and plumbing issues.",
+    "howToUse": "Use this directory to explore plumbing listings in North Miami. Check each provider's details and service area, then contact them directly for urgent repairs.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  },
+  "phoenix-az": {
+    "intro": "Phoenix is a major Arizona city with extreme summer heat and a high demand for reliable plumbing services. Local providers handle a wide range of residential and commercial emergencies.",
+    "coverage": "Emergency plumbers in Phoenix often serve downtown, central Phoenix, north Phoenix, and nearby areas such as Scottsdale, Tempe, and Glendale.",
+    "commonIssues": "Common emergencies include water heater failures, slab leaks, sewer line problems, and issues related to hard water and mineral buildup. Irrigation systems also face heavy use in summer.",
+    "localTips": "In summer, heavy use of air conditioning and irrigation can stress plumbing systems. Regularly inspecting visible pipes and fixtures can help catch small issues before they become emergencies.",
+    "howToUse": "Browse Phoenix plumbing listings to find local providers. Review their details and service areas, then call directly to discuss your emergency and confirm availability.",
+    "disclaimer": "Listings shown here are controlled test data for an MVP directory. Availability, service areas, and phone numbers must be verified before relying on any listing in a real emergency."
+  }
+}

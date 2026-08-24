@@ -1,42 +1,33 @@
 {
-  "name": "nextjs-temp",
+  "name": "findemergencyplumbing",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "db:seed": "tsx scripts/seed.ts"
+    "lint": "next lint",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:seed": "tsx scripts/seed.ts",
+    "data:audit": "node scripts/audit-plumbing-services.mjs"
   },
   "dependencies": {
-    "dotenv": "^17.4.2",
-    "drizzle-orm": "^0.45.2",
-    "next": "16.3.0",
-    "pg": "^8.23.0",
-    "postgres": "^3.4.9",
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
-    "zod": "^4.4.3"
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.62.1",
-    "@tailwindcss/postcss": "^4",
-    "@testing-library/jest-dom": "^7.0.1",
-    "@testing-library/react": "^16.3.2",
-    "@types/node": "^20.19.43",
-    "@types/pg": "^8.21.0",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@vitejs/plugin-react": "^6.0.5",
-    "csv-parse": "^7.0.2",
-    "drizzle-kit": "^0.31.10",
-    "eslint": "^9",
-    "eslint-config-next": "16.3.0",
-    "jsdom": "^30.0.1",
-    "tailwindcss": "^4",
-    "tsx": "^4.23.12",
-    "typescript": "^5",
-    "vitest": "^4.1.10"
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "drizzle-kit": "^0.30.0",
+    "drizzle-orm": "^0.38.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.0.0",
+    "postgres": "^3.4.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
   }
 }

@@ -23,17 +23,6 @@ const lines = csvText.split(/\r?\n/).filter(line => line.trim().length > 0);
 const headers = parseCSVLine(lines[0]);
 const rows = lines.slice(1).map(line => parseCSVLine(line));
 
-const categoriesToExclude = new Set([
-  'Plumbing supply store',
-  'HVAC contractor',
-  'General contractor',
-  'Handyman',
-  'Water damage restoration service',
-  'Pool cleaning service',
-  'Appliance repair service',
-  'Electrician'
-]);
-
 function parseCSVLine(line) {
   const result = [];
   let current = '';
@@ -72,11 +61,6 @@ function isPlumberCategory(category) {
   return normalized === 'plumber';
 }
 
-function isExcludedCategory(category) {
-  const normalized = normalizeCategory(category);
-  return categoriesToExclude.has(category.trim());
-}
-
 function slugify(text) {
   return text
     .toLowerCase()
@@ -93,11 +77,8 @@ const stats = {
   byCity: {},
   excluded: {
     notPlumber: 0,
-    notOperational: 0,
-    missingData: 0,
-    excludedCategory: 0,
-    duplicate: 0,
-    suspicious: 0
+    noPhone: 0,
+    duplicate: 0
   },
   candidatesByCity: {}
 };
@@ -108,7 +89,6 @@ for (const row of rows) {
   const placeId = getField(row, 'place_id');
   const name = getField(row, 'name');
   const category = getField(row, 'category');
-  const businessStatus = getField(row, 'business_status');
   const phone = getField(row, 'phone');
   const city = getField(row, 'city');
   const stateCode = getField(row, 'state_code');
@@ -116,26 +96,7 @@ for (const row of rows) {
   const address = getField(row, 'address');
   const website = getField(row, 'website');
   const workingHours = getField(row, 'working_hours');
-  const plusCode = getField(row, 'plus_code');
-  const latitude = getField(row, 'latitude');
-  const longitude = getField(row, 'longitude');
-  const time_zone = getField(row, 'time_zone');
-  const cid = getField(row, 'cid');
-  const data_id = getField(row, 'data_id');
-  const about = getField(row, 'about');
-  const address_link = getField(row, 'address_link');
-  const open_state = getField(row, 'open_state');
-  const reviews_link = getField(row, 'reviews_link');
-  const thumbnail = getField(row, 'thumbnail');
   const type = getField(row, 'type');
-  const located_in = getField(row, 'located_in');
-  const working_hours_old = getField(row, 'working_hours_old');
-  const reservations_link = getField(row, 'reservations_link');
-  const order_links = getField(row, 'order_links');
-  const menu_link = getField(row, 'menu_link');
-  const owner_title = getField(row, 'owner_title');
-  const owner_link = getField(row, 'owner_link');
-  const booking_link = getField(row, 'booking_link');
 
   const cityKey = city ? city.trim() : 'unknown';
 
@@ -157,27 +118,15 @@ for (const row of rows) {
     continue;
   }
 
-  // Filtro 2: estado operacional
-  if (businessStatus !== 'OPERATIONAL') {
-    stats.excluded.notOperational++;
-    continue;
-  }
-
   stats.byCity[cityKey].plumberOperational++;
 
-  // Filtro 3: datos mínimos
-  if (!phone || !city || !stateCode || !postalCode) {
-    stats.excluded.missingData++;
+  // Filtro 2: teléfono presente
+  if (!phone || phone.trim().length === 0) {
+    stats.excluded.noPhone++;
     continue;
   }
 
-  // Filtro 4: categoría excluida
-  if (isExcludedCategory(category)) {
-    stats.excluded.excludedCategory++;
-    continue;
-  }
-
-  // Filtro 5: duplicados
+  // Filtro 3: duplicados
   const phoneNormalized = phone.replace(/[^0-9+]/g, '');
   if (seenPlaceIds.has(placeId) || seenPhones.has(phoneNormalized) || seenNameAddress.has(`${name.trim().toLowerCase()}|${address.trim().toLowerCase()}`)) {
     stats.excluded.duplicate++;
@@ -186,13 +135,6 @@ for (const row of rows) {
   seenPlaceIds.add(placeId);
   seenPhones.add(phoneNormalized);
   seenNameAddress.add(`${name.trim().toLowerCase()}|${address.trim().toLowerCase()}`);
-
-  // Filtro 6: datos sospechosos
-  const hasSuspiciousAddress = address.toLowerCase().includes('incorrect address') || address.toLowerCase().includes('temporarily closed');
-  if (hasSuspiciousAddress) {
-    stats.excluded.suspicious++;
-    continue;
-  }
 
   // Candidato válido
   const is24Hours = workingHours.toLowerCase().includes('open 24 hours');
@@ -217,9 +159,9 @@ for (const row of rows) {
     working_hours: workingHours,
     is_24_hours: is24Hours ? 'true' : 'false',
     map_url: getField(row, 'map_url') || '',
-    plus_code: plusCode || '',
-    latitude: latitude || '',
-    longitude: longitude || ''
+    plus_code: getField(row, 'plus_code') || '',
+    latitude: getField(row, 'latitude') || '',
+    longitude: getField(row, 'longitude') || ''
   };
 
   const citySlug = slugify(cityKey);
@@ -291,11 +233,8 @@ for (const [city, cityStats] of Object.entries(stats.byCity)) {
 
 console.log('\nExcluidos:');
 console.log('- No Plumber:', stats.excluded.notPlumber);
-console.log('- No OPERATIONAL:', stats.excluded.notOperational);
-console.log('- Datos incompletos:', stats.excluded.missingData);
-console.log('- Categoria excluida:', stats.excluded.excludedCategory);
+console.log('- Sin telefono:', stats.excluded.noPhone);
 console.log('- Duplicados:', stats.excluded.duplicate);
-console.log('- Sospechosos:', stats.excluded.suspicious);
 
 console.log('\nTotal candidatos por ciudad:');
 for (const [citySlug, count] of Object.entries(stats.candidatesByCity)) {

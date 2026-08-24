@@ -1,379 +1,303 @@
-import fs from "node:fs";
-import path from "node:path";
-import { parse } from "csv-parse/sync";
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const inputPath =
-  process.argv[2] ??
-  path.resolve(process.cwd(), "data", "plumbing-services.csv");
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const rootDir = path.resolve(__dirname, '..');
 
-const outputDir = path.resolve(process.cwd(), "data", "audit");
+const INPUT_CSV = path.join(rootDir, 'data', 'plumbing-services.csv');
+const OUTPUT_DIR = path.join(rootDir, 'data', 'review');
 
-if (!fs.existsSync(inputPath)) {
-  console.error(`CSV not found: ${inputPath}`);
-  console.error(
-    "Run: node scripts/audit-plumbing-services.mjs /path/to/plumbing-services.csv",
-  );
+if (!fs.existsSync(INPUT_CSV)) {
+  console.error('CSV no encontrado:', INPUT_CSV);
   process.exit(1);
 }
 
-fs.mkdirSync(outputDir, { recursive: true });
-
-const raw = fs.readFileSync(inputPath, "utf8").replace(/^\uFEFF/, "");
-
-const rows = parse(raw, {
-  bom: true,
-  columns: true,
-  skip_empty_lines: true,
-  relax_column_count: true,
-  relax_quotes: true,
-  trim: true,
-});
-
-const normalize = (value = "") =>
-  String(value)
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim();
-
-const cleanText = (value = "") =>
-  String(value)
-    .replace(/\s+/g, " ")
-    .trim();
-
-const cleanWebsite = (value = "") => {
-  const rawValue = cleanText(value);
-
-  if (!rawValue) return "";
-
-  try {
-    const url = new URL(rawValue);
-    return `${url.protocol}//${url.hostname}${url.pathname}`.replace(/\/$/, "");
-  } catch {
-    return "";
-  }
-};
-
-const cleanPhone = (value = "") => {
-  const digits = String(value).replace(/\D/g, "");
-
-  if (digits.length === 11 && digits.startsWith("1")) return `+${digits}`;
-  if (digits.length === 10) return `+1${digits}`;
-
-  return "";
-};
-
-const isOpen24Hours = (value = "") => {
-  const text = normalize(value);
-
-  return (
-    text.includes("open 24 hours") ||
-    text.includes("24 7") ||
-    text.includes("24 hour") ||
-    text.includes("24hr")
-  );
-};
-
-const hasEmergencyEvidence = (row) => {
-  const searchable = normalize(
-    [
-      row.name,
-      row.subtypes,
-      row.category,
-      row.type,
-      row.description,
-      row.about,
-      row.working_hours,
-      row.working_hours_csv_compatible,
-    ].join(" "),
-  );
-
-  return (
-    isOpen24Hours(row.working_hours) ||
-    isOpen24Hours(row.working_hours_csv_compatible) ||
-    searchable.includes("emergency") ||
-    searchable.includes("24 7") ||
-    searchable.includes("24 hour") ||
-    searchable.includes("24hr")
-  );
-};
-
-const isPlumber = (row) => {
-  const category = normalize(row.category);
-  const type = normalize(row.type);
-  const subtypes = normalize(row.subtypes);
-  const name = normalize(row.name);
-
-  const plumbingTerms = [
-    "plumber",
-    "plumbing",
-    "rooter",
-    "drainage service",
-    "drain cleaning",
-    "sewer",
-    "water heater",
-    "gasfitter",
-    "gas installation",
-  ];
-
-  const excludedOnlyCategories = [
-    "plumbing supply store",
-    "hardware store",
-    "bathroom supply store",
-    "water softening equipment supplier",
-    "water treatment supplier",
-    "pool cleaning service",
-    "swimming pool repair service",
-    "appliance repair service",
-    "handyman",
-    "marketing agency",
-    "training center",
-    "trade school",
-    "property management",
-    "auto repair",
-    "construction company",
-    "home improvement store",
-  ];
-
-  const searchable = `${category} ${type} ${subtypes} ${name}`;
-
-  const hasPlumbingSignal = plumbingTerms.some((term) =>
-    searchable.includes(term),
-  );
-
-  const isClearlyNonPlumber =
-    excludedOnlyCategories.includes(category) &&
-    !category.includes("plumber") &&
-    !type.includes("plumber");
-
-  return hasPlumbingSignal && !isClearlyNonPlumber;
-};
-
-const buildDuplicateKey = (row) => {
-  const placeId = cleanText(row.place_id);
-  if (placeId) return `place:${placeId}`;
-
-  const phone = cleanPhone(row.phone);
-  if (phone) return `phone:${phone}`;
-
-  return `name-address:${normalize(row.name)}|${normalize(row.address)}`;
-};
-
-const sanitizeRow = (row, classification, reason, duplicateOf = "") => ({
-  name: cleanText(row.name),
-  city: cleanText(row.city),
-  state: cleanText(row.state),
-  state_code: cleanText(row.state_code),
-  postal_code: cleanText(row.postal_code),
-  category: cleanText(row.category),
-  type: cleanText(row.type),
-  subtypes: cleanText(row.subtypes),
-  business_status: cleanText(row.business_status),
-  phone: cleanPhone(row.phone),
-  website: cleanWebsite(row.website),
-  address: cleanText(row.address),
-  has_address: Boolean(cleanText(row.address)),
-  has_phone: Boolean(cleanPhone(row.phone)),
-  has_website: Boolean(cleanWebsite(row.website)),
-  open_24_hours: isOpen24Hours(row.working_hours),
-  emergency_evidence: hasEmergencyEvidence(row),
-  classification,
-  reason,
-  duplicate_of: duplicateOf,
-  source_record_id: cleanText(row.place_id || row.google_id || row.cid),
-});
-
-const priority = [];
-const manualReview = [];
-const excluded = [];
-const allCandidates = [];
-const seen = new Map();
-
-for (const row of rows) {
-  const name = cleanText(row.name);
-  const city = cleanText(row.city);
-  const stateCode = cleanText(row.state_code);
-  const status = normalize(row.business_status);
-  const duplicateKey = buildDuplicateKey(row);
-
-  const isDuplicate = seen.has(duplicateKey);
-  const originalName = seen.get(duplicateKey) ?? "";
-
-  if (!isDuplicate) {
-    seen.set(duplicateKey, name);
-  }
-
-  const baseMissing = [];
-  if (!name) baseMissing.push("missing name");
-  if (!city || !stateCode) baseMissing.push("missing city or state");
-  if (!cleanText(row.address)) baseMissing.push("missing address");
-  if (!cleanPhone(row.phone)) baseMissing.push("missing phone");
-
-  if (isDuplicate) {
-    excluded.push(
-      sanitizeRow(row, "excluded", "duplicate record", originalName),
-    );
-    continue;
-  }
-
-  if (status && status !== "operational") {
-    excluded.push(
-      sanitizeRow(
-        row,
-        "excluded",
-        `business status: ${cleanText(row.business_status)}`,
-      ),
-    );
-    continue;
-  }
-
-  if (!isPlumber(row)) {
-    excluded.push(
-      sanitizeRow(row, "excluded", "not a plumbing service candidate"),
-    );
-    continue;
-  }
-
-  if (baseMissing.length > 0) {
-    excluded.push(
-      sanitizeRow(row, "excluded", baseMissing.join("; ")),
-    );
-    continue;
-  }
-
-  if (hasEmergencyEvidence(row)) {
-    const result = sanitizeRow(
-      row,
-      "priority_24_7_review",
-      "operational plumbing candidate with emergency or 24/7 evidence",
-    );
-    priority.push(result);
-    allCandidates.push(result);
-  } else {
-    const result = sanitizeRow(
-      row,
-      "manual_review",
-      "operational plumbing candidate without explicit emergency or 24/7 evidence",
-    );
-    manualReview.push(result);
-    allCandidates.push(result);
-  }
+if (!fs.existsSync(OUTPUT_DIR)) {
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 }
 
-const sortByLocationAndName = (items) =>
-  [...items].sort((a, b) =>
-    `${a.state_code}-${a.city}-${a.name}`.localeCompare(
-      `${b.state_code}-${b.city}-${b.name}`,
-    ),
-  );
+const csvText = fs.readFileSync(INPUT_CSV, 'utf-8');
+const lines = csvText.split(/\r?\n/).filter(line => line.trim().length > 0);
+const headers = parseCSVLine(lines[0]);
+const rows = lines.slice(1).map(line => parseCSVLine(line));
 
-const csvEscape = (value) => {
-  const stringValue =
-    typeof value === "boolean" ? String(value) : String(value ?? "");
+const categoriesToExclude = new Set([
+  'Plumbing supply store',
+  'HVAC contractor',
+  'General contractor',
+  'Handyman',
+  'Water damage restoration service',
+  'Pool cleaning service',
+  'Appliance repair service',
+  'Electrician'
+]);
 
-  if (/[,"\n]/.test(stringValue)) {
-    return `"${stringValue.replace(/"/g, '""')}"`;
+function parseCSVLine(line) {
+  const result = [];
+  let current = '';
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const char = line[i];
+    if (char === '"') {
+      if (inQuotes && line[i + 1] === '"') {
+        current += '"';
+        i++;
+      } else {
+        inQuotes = !inQuotes;
+      }
+    } else if (char === ',' && !inQuotes) {
+      result.push(current);
+      current = '';
+    } else {
+      current += char;
+    }
+  }
+  result.push(current);
+  return result;
+}
+
+function getField(row, field) {
+  const index = headers.indexOf(field);
+  return index >= 0 ? row[index] : '';
+}
+
+function normalizeCategory(category) {
+  return category.trim().toLowerCase();
+}
+
+function isPlumberCategory(category) {
+  const normalized = normalizeCategory(category);
+  return normalized === 'plumber';
+}
+
+function isExcludedCategory(category) {
+  const normalized = normalizeCategory(category);
+  return categoriesToExclude.has(category.trim());
+}
+
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+const seenPlaceIds = new Set();
+const seenPhones = new Set();
+const seenNameAddress = new Set();
+
+const stats = {
+  totalRows: rows.length,
+  byCity: {},
+  excluded: {
+    notPlumber: 0,
+    notOperational: 0,
+    missingData: 0,
+    excludedCategory: 0,
+    duplicate: 0,
+    suspicious: 0
+  },
+  candidatesByCity: {}
+};
+
+const candidatesByCity = {};
+
+for (const row of rows) {
+  const placeId = getField(row, 'place_id');
+  const name = getField(row, 'name');
+  const category = getField(row, 'category');
+  const businessStatus = getField(row, 'business_status');
+  const phone = getField(row, 'phone');
+  const city = getField(row, 'city');
+  const stateCode = getField(row, 'state_code');
+  const postalCode = getField(row, 'postal_code');
+  const address = getField(row, 'address');
+  const website = getField(row, 'website');
+  const workingHours = getField(row, 'working_hours');
+  const plusCode = getField(row, 'plus_code');
+  const latitude = getField(row, 'latitude');
+  const longitude = getField(row, 'longitude');
+  const time_zone = getField(row, 'time_zone');
+  const cid = getField(row, 'cid');
+  const data_id = getField(row, 'data_id');
+  const about = getField(row, 'about');
+  const address_link = getField(row, 'address_link');
+  const open_state = getField(row, 'open_state');
+  const reviews_link = getField(row, 'reviews_link');
+  const thumbnail = getField(row, 'thumbnail');
+  const type = getField(row, 'type');
+  const located_in = getField(row, 'located_in');
+  const working_hours_old = getField(row, 'working_hours_old');
+  const reservations_link = getField(row, 'reservations_link');
+  const order_links = getField(row, 'order_links');
+  const menu_link = getField(row, 'menu_link');
+  const owner_title = getField(row, 'owner_title');
+  const owner_link = getField(row, 'owner_link');
+  const booking_link = getField(row, 'booking_link');
+
+  const cityKey = city ? city.trim() : 'unknown';
+
+  if (!stats.byCity[cityKey]) {
+    stats.byCity[cityKey] = {
+      total: 0,
+      plumberOperational: 0,
+      withPhoneAndWebsite: 0,
+      with24Hours: 0,
+      candidates: 0
+    };
+  }
+  stats.byCity[cityKey].total++;
+
+  // Filtro 1: categoría Plumber
+  const primaryCategory = type || category;
+  if (!isPlumberCategory(primaryCategory)) {
+    stats.excluded.notPlumber++;
+    continue;
   }
 
-  return stringValue;
-};
-
-const writeCsv = (filename, records) => {
-  const sorted = sortByLocationAndName(records);
-  const headers = sorted.length ? Object.keys(sorted[0]) : [];
-
-  const content = [
-    headers.join(","),
-    ...sorted.map((record) =>
-      headers.map((header) => csvEscape(record[header])).join(","),
-    ),
-  ].join("\n");
-
-  fs.writeFileSync(path.join(outputDir, filename), content, "utf8");
-};
-
-const groupBy = (items, getKey) => {
-  const result = new Map();
-
-  for (const item of items) {
-    const key = getKey(item);
-    result.set(key, (result.get(key) ?? 0) + 1);
+  // Filtro 2: estado operacional
+  if (businessStatus !== 'OPERATIONAL') {
+    stats.excluded.notOperational++;
+    continue;
   }
 
-  return [...result.entries()]
-    .map(([key, count]) => ({ key, count }))
-    .sort((a, b) => b.count - a.count || a.key.localeCompare(b.key));
-};
+  stats.byCity[cityKey].plumberOperational++;
 
-const citySummary = groupBy(
-  allCandidates,
-  (item) => `${item.city}, ${item.state_code}`,
-);
+  // Filtro 3: datos mínimos
+  if (!phone || !city || !stateCode || !postalCode) {
+    stats.excluded.missingData++;
+    continue;
+  }
 
-const categorySummary = groupBy(
-  allCandidates,
-  (item) => item.category || "Uncategorized",
-);
+  // Filtro 4: categoría excluida
+  if (isExcludedCategory(category)) {
+    stats.excluded.excludedCategory++;
+    continue;
+  }
 
+  // Filtro 5: duplicados
+  const phoneNormalized = phone.replace(/[^0-9+]/g, '');
+  if (seenPlaceIds.has(placeId) || seenPhones.has(phoneNormalized) || seenNameAddress.has(`${name.trim().toLowerCase()}|${address.trim().toLowerCase()}`)) {
+    stats.excluded.duplicate++;
+    continue;
+  }
+  seenPlaceIds.add(placeId);
+  seenPhones.add(phoneNormalized);
+  seenNameAddress.add(`${name.trim().toLowerCase()}|${address.trim().toLowerCase()}`);
+
+  // Filtro 6: datos sospechosos
+  const hasSuspiciousAddress = address.toLowerCase().includes('incorrect address') || address.toLowerCase().includes('temporarily closed');
+  if (hasSuspiciousAddress) {
+    stats.excluded.suspicious++;
+    continue;
+  }
+
+  // Candidato válido
+  const is24Hours = workingHours.toLowerCase().includes('open 24 hours');
+  if (is24Hours) {
+    stats.byCity[cityKey].with24Hours++;
+  }
+
+  if (phone && website) {
+    stats.byCity[cityKey].withPhoneAndWebsite++;
+  }
+
+  const candidate = {
+    place_id: placeId,
+    name,
+    phone,
+    website,
+    address,
+    city,
+    state_code: stateCode,
+    postal_code: postalCode,
+    category,
+    working_hours: workingHours,
+    is_24_hours: is24Hours ? 'true' : 'false',
+    map_url: getField(row, 'map_url') || '',
+    plus_code: plusCode || '',
+    latitude: latitude || '',
+    longitude: longitude || ''
+  };
+
+  const citySlug = slugify(cityKey);
+  if (!candidatesByCity[citySlug]) {
+    candidatesByCity[citySlug] = [];
+  }
+  candidatesByCity[citySlug].push(candidate);
+  stats.byCity[cityKey].candidates++;
+
+  if (!stats.candidatesByCity[citySlug]) {
+    stats.candidatesByCity[citySlug] = 0;
+  }
+  stats.candidatesByCity[citySlug]++;
+}
+
+// Escribir CSV por ciudad
+function toCSVLine(obj, headers) {
+  return headers.map(h => {
+    const val = obj[h] ?? '';
+    const needsQuotes = /[,"\n]/.test(String(val));
+    const escaped = String(val).replace(/"/g, '""');
+    return needsQuotes ? `"${escaped}"` : escaped;
+  }).join(',');
+}
+
+const candidateHeaders = [
+  'place_id',
+  'name',
+  'phone',
+  'website',
+  'address',
+  'city',
+  'state_code',
+  'postal_code',
+  'category',
+  'working_hours',
+  'is_24_hours',
+  'map_url',
+  'plus_code',
+  'latitude',
+  'longitude'
+];
+
+for (const [citySlug, candidates] of Object.entries(candidatesByCity)) {
+  const csvLines = [
+    toCSVLine(candidateHeaders.reduce((acc, h) => ({ ...acc, [h]: h }), {}), candidateHeaders),
+    ...candidates.map(c => toCSVLine(c, candidateHeaders))
+  ];
+  const csvContent = csvLines.join('\n');
+  const outputPath = path.join(OUTPUT_DIR, `${citySlug}-candidates.csv`);
+  fs.writeFileSync(outputPath, csvContent, 'utf-8');
+  console.log(`Generado: ${outputPath} (${candidates.length} candidatos)`);
+}
+
+// Escribir resumen
 const summary = {
-  generated_at: new Date().toISOString(),
-  input_file: inputPath,
-  total_rows: rows.length,
-  priority_24_7_review: priority.length,
-  manual_review: manualReview.length,
-  excluded: excluded.length,
-  candidate_total: allCandidates.length,
-  candidates_by_city: citySummary,
-  candidates_by_category: categorySummary,
+  generatedAt: new Date().toISOString(),
+  inputFile: INPUT_CSV,
+  stats
 };
 
-writeCsv("priority-24-7-candidates.csv", priority);
-writeCsv("manual-review-operating-plumbers.csv", manualReview);
-writeCsv("excluded-records.csv", excluded);
-writeCsv("all-candidates.csv", allCandidates);
+const summaryPath = path.join(OUTPUT_DIR, 'audit-summary.json');
+fs.writeFileSync(summaryPath, JSON.stringify(summary, null, 2), 'utf-8');
+console.log(`\nResumen generado: ${summaryPath}`);
+console.log('\nEstadisticas por ciudad:');
+for (const [city, cityStats] of Object.entries(stats.byCity)) {
+  console.log(`- ${city}: ${cityStats.candidates} candidatos de ${cityStats.total} registros (${cityStats.plumberOperational} plumbers operativos)`);
+}
 
-fs.writeFileSync(
-  path.join(outputDir, "summary.json"),
-  JSON.stringify(summary, null, 2),
-  "utf8",
-);
+console.log('\nExcluidos:');
+console.log('- No Plumber:', stats.excluded.notPlumber);
+console.log('- No OPERATIONAL:', stats.excluded.notOperational);
+console.log('- Datos incompletos:', stats.excluded.missingData);
+console.log('- Categoria excluida:', stats.excluded.excludedCategory);
+console.log('- Duplicados:', stats.excluded.duplicate);
+console.log('- Sospechosos:', stats.excluded.suspicious);
 
-const markdown = `# Plumbing Services Audit
-
-## Totals
-
-- Source rows: ${summary.total_rows}
-- Priority 24/7 candidates: ${summary.priority_24_7_review}
-- Operating plumbers for manual review: ${summary.manual_review}
-- Excluded records: ${summary.excluded}
-- Total candidates: ${summary.candidate_total}
-
-## Candidates by city
-
-${citySummary.map((item) => `- ${item.key}: ${item.count}`).join("\n")}
-
-## Candidates by category
-
-${categorySummary.map((item) => `- ${item.key}: ${item.count}`).join("\n")}
-
-## Output files
-
-- \`priority-24-7-candidates.csv\`
-- \`manual-review-operating-plumbers.csv\`
-- \`excluded-records.csv\`
-- \`all-candidates.csv\`
-- \`summary.json\`
-
-These files intentionally exclude Google Maps links, review URLs, booking URLs, tracking parameters, tokens, images, and raw identifiers not needed for manual review.
-`;
-
-fs.writeFileSync(path.join(outputDir, "summary.md"), markdown, "utf8");
-
-console.log(`Audit complete. Output written to: ${outputDir}`);
-console.table({
-  totalRows: summary.total_rows,
-  priority24x7: summary.priority_24_7_review,
-  manualReview: summary.manual_review,
-  excluded: summary.excluded,
-});
+console.log('\nTotal candidatos por ciudad:');
+for (const [citySlug, count] of Object.entries(stats.candidatesByCity)) {
+  console.log(`- ${citySlug}: ${count}`);
+}

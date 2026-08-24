@@ -19,8 +19,9 @@ export default async function PlumbersPage({ params }: PageProps) {
     notFound();
   }
   
-  const cityInfo = cityContent.cities.find(c => c.slug === citySlug);
-  const cityName = cityInfo?.name || citySlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  const cities = (cityContent as any).cities || [];
+  const cityInfo = Array.isArray(cities) ? cities.find((c: any) => c.slug === citySlug) : null;
+  const cityName = cityInfo?.name || citySlug.split('-').slice(0, -1).map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
   
   return (
     <div className="min-h-screen bg-gray-50">

@@ -111,7 +111,6 @@ for (const row of rows) {
   }
   stats.byCity[cityKey].total++;
 
-  // Filtro 1: categoría Plumber
   const primaryCategory = type || category;
   if (!isPlumberCategory(primaryCategory)) {
     stats.excluded.notPlumber++;
@@ -120,13 +119,11 @@ for (const row of rows) {
 
   stats.byCity[cityKey].plumberOperational++;
 
-  // Filtro 2: teléfono presente
   if (!phone || phone.trim().length === 0) {
     stats.excluded.noPhone++;
     continue;
   }
 
-  // Filtro 3: duplicados
   const phoneNormalized = phone.replace(/[^0-9+]/g, '');
   if (seenPlaceIds.has(placeId) || seenPhones.has(phoneNormalized) || seenNameAddress.has(`${name.trim().toLowerCase()}|${address.trim().toLowerCase()}`)) {
     stats.excluded.duplicate++;
@@ -136,7 +133,6 @@ for (const row of rows) {
   seenPhones.add(phoneNormalized);
   seenNameAddress.add(`${name.trim().toLowerCase()}|${address.trim().toLowerCase()}`);
 
-  // Candidato válido
   const is24Hours = workingHours.toLowerCase().includes('open 24 hours');
   if (is24Hours) {
     stats.byCity[cityKey].with24Hours++;
@@ -164,7 +160,8 @@ for (const row of rows) {
     longitude: getField(row, 'longitude') || ''
   };
 
-  const citySlug = slugify(cityKey);
+  // Slug con estado: san-diego-ca
+  const citySlug = `${slugify(cityKey)}-${stateCode.toLowerCase()}`;
   if (!candidatesByCity[citySlug]) {
     candidatesByCity[citySlug] = [];
   }
@@ -177,7 +174,6 @@ for (const row of rows) {
   stats.candidatesByCity[citySlug]++;
 }
 
-// Escribir CSV por ciudad
 function toCSVLine(obj, headers) {
   return headers.map(h => {
     const val = obj[h] ?? '';
@@ -216,7 +212,6 @@ for (const [citySlug, candidates] of Object.entries(candidatesByCity)) {
   console.log(`Generado: ${outputPath} (${candidates.length} candidatos)`);
 }
 
-// Escribir resumen
 const summary = {
   generatedAt: new Date().toISOString(),
   inputFile: INPUT_CSV,

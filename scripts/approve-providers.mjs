@@ -14,7 +14,7 @@ const approvedIds = process.argv.slice(3);
 
 if (!citySlug) {
   console.error('Uso: node scripts/approve-providers.mjs <citySlug> <place_id_1> [place_id_2] ...');
-  console.error('Ejemplo: node scripts/approve-providers.mjs san-diego place_id_1 place_id_2');
+  console.error('Ejemplo: node scripts/approve-providers.mjs san-diego-ca place_id_1 place_id_2');
   process.exit(1);
 }
 
@@ -129,5 +129,5 @@ console.log(`Aprobados: ${approvedProviders.length}`);
 console.log(`Archivo: ${outputPath}`);
 console.log('\nProveedores:');
 for (const p of approvedProviders) {
-  console.log(`- ${p.name} (${p.place_id})`);
+  console.log(`- ${p.name} (${p.id})`);
 }

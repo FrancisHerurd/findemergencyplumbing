@@ -1,6 +1,5 @@
 import { notFound } from 'next/navigation';
 import { loadProviders, getAvailableCities } from '@/data/providers';
-import cityContent from '@/data/city-content.json';
 
 interface PageProps {
   params: Promise<{ citySlug: string }>;
@@ -19,16 +18,17 @@ export default async function PlumbersPage({ params }: PageProps) {
     notFound();
   }
   
-  const cities = (cityContent as any).cities || [];
-  const cityInfo = Array.isArray(cities) ? cities.find((c: any) => c.slug === citySlug) : null;
-  const cityName = cityInfo?.name || citySlug.split('-').slice(0, -1).map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  // Extraer ciudad y estado del primer proveedor
+  const firstProvider = providersData.providers[0];
+  const cityName = firstProvider.city || citySlug.split('-').slice(0, -1).map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  const stateCode = firstProvider.stateCode || citySlug.split('-').pop()?.toUpperCase() || 'CA';
   
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-bold text-gray-900">
-            Emergency Plumbers in {cityName}, CA
+            Emergency Plumbers in {cityName}, {stateCode}
           </h1>
           <p className="mt-2 text-gray-600">
             {providersData.providers.length} local plumbers available 24/7

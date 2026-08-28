@@ -1,0 +1,63 @@
+{
+  "citySlug": "scottsdale",
+  "generatedAt": "2026-08-25T14:02:55.906Z",
+  "providers": [
+    {
+      "id": "ChIJba1OlX51K4cRml4sbwLbbIQ",
+      "name": "Benjamin Franklin The Punctual Plumber",
+      "phone": "+1 602-786-5183",
+      "website": "https://www.benfranklinplumbingaz.com/%3Futm_source%3Dorganic%26utm_medium%3Dgbp_listing",
+      "address": "7440 E Karen Dr #500, Scottsdale, AZ 85260",
+      "city": "Scottsdale",
+      "stateCode": "AZ",
+      "postalCode": "85260",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "33,6243659",
+      "longitude": "-111,9166422",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.906Z"
+    },
+    {
+      "id": "ChIJd0h6_TtdK4cRaFuOPwQAi9s",
+      "name": "Simba Plumbing LLC",
+      "phone": "+1 602-962-3537",
+      "website": "https://www.simbaplumbing.co/",
+      "address": "15863 N Greenway Hayden Loop Ste 117, Scottsdale, AZ 85260",
+      "city": "Scottsdale",
+      "stateCode": "AZ",
+      "postalCode": "85260",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"8AM-5PM\"], \"Tuesday\": [\"8AM-5PM\"], \"Wednesday\": [\"8AM-5PM\"], \"Thursday\": [\"8AM-5PM\"], \"Friday\": [\"8AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "33,6302164",
+      "longitude": "-111,909645",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.906Z"
+    },
+    {
+      "id": "ChIJ7ddx00EpMwIR0_ZQenAbbs4",
+      "name": "Plumbers Near Me, LLC",
+      "phone": "+1 602-641-8882",
+      "website": "https://plumbersnearme.services/",
+      "address": "8990 E Raintree Dr Unit 100-G, Scottsdale, AZ 85260",
+      "city": "Scottsdale",
+      "stateCode": "AZ",
+      "postalCode": "85260",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "33,6212373",
+      "longitude": "-111,8876465",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.906Z"
+    }
+  ]
+}

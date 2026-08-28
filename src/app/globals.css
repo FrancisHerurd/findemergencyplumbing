@@ -3,11 +3,16 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --accent: #dc2626;
+  /* emergency red-orange for CTAs */
+  --accent-hover: #b91c1c;
+  --card-border: #e5e7eb;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -16,6 +21,7 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --card-border: #262626;
   }
 }
 
@@ -23,4 +29,15 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans, ui-sans-serif, system-ui, sans-serif);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Subtle lift on hover for provider cards */
+.provider-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.provider-card:hover {
+  transform: translateY(-2px);
 }

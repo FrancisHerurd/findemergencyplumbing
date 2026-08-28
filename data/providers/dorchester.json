@@ -1,0 +1,63 @@
+{
+  "citySlug": "dorchester",
+  "generatedAt": "2026-08-25T14:02:55.767Z",
+  "providers": [
+    {
+      "id": "ChIJo3oGILB744kRT5Jnyt6gcrs",
+      "name": "Gomes Plumbing Heating & Cooling",
+      "phone": "+1 617-818-7601",
+      "website": "http://www.gomesplumbingheatingandcooling.com/",
+      "address": "63 Hecla St, Dorchester, MA 02122",
+      "city": "Dorchester",
+      "stateCode": "MA",
+      "postalCode": "2122",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-12AM\"], \"Friday\": [\"Closed\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"9AM-5PM\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,3065532",
+      "longitude": "-71,0615126",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.767Z"
+    },
+    {
+      "id": "ChIJt8PokGd744kROtaZNR1rF24",
+      "name": "Affordable Drain Flow - 24 hour emergency service",
+      "phone": "+1 617-420-7045",
+      "website": "http://affordabledrainflowinc.com/",
+      "address": "18 Algonquin St, Dorchester, MA 02122",
+      "city": "Dorchester",
+      "stateCode": "MA",
+      "postalCode": "2122",
+      "category": "Fontanero",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,2976303",
+      "longitude": "-71,073783",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.767Z"
+    },
+    {
+      "id": "ChIJr1Bo0HZ744kR16jwk8ryUlg",
+      "name": "R T Ford Plumbing & Co",
+      "phone": "+1 617-436-0353",
+      "website": "http://www.neponset.org/",
+      "address": "14 Minot St, Dorchester, MA 02122",
+      "city": "Dorchester",
+      "stateCode": "MA",
+      "postalCode": "2122",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"9AM-5PM\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,2862855",
+      "longitude": "-71,0445002",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.767Z"
+    }
+  ]
+}

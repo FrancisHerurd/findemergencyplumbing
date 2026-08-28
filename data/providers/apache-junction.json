@@ -1,0 +1,44 @@
+{
+  "citySlug": "apache-junction",
+  "generatedAt": "2026-08-25T14:02:55.701Z",
+  "providers": [
+    {
+      "id": "ChIJK4V4oQuesywRDTOYLyLrYl0",
+      "name": "1UP PLUMBING",
+      "phone": "+1 602-558-1363",
+      "website": "https://www.1upplumbingaz.com/",
+      "address": "315 S Stardust Ln, Apache Junction, AZ 85120",
+      "city": "Apache Junction",
+      "stateCode": "AZ",
+      "postalCode": "85120",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "33,4124662",
+      "longitude": "-111,5662189",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.701Z"
+    },
+    {
+      "id": "ChIJc0Ul7ek1tE4R69YhPWdWRQc",
+      "name": "Rescue Plumbing Services",
+      "phone": "+1 480-286-5372",
+      "website": "https://www.rescueplumbingservicesaz.com/",
+      "address": "4995 E Roosevelt St, Apache Junction, AZ 85119",
+      "city": "Apache Junction",
+      "stateCode": "AZ",
+      "postalCode": "85119",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"8AM-12PM\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "33,4165394",
+      "longitude": "-111,4923723",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.701Z"
+    }
+  ]
+}

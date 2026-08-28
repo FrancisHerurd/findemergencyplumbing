@@ -1,0 +1,25 @@
+{
+  "citySlug": "frisco",
+  "generatedAt": "2026-08-25T14:02:55.787Z",
+  "providers": [
+    {
+      "id": "ChIJTWd_HzU7TIYRFESzhM2h5P0",
+      "name": "Legacy Plumbing",
+      "phone": "+1 972-707-2184",
+      "website": "https://legacyplumbing.net/frisco-tx-plumber/",
+      "address": "8765 Stockard Dr Ste 104, Frisco, TX 75034",
+      "city": "Frisco",
+      "stateCode": "TX",
+      "postalCode": "75034",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7AM-8PM\"], \"Tuesday\": [\"7AM-8PM\"], \"Wednesday\": [\"7AM-8PM\"], \"Thursday\": [\"7AM-8PM\"], \"Friday\": [\"7AM-8PM\"], \"Saturday\": [\"7AM-5:30PM\"], \"Sunday\": [\"7AM-5:30PM\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "33,1156178",
+      "longitude": "-96,80729",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.787Z"
+    }
+  ]
+}

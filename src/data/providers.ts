@@ -31,12 +31,19 @@ export type ProvidersFile = {
 };
 
 export function loadProviders(citySlug: string): ProvidersFile | null {
-  const filePath = path.join(PROVIDERS_DIR, `${citySlug}.json`);
-  
+  // Intentar primero con el slug completo (ej: mesa-az.json)
+  let filePath = path.join(PROVIDERS_DIR, `${citySlug}.json`);
+
   if (!fs.existsSync(filePath)) {
-    return null;
+    // Si falla, intentar sin el estado (ej: mesa.json)
+    const slugSinEstado = citySlug.split('-').slice(0, -1).join('-');
+    filePath = path.join(PROVIDERS_DIR, `${slugSinEstado}.json`);
+
+    if (!fs.existsSync(filePath)) {
+      return null;
+    }
   }
-  
+
   const content = fs.readFileSync(filePath, 'utf-8');
   return JSON.parse(content) as ProvidersFile;
 }
@@ -45,7 +52,7 @@ export function getAvailableCities(): string[] {
   if (!fs.existsSync(PROVIDERS_DIR)) {
     return [];
   }
-  
+
   const files = fs.readdirSync(PROVIDERS_DIR).filter(f => f.endsWith('.json'));
   return files.map(f => f.replace('.json', ''));
 }

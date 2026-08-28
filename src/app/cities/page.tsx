@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { getAvailableCitySlugs, getCityInfoBySlug } from "@/lib/plumbers-local";
 import CityDirectory from "./city-directory";
 
+export const revalidate = 3600;
+
 export const metadata: Metadata = {
   title: "Cities with Emergency Plumbers | Find Emergency Plumbing",
   description:
@@ -15,10 +17,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default function CitiesPage() {
-  const cities = getAvailableCitySlugs()
-    .map((slug) => {
-      const city = getCityInfoBySlug(slug);
+export default async function CitiesPage() {
+  const slugs = await getAvailableCitySlugs();
+
+  const citiesWithInfo = await Promise.all(
+    slugs.map(async (slug) => {
+      const city = await getCityInfoBySlug(slug);
 
       if (!city) return null;
 
@@ -26,11 +30,15 @@ export default function CitiesPage() {
         ...city,
         slug,
       };
-    })
-    .filter((city): city is NonNullable<typeof city> => city !== null);
+    }),
+  );
+
+  const cities = citiesWithInfo.filter(
+    (city): city is NonNullable<typeof city> => city !== null,
+  );
 
   return (
-    <main className="min-h-screen bg-slate-50">
+    <main className="flex-1 bg-slate-50">
       <section className="border-b border-slate-200 bg-white">
         <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
           <p className="text-sm font-semibold uppercase tracking-wide text-blue-700">

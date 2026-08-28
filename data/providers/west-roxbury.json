@@ -1,0 +1,25 @@
+{
+  "citySlug": "west-roxbury",
+  "generatedAt": "2026-08-25T14:02:55.934Z",
+  "providers": [
+    {
+      "id": "ChIJCRjgPg9_44kRASiAFdHYb9Y",
+      "name": "James McManus Plumbing and Heating",
+      "phone": "+1 617-325-8500",
+      "website": "",
+      "address": "8 Bungalow Rd, West Roxbury, MA 02132",
+      "city": "West Roxbury",
+      "stateCode": "MA",
+      "postalCode": "2132",
+      "category": "Plumber",
+      "workingHours": "",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,2610008",
+      "longitude": "-71,1584752",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.934Z"
+    }
+  ]
+}

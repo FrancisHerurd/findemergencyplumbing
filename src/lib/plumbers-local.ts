@@ -139,7 +139,22 @@ function getAllPlumbers(): Plumber[] {
 
 export function getPlumbersByCitySlug(citySlug: string): Plumber[] {
   const all = getAllPlumbers();
-  return all.filter((p) => p.citySlug === citySlug);
+
+  // Intentar match directo primero (ej: mesa-az)
+  let result = all.filter((p) => p.citySlug === citySlug);
+
+  if (result.length > 0) {
+    return result;
+  }
+
+  // Si no hay match, intentar sin el estado (ej: mesa)
+  const slugSinEstado = citySlug.split('-').slice(0, -1).join('-');
+  result = all.filter((p) => {
+    const plumberSlugSinEstado = p.citySlug.split('-').slice(0, -1).join('-');
+    return plumberSlugSinEstado === slugSinEstado;
+  });
+
+  return result;
 }
 
 export function getAvailableCitySlugs(): string[] {

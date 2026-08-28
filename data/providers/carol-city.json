@@ -1,0 +1,25 @@
+{
+  "citySlug": "carol-city",
+  "generatedAt": "2026-08-25T14:02:55.729Z",
+  "providers": [
+    {
+      "id": "ChIJ81D0jGml2YgRoSJXPZI0_Zw",
+      "name": "SOS 24/7 Plumbing Corp | Plomero | Plomeros",
+      "phone": "+1 786-487-2540",
+      "website": "https://www.sos247plumbingcorp.com/",
+      "address": "4805 NW 191st St, Carol City, FL 33055",
+      "city": "Carol City",
+      "stateCode": "FL",
+      "postalCode": "33055",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"12AM-2PM\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "25,9471181",
+      "longitude": "-80,2803085",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.729Z"
+    }
+  ]
+}

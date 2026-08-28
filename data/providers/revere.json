@@ -1,0 +1,63 @@
+{
+  "citySlug": "revere",
+  "generatedAt": "2026-08-25T14:02:55.890Z",
+  "providers": [
+    {
+      "id": "ChIJq5WfN_Jx44kRTnSqwCCJ45E",
+      "name": "Rich Mathews & Son Plumbing & Gas Heating",
+      "phone": "+1 781-284-5350",
+      "website": "http://www.mathewsplumbing.com/",
+      "address": "344 Mountain Ave, Revere, MA 02151",
+      "city": "Revere",
+      "stateCode": "MA",
+      "postalCode": "2151",
+      "category": "Heating contractor",
+      "workingHours": "{\"Monday\": [\"6AM-9PM\"], \"Tuesday\": [\"6AM-9PM\"], \"Wednesday\": [\"6AM-9PM\"], \"Thursday\": [\"6AM-9PM\"], \"Friday\": [\"6AM-9PM\"], \"Saturday\": [\"6AM-9PM\"], \"Sunday\": [\"6AM-9PM\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,4143487",
+      "longitude": "-71,0213304",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.890Z"
+    },
+    {
+      "id": "ChIJESjh1WUR44kR5HSOyk7WlzE",
+      "name": "S. Ferro Plumbing & Heating",
+      "phone": "+1 781-983-1858",
+      "website": "http://www.sferroplumbingandheatinginc.com/",
+      "address": "549 Revere St, Revere, MA 02151",
+      "city": "Revere",
+      "stateCode": "MA",
+      "postalCode": "2151",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,4185777",
+      "longitude": "-70,989775",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.890Z"
+    },
+    {
+      "id": "ChIJMzWzoasT44kRTlp-tfOgzjo",
+      "name": "JRS PLUMBING & HEATING LLC",
+      "phone": "+1 781-816-0710",
+      "website": "",
+      "address": "65 Savage St, Revere, MA 02151",
+      "city": "Revere",
+      "stateCode": "MA",
+      "postalCode": "2151",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,4192912",
+      "longitude": "-71,0281329",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.890Z"
+    }
+  ]
+}

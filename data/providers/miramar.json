@@ -1,0 +1,25 @@
+{
+  "citySlug": "miramar",
+  "generatedAt": "2026-08-25T14:02:55.867Z",
+  "providers": [
+    {
+      "id": "ChIJhRtxdbSv2YgRR4dgRIdAW4Q",
+      "name": "John’s Plumbing",
+      "phone": "+1 954-994-1167",
+      "website": "https://johnsplumbing.com/%3Futm_source%3Dgoogle-gbp%26utm_medium%3Dorganic%26utm_campaign%3D*639*johns-plumbing-miramar",
+      "address": "2110 SW 60th Way, Miramar, FL 33023",
+      "city": "Miramar",
+      "stateCode": "FL",
+      "postalCode": "33023",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "25,9912505",
+      "longitude": "-80,2087468",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.867Z"
+    }
+  ]
+}

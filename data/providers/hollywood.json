@@ -1,0 +1,25 @@
+{
+  "citySlug": "hollywood",
+  "generatedAt": "2026-08-25T14:02:55.802Z",
+  "providers": [
+    {
+      "id": "ChIJd5fRgG-32YgR26ZZ7WpSTV4",
+      "name": "Diamond Plumbing",
+      "phone": "+1 786-565-6067",
+      "website": "https://www.diamondplumbingmiami.com/",
+      "address": "6900 Taft St, Hollywood, FL 33024",
+      "city": "Hollywood",
+      "stateCode": "FL",
+      "postalCode": "33024",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "26,0242065",
+      "longitude": "-80,226441",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.802Z"
+    }
+  ]
+}

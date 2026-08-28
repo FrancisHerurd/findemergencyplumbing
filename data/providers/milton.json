@@ -1,0 +1,25 @@
+{
+  "citySlug": "milton",
+  "generatedAt": "2026-08-25T14:02:55.865Z",
+  "providers": [
+    {
+      "id": "ChIJ83NouiB844kRxvQo8ahgJs8",
+      "name": "Power Plumbing",
+      "phone": "+1 617-698-1818",
+      "website": "https://powerplumbingboston.com/",
+      "address": "16 Churchill St, Milton, MA 02186",
+      "city": "Milton",
+      "stateCode": "MA",
+      "postalCode": "2186",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7AM-4PM\"], \"Tuesday\": [\"7AM-4PM\"], \"Wednesday\": [\"7AM-4PM\"], \"Thursday\": [\"7AM-4PM\"], \"Friday\": [\"7AM-4PM\"], \"Saturday\": [\"7AM-12AM\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,2596184",
+      "longitude": "-71,0963413",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.864Z"
+    }
+  ]
+}

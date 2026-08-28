@@ -4,6 +4,8 @@ import { asc } from "drizzle-orm";
 
 import { db, schema } from "@/db";
 
+export const revalidate = 3600;
+
 export const metadata: Metadata = {
   title: "Emergency Plumbers by City | Find Emergency Plumbing",
   description:
@@ -17,7 +19,7 @@ export default async function PlumbersDirectoryPage() {
     .orderBy(asc(schema.cities.name));
 
   return (
-    <main className="min-h-screen bg-slate-50">
+    <main className="flex-1 bg-slate-50">
       <section className="border-b border-slate-200 bg-white">
         <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
           <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-blue-700">
@@ -41,8 +43,8 @@ export default async function PlumbersDirectoryPage() {
         </h2>
 
         {cities.length === 0 ? (
-          <div className="mt-6 rounded-2xl border border-amber-200 bg-amber-50 p-6 text-amber-900">
-            <h3 className="text-lg font-semibold">
+          <div className="mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-6 text-slate-600">
+            <h3 className="text-lg font-semibold text-slate-900">
               No cities are currently listed
             </h3>
 
@@ -57,21 +59,21 @@ export default async function PlumbersDirectoryPage() {
               <Link
                 key={city.id}
                 href={`/plumbers/${city.slug}`}
-                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
+                className="hover-lift rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-colors hover:border-blue-300 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
               >
                 <h3 className="text-xl font-semibold text-slate-950">
                   Emergency plumbers in {city.name}
                 </h3>
 
                 <p className="mt-2 text-slate-600">
-                  {city.name}, {city.state}
+                  {city.name}, {city.stateCode}
                 </p>
 
-                {city.zipExample && (
+                {city.postalCodeExample && (
                   <p className="mt-4 text-sm text-slate-500">
                     Example ZIP:{" "}
                     <span className="font-medium text-slate-700">
-                      {city.zipExample}
+                      {city.postalCodeExample}
                     </span>
                   </p>
                 )}
@@ -83,11 +85,6 @@ export default async function PlumbersDirectoryPage() {
             ))}
           </div>
         )}
-
-        <p className="mt-10 rounded-xl border border-slate-200 bg-white p-4 text-sm leading-6 text-slate-500">
-          This MVP directory uses controlled test data. Provider details must
-          be verified before any real listing is published.
-        </p>
       </section>
     </main>
   );

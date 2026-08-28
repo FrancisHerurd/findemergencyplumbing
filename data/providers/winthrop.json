@@ -1,0 +1,25 @@
+{
+  "citySlug": "winthrop",
+  "generatedAt": "2026-08-25T14:02:55.938Z",
+  "providers": [
+    {
+      "id": "ChIJT4V2FtBv44kRT1yM0nV1VfE",
+      "name": "Black Diamond Plumbing & Heating",
+      "phone": "+1 617-987-7442",
+      "website": "",
+      "address": "426 Revere St, Winthrop, MA 02152",
+      "city": "Winthrop",
+      "stateCode": "MA",
+      "postalCode": "2152",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,3895133",
+      "longitude": "-70,9802976",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.938Z"
+    }
+  ]
+}

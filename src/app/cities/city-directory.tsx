@@ -68,13 +68,22 @@ export default function CityDirectory({ cities }: CityDirectoryProps) {
         </label>
 
         <div className="relative mt-3">
+          <svg
+            className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.35 4.35a7.5 7.5 0 0012.3 12.3z" />
+          </svg>
+
           <input
             id="city-directory-search"
             type="search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             placeholder="Search Mesa, Miami, Arizona, or AZ"
-            className="min-h-12 w-full rounded-xl border border-slate-300 bg-white px-4 text-base text-slate-900 shadow-sm outline-none transition placeholder:text-slate-400 focus:border-blue-600 focus:ring-2 focus:ring-blue-600"
+            className="min-h-12 w-full rounded-xl border border-slate-300 bg-white px-4 pl-11 text-base text-slate-900 shadow-sm outline-none transition placeholder:text-slate-400 focus:border-blue-600 focus:ring-2 focus:ring-blue-600"
           />
         </div>
 
@@ -90,10 +99,18 @@ export default function CityDirectory({ cities }: CityDirectoryProps) {
 
       <div className="mt-8">
         {states.length === 0 ? (
-          <div className="rounded-2xl border border-amber-200 bg-amber-50 p-6 text-amber-900">
-            <h2 className="text-lg font-semibold">No cities found</h2>
+          <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 text-center text-slate-600">
+            <h2 className="text-lg font-semibold text-slate-900">No cities found</h2>
             <p className="mt-2 text-sm leading-6">
-              Try searching for another city or state.
+              Try searching for another city or state, or{" "}
+              <button
+                type="button"
+                onClick={() => setQuery("")}
+                className="font-semibold text-blue-600 hover:underline"
+              >
+                clear the search
+              </button>
+              .
             </p>
           </div>
         ) : (
@@ -122,7 +139,7 @@ export default function CityDirectory({ cities }: CityDirectoryProps) {
                     <Link
                       key={city.slug}
                       href={`/plumbers/${city.slug}`}
-                      className="group flex min-h-20 items-center justify-between rounded-xl border border-slate-200 bg-white p-4 shadow-sm transition hover:border-blue-500 hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
+                      className="hover-lift group flex min-h-20 items-center justify-between rounded-xl border border-slate-200 bg-white p-4 shadow-sm transition-colors hover:border-blue-500 hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
                     >
                       <span className="min-w-0">
                         <span className="block truncate font-semibold text-slate-950 group-hover:text-blue-800">

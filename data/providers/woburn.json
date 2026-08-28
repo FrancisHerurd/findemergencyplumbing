@@ -1,0 +1,25 @@
+{
+  "citySlug": "woburn",
+  "generatedAt": "2026-08-25T14:02:55.941Z",
+  "providers": [
+    {
+      "id": "ChIJtUDQMkZx44kRjQ_wSi0zMLs",
+      "name": "James Thompson Plumbing & Heating",
+      "phone": "+1 781-391-4169",
+      "website": "http://thompsonph.com/",
+      "address": "10 Draper St Ste 31, Woburn, MA 01801",
+      "city": "Woburn",
+      "stateCode": "MA",
+      "postalCode": "1801",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"8AM-4PM\"], \"Tuesday\": [\"8AM-4PM\"], \"Wednesday\": [\"8AM-4PM\"], \"Thursday\": [\"8AM-4PM\"], \"Friday\": [\"8AM-4PM\"], \"Saturday\": [\"8AM-4PM\"], \"Sunday\": [\"8AM-4PM\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,4739971",
+      "longitude": "-71,1287206",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.941Z"
+    }
+  ]
+}

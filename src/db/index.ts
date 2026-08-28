@@ -15,6 +15,7 @@ if (!connectionString) {
 
 const client = postgres(connectionString, {
   prepare: false,
+  ssl: "require",
 });
 
 export const db = drizzle(client, { schema });

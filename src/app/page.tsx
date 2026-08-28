@@ -12,146 +12,26 @@ type City = {
 };
 
 const CITIES: City[] = [
-  {
-    name: "Mesa",
-    state: "Arizona",
-    stateCode: "AZ",
-    count: 52,
-    slug: "mesa-az",
-  },
-  {
-    name: "Miami",
-    state: "Florida",
-    stateCode: "FL",
-    count: 38,
-    slug: "miami-fl",
-  },
-  {
-    name: "San Diego",
-    state: "California",
-    stateCode: "CA",
-    count: 27,
-    slug: "san-diego-ca",
-  },
-  {
-    name: "Chula Vista",
-    state: "California",
-    stateCode: "CA",
-    count: 19,
-    slug: "chula-vista-ca",
-  },
-  {
-    name: "Gilbert",
-    state: "Arizona",
-    stateCode: "AZ",
-    count: 10,
-    slug: "gilbert-az",
-  },
-  {
-    name: "Irving",
-    state: "Texas",
-    stateCode: "TX",
-    count: 10,
-    slug: "irving-tx",
-  },
-  {
-    name: "Dallas",
-    state: "Texas",
-    stateCode: "TX",
-    count: 9,
-    slug: "dallas-tx",
-  },
-  {
-    name: "Miami Beach",
-    state: "Florida",
-    stateCode: "FL",
-    count: 6,
-    slug: "miami-beach-fl",
-  },
-  {
-    name: "Boston",
-    state: "Massachusetts",
-    stateCode: "MA",
-    count: 4,
-    slug: "boston-ma",
-  },
-  {
-    name: "National City",
-    state: "California",
-    stateCode: "CA",
-    count: 3,
-    slug: "national-city-ca",
-  },
-  {
-    name: "Quincy",
-    state: "Massachusetts",
-    stateCode: "MA",
-    count: 3,
-    slug: "quincy-ma",
-  },
-  {
-    name: "Cambridge",
-    state: "Massachusetts",
-    stateCode: "MA",
-    count: 2,
-    slug: "cambridge-ma",
-  },
-  {
-    name: "Doral",
-    state: "Florida",
-    stateCode: "FL",
-    count: 2,
-    slug: "doral-fl",
-  },
-  {
-    name: "Dorchester",
-    state: "Massachusetts",
-    stateCode: "MA",
-    count: 2,
-    slug: "dorchester-ma",
-  },
-  {
-    name: "Farmers Branch",
-    state: "Texas",
-    stateCode: "TX",
-    count: 2,
-    slug: "farmers-branch-tx",
-  },
-  {
-    name: "Fort Worth",
-    state: "Texas",
-    stateCode: "TX",
-    count: 2,
-    slug: "fort-worth-tx",
-  },
-  {
-    name: "Grand Prairie",
-    state: "Texas",
-    stateCode: "TX",
-    count: 2,
-    slug: "grand-prairie-tx",
-  },
-  {
-    name: "Grapevine",
-    state: "Texas",
-    stateCode: "TX",
-    count: 2,
-    slug: "grapevine-tx",
-  },
-  {
-    name: "North Miami",
-    state: "Florida",
-    stateCode: "FL",
-    count: 2,
-    slug: "north-miami-fl",
-  },
-  {
-    name: "Phoenix",
-    state: "Arizona",
-    stateCode: "AZ",
-    count: 2,
-    slug: "phoenix-az",
-  },
+  { name: "Mesa", state: "Arizona", stateCode: "AZ", count: 52, slug: "mesa-az" },
+  { name: "Miami", state: "Florida", stateCode: "FL", count: 38, slug: "miami-fl" },
+  { name: "San Diego", state: "California", stateCode: "CA", count: 27, slug: "san-diego-ca" },
+  { name: "Chula Vista", state: "California", stateCode: "CA", count: 19, slug: "chula-vista-ca" },
+  { name: "Gilbert", state: "Arizona", stateCode: "AZ", count: 10, slug: "gilbert-az" },
+  { name: "Irving", state: "Texas", stateCode: "TX", count: 10, slug: "irving-tx" },
+  { name: "Dallas", state: "Texas", stateCode: "TX", count: 9, slug: "dallas-tx" },
+  { name: "Miami Beach", state: "Florida", stateCode: "FL", count: 6, slug: "miami-beach-fl" },
+  { name: "Boston", state: "Massachusetts", stateCode: "MA", count: 4, slug: "boston-ma" },
+  { name: "National City", state: "California", stateCode: "CA", count: 3, slug: "national-city-ca" },
+  { name: "Quincy", state: "Massachusetts", stateCode: "MA", count: 3, slug: "quincy-ma" },
+  { name: "Cambridge", state: "Massachusetts", stateCode: "MA", count: 2, slug: "cambridge-ma" },
+  { name: "Doral", state: "Florida", stateCode: "FL", count: 2, slug: "doral-fl" },
+  { name: "Dorchester", state: "Massachusetts", stateCode: "MA", count: 2, slug: "dorchester-ma" },
+  { name: "Farmers Branch", state: "Texas", stateCode: "TX", count: 2, slug: "farmers-branch-tx" },
+  { name: "Fort Worth", state: "Texas", stateCode: "TX", count: 2, slug: "fort-worth-tx" },
+  { name: "Grand Prairie", state: "Texas", stateCode: "TX", count: 2, slug: "grand-prairie-tx" },
+  { name: "Grapevine", state: "Texas", stateCode: "TX", count: 2, slug: "grapevine-tx" },
+  { name: "North Miami", state: "Florida", stateCode: "FL", count: 2, slug: "north-miami-fl" },
+  { name: "Phoenix", state: "Arizona", stateCode: "AZ", count: 2, slug: "phoenix-az" },
 ];
 
 export default function HomePage() {
@@ -176,6 +56,8 @@ export default function HomePage() {
       );
     }).slice(0, 8);
   }, [query]);
+
+  const showEmptyState = query.trim().length >= 2 && filteredCities.length === 0;
 
   const selectedCity = useMemo(() => {
     if (!query) return null;
@@ -232,15 +114,26 @@ export default function HomePage() {
             </p>
 
             <div className="mt-4">
-              <input
-                id="city-search"
-                type="text"
-                placeholder="e.g. Mesa, Miami, San Diego..."
-                value={query}
-                onChange={(event) => setQuery(event.target.value)}
-                className="block w-full rounded-xl border border-slate-300 bg-slate-50 px-4 py-3.5 text-base text-slate-900 placeholder-slate-400 shadow-sm transition focus:border-blue-500 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-                autoComplete="off"
-              />
+              <div className="relative">
+                <svg
+                  className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.35 4.35a7.5 7.5 0 0012.3 12.3z" />
+                </svg>
+
+                <input
+                  id="city-search"
+                  type="text"
+                  placeholder="e.g. Mesa, Miami, San Diego..."
+                  value={query}
+                  onChange={(event) => setQuery(event.target.value)}
+                  className="block w-full rounded-xl border border-slate-300 bg-slate-50 px-4 py-3.5 pl-11 text-base text-slate-900 placeholder-slate-400 shadow-sm transition focus:border-blue-500 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  autoComplete="off"
+                />
+              </div>
 
               {filteredCities.length > 0 && (
                 <div className="mt-3 divide-y divide-slate-100 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-lg">
@@ -269,12 +162,22 @@ export default function HomePage() {
                 </div>
               )}
 
+              {showEmptyState && (
+                <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 px-4 py-4 text-center text-sm text-slate-500">
+                  No cities found for &quot;{query}&quot;.{" "}
+                  <Link href="/cities" className="font-semibold text-blue-600 hover:underline">
+                    Browse all cities
+                  </Link>{" "}
+                  instead.
+                </div>
+              )}
+
               <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                 {CITIES.map((city) => (
                   <Link
                     key={`${city.stateCode}-${city.name}`}
                     href={`/plumbers/${city.slug}`}
-                    className="flex min-h-20 items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 text-left shadow-sm transition-[transform,box-shadow,border-color] duration-150 hover:-translate-y-0.5 hover:border-blue-500 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="hover-lift flex min-h-20 items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 text-left shadow-sm transition-colors duration-150 hover:border-blue-500 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
                     <div>
                       <p className="font-semibold text-slate-900">
@@ -311,7 +214,7 @@ export default function HomePage() {
         <h2 className="text-2xl font-bold tracking-tight text-slate-950">How it works</h2>
 
         <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow-md">
+          <div className="hover-lift rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md">
             <h3 className="text-lg font-semibold text-slate-900">
               1. Search your city
             </h3>
@@ -322,7 +225,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow-md">
+          <div className="hover-lift rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md">
             <h3 className="text-lg font-semibold text-slate-900">
               2. Review providers
             </h3>
@@ -333,7 +236,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow-md sm:col-span-2 lg:col-span-1">
+          <div className="hover-lift rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md sm:col-span-2 lg:col-span-1">
             <h3 className="text-lg font-semibold text-slate-900">
               3. Call directly
             </h3>
@@ -345,12 +248,15 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="mt-10 rounded-2xl border border-amber-200 border-l-4 border-l-amber-400 bg-gradient-to-r from-amber-50 to-orange-50 p-6 shadow-sm">
-          <h2 className="text-xl font-bold text-amber-900">
+        <div className="mt-10 rounded-2xl border border-[var(--accent)]/20 border-l-4 border-l-[var(--accent)] bg-[var(--accent-soft)] p-6 shadow-sm">
+          <h2 className="flex items-center gap-2 text-xl font-bold text-red-900">
+            <svg className="h-5 w-5 text-[var(--accent)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
             Need a plumber right now?
           </h2>
 
-          <p className="mt-2 leading-relaxed text-amber-800">
+          <p className="mt-2 leading-relaxed text-red-800">
             If you have a major leak, burst pipe, or sewage issue, do not wait.
             Select a city above and call a provider immediately.
           </p>

@@ -1,0 +1,25 @@
+{
+  "citySlug": "charlestown",
+  "generatedAt": "2026-08-25T14:02:55.739Z",
+  "providers": [
+    {
+      "id": "ChIJU-sWSGl644kRYr6SYpWatRE",
+      "name": "A.F. Ventolieri Plumbing & Heating LLC",
+      "phone": "+1 617-293-4253",
+      "website": "https://clienthub.getjobber.com/client_hubs/a9690761-8aeb-4671-8fcc-b26ab0c88a14/public/work_request/new%3Fsource%3Dsocial_media",
+      "address": "50 Terminal St, Charlestown, MA 02129",
+      "city": "Charlestown",
+      "stateCode": "MA",
+      "postalCode": "2129",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"8AM-4PM\"], \"Tuesday\": [\"8AM-4PM\"], \"Wednesday\": [\"8AM-4PM\"], \"Thursday\": [\"8AM-4PM\"], \"Friday\": [\"8AM-4PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,3825747",
+      "longitude": "-71,0606368",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.739Z"
+    }
+  ]
+}

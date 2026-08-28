@@ -1,0 +1,25 @@
+{
+  "citySlug": "hurst",
+  "generatedAt": "2026-08-25T14:02:55.804Z",
+  "providers": [
+    {
+      "id": "ChIJX2U1Vch-ToYRsQES03NTv7c",
+      "name": "All Complete Plumbing LLC",
+      "phone": "+1 817-285-2800",
+      "website": "http://www.allcompleteplumbing.com/",
+      "address": "149 W Hurst Blvd, Hurst, TX 76053",
+      "city": "Hurst",
+      "stateCode": "TX",
+      "postalCode": "76053",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7:30AM-4:30PM\"], \"Tuesday\": [\"7:30AM-4:30PM\"], \"Wednesday\": [\"7:30AM-4:30PM\"], \"Thursday\": [\"7:30AM-4:30PM\"], \"Friday\": [\"7:30AM-4:30PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,8086262",
+      "longitude": "-97,1709202",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.804Z"
+    }
+  ]
+}

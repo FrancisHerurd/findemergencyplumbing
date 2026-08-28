@@ -1,0 +1,25 @@
+{
+  "citySlug": "queen-creek",
+  "generatedAt": "2026-08-25T14:02:55.886Z",
+  "providers": [
+    {
+      "id": "ChIJdfecVcapK4cRn8lTtJQQm_U",
+      "name": "Streamline Plumbing AZ",
+      "phone": "+1 480-238-5000",
+      "website": "http://www.streamlineplumbingnow.com/",
+      "address": "18610 E Rittenhouse Rd Ste A100, Queen Creek, AZ 85142",
+      "city": "Queen Creek",
+      "stateCode": "AZ",
+      "postalCode": "85142",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"8AM-4PM\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "33,2844301",
+      "longitude": "-111,6821825",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.886Z"
+    }
+  ]
+}

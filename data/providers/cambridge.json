@@ -1,0 +1,63 @@
+{
+  "citySlug": "cambridge",
+  "generatedAt": "2026-08-25T14:02:55.724Z",
+  "providers": [
+    {
+      "id": "ChIJ1wEoZbFw44kR6FDU4JtG4y8",
+      "name": "The Drain Guy",
+      "phone": "+1 617-591-1199",
+      "website": "http://thedrainguy.com/",
+      "address": "82 Berkshire St, Cambridge, MA 02141",
+      "city": "Cambridge",
+      "stateCode": "MA",
+      "postalCode": "2141",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,3704224",
+      "longitude": "-71,0906211",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.724Z"
+    },
+    {
+      "id": "ChIJH8DummWT5UwRF0jBpLzUbvI",
+      "name": "Minuteman Plumbing, Heating & Cooling",
+      "phone": "+1 617-999-3249",
+      "website": "https://minutemanplumbing.com/",
+      "address": "100 Garden St, Cambridge, MA 02138",
+      "city": "Cambridge",
+      "stateCode": "MA",
+      "postalCode": "2138",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7AM-6PM\"], \"Tuesday\": [\"7AM-6PM\"], \"Wednesday\": [\"7AM-6PM\"], \"Thursday\": [\"7AM-6PM\"], \"Friday\": [\"Closed\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,3835627",
+      "longitude": "-71,1290174",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.724Z"
+    },
+    {
+      "id": "ChIJezSsgNMWmoYRtlAugK_k3PY",
+      "name": "Royal Plumber Cambridge",
+      "phone": "+1 339-329-8721",
+      "website": "",
+      "address": "2386 Massachusetts Ave, Cambridge, MA 02140",
+      "city": "Cambridge",
+      "stateCode": "MA",
+      "postalCode": "2140",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"8AM-8PM\"], \"Tuesday\": [\"8AM-8PM\"], \"Wednesday\": [\"8AM-8PM\"], \"Thursday\": [\"8AM-8PM\"], \"Friday\": [\"8AM-8PM\"], \"Saturday\": [\"8AM-8PM\"], \"Sunday\": [\"8AM-8PM\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,3968315",
+      "longitude": "-71,1299896",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.724Z"
+    }
+  ]
+}

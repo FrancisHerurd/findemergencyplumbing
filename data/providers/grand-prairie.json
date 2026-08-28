@@ -1,0 +1,63 @@
+{
+  "citySlug": "grand-prairie",
+  "generatedAt": "2026-08-25T14:02:55.791Z",
+  "providers": [
+    {
+      "id": "ChIJNU2mYAaHToYR0iyiWV22m4Y",
+      "name": "Black Tie Plumbing",
+      "phone": "+1 214-257-0974",
+      "website": "https://blacktieplumbing.com/",
+      "address": "1121 Fountain Pkwy, Grand Prairie, TX 75050",
+      "city": "Grand Prairie",
+      "stateCode": "TX",
+      "postalCode": "75050",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,780312",
+      "longitude": "-97,047282",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.791Z"
+    },
+    {
+      "id": "ChIJA_RwTwkNsIARfsTx_KVY9hE",
+      "name": "Dial One Johnson Plumbing, Cooling & Heating",
+      "phone": "+1 972-662-8223",
+      "website": "https://dial1plumbing.com/",
+      "address": "209 W Main St #107, Grand Prairie, TX 75050",
+      "city": "Grand Prairie",
+      "stateCode": "TX",
+      "postalCode": "75050",
+      "category": "HVAC contractor",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,7451143",
+      "longitude": "-97,0057022",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.791Z"
+    },
+    {
+      "id": "ChIJo88E2rKFToYRlaWwoMgGfso",
+      "name": "Delta 1 Plumbing",
+      "phone": "+1 972-263-3002",
+      "website": "http://delta1plumbing.com/",
+      "address": "2012 E Main St, Grand Prairie, TX 75050",
+      "city": "Grand Prairie",
+      "stateCode": "TX",
+      "postalCode": "75050",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"7AM-12PM\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,7494484",
+      "longitude": "-96,9759215",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.791Z"
+    }
+  ]
+}

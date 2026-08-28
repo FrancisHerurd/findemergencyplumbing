@@ -1,0 +1,25 @@
+{
+  "citySlug": "miami-gardens",
+  "generatedAt": "2026-08-25T14:02:55.858Z",
+  "providers": [
+    {
+      "id": "ChIJxVwlovPD2YgRHivRHj7lTiE",
+      "name": "Jehveh Plumbing Company",
+      "phone": "+1 305-714-0343",
+      "website": "http://www.jehvehplumbers.com/",
+      "address": "15910 NW 48th Ave, Miami Gardens, FL 33014",
+      "city": "Miami Gardens",
+      "stateCode": "FL",
+      "postalCode": "33014",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7AM-3:30PM\"], \"Tuesday\": [\"7AM-3:30PM\"], \"Wednesday\": [\"7AM-3:30PM\"], \"Thursday\": [\"7AM-3:30PM\"], \"Friday\": [\"7AM-3:30PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "25,9180476",
+      "longitude": "-80,2787503",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.858Z"
+    }
+  ]
+}

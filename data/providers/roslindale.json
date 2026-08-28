@@ -1,0 +1,25 @@
+{
+  "citySlug": "roslindale",
+  "generatedAt": "2026-08-25T14:02:55.896Z",
+  "providers": [
+    {
+      "id": "ChIJjY15Ncx-44kRoTeLbTl8u6g",
+      "name": "TBros - Trethewey Brothers Inc",
+      "phone": "+1 617-325-3283",
+      "website": "http://www.tbros.com/",
+      "address": "4280 Washington St, Roslindale, MA 02131",
+      "city": "Roslindale",
+      "stateCode": "MA",
+      "postalCode": "2131",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,2847948",
+      "longitude": "-71,1296722",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.895Z"
+    }
+  ]
+}

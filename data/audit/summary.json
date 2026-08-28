@@ -1,0 +1,409 @@
+{
+  "generated_at": "2026-08-19T15:39:13.854Z",
+  "input_file": "data/plumbing-services.csv",
+  "total_rows": 500,
+  "priority_24_7_review": 246,
+  "manual_review": 159,
+  "excluded": 95,
+  "candidate_total": 405,
+  "candidates_by_city": [
+    {
+      "key": "Mesa, AZ",
+      "count": 83
+    },
+    {
+      "key": "Miami, FL",
+      "count": 66
+    },
+    {
+      "key": "San Diego, CA",
+      "count": 34
+    },
+    {
+      "key": "Chula Vista, CA",
+      "count": 31
+    },
+    {
+      "key": "Irving, TX",
+      "count": 23
+    },
+    {
+      "key": "Dallas, TX",
+      "count": 13
+    },
+    {
+      "key": "Gilbert, AZ",
+      "count": 12
+    },
+    {
+      "key": "Boston, MA",
+      "count": 10
+    },
+    {
+      "key": "Miami Beach, FL",
+      "count": 7
+    },
+    {
+      "key": "National City, CA",
+      "count": 7
+    },
+    {
+      "key": "Dorchester, MA",
+      "count": 6
+    },
+    {
+      "key": "North Miami, FL",
+      "count": 6
+    },
+    {
+      "key": "Carrollton, TX",
+      "count": 5
+    },
+    {
+      "key": "Cambridge, MA",
+      "count": 4
+    },
+    {
+      "key": "Quincy, MA",
+      "count": 4
+    },
+    {
+      "key": "Chandler, AZ",
+      "count": 3
+    },
+    {
+      "key": "Farmers Branch, TX",
+      "count": 3
+    },
+    {
+      "key": "Grand Prairie, TX",
+      "count": 3
+    },
+    {
+      "key": "Malden, MA",
+      "count": 3
+    },
+    {
+      "key": "Revere, MA",
+      "count": 3
+    },
+    {
+      "key": "Scottsdale, AZ",
+      "count": 3
+    },
+    {
+      "key": "Apache Junction, AZ",
+      "count": 2
+    },
+    {
+      "key": "Arlington, MA",
+      "count": 2
+    },
+    {
+      "key": "Arlington, TX",
+      "count": 2
+    },
+    {
+      "key": "Bonita, CA",
+      "count": 2
+    },
+    {
+      "key": "Doral, FL",
+      "count": 2
+    },
+    {
+      "key": "Euless, TX",
+      "count": 2
+    },
+    {
+      "key": "Fort Worth, TX",
+      "count": 2
+    },
+    {
+      "key": "Grapevine, TX",
+      "count": 2
+    },
+    {
+      "key": "Hialeah, FL",
+      "count": 2
+    },
+    {
+      "key": "Lewisville, TX",
+      "count": 2
+    },
+    {
+      "key": "Phoenix, AZ",
+      "count": 2
+    },
+    {
+      "key": "Richardson, TX",
+      "count": 2
+    },
+    {
+      "key": "Watertown, MA",
+      "count": 2
+    },
+    {
+      "key": "Allston, MA",
+      "count": 1
+    },
+    {
+      "key": "Belmont, MA",
+      "count": 1
+    },
+    {
+      "key": "Braintree, MA",
+      "count": 1
+    },
+    {
+      "key": "Brookline, MA",
+      "count": 1
+    },
+    {
+      "key": "Carol City, FL",
+      "count": 1
+    },
+    {
+      "key": "Cedar Hill, TX",
+      "count": 1
+    },
+    {
+      "key": "Charlestown, MA",
+      "count": 1
+    },
+    {
+      "key": "Chelsea, MA",
+      "count": 1
+    },
+    {
+      "key": "Coppell, TX",
+      "count": 1
+    },
+    {
+      "key": "Coral Gables, FL",
+      "count": 1
+    },
+    {
+      "key": "Dedham, MA",
+      "count": 1
+    },
+    {
+      "key": "Florida City, FL",
+      "count": 1
+    },
+    {
+      "key": "Flower Mound, TX",
+      "count": 1
+    },
+    {
+      "key": "Fort Lauderdale, FL",
+      "count": 1
+    },
+    {
+      "key": "Frisco, TX",
+      "count": 1
+    },
+    {
+      "key": "Hollywood, FL",
+      "count": 1
+    },
+    {
+      "key": "Hurst, TX",
+      "count": 1
+    },
+    {
+      "key": "Hyde Park, MA",
+      "count": 1
+    },
+    {
+      "key": "Imperial Beach, CA",
+      "count": 1
+    },
+    {
+      "key": "Jamaica Plain, MA",
+      "count": 1
+    },
+    {
+      "key": "Kendall, FL",
+      "count": 1
+    },
+    {
+      "key": "Key Biscayne, FL",
+      "count": 1
+    },
+    {
+      "key": "Mattapan, MA",
+      "count": 1
+    },
+    {
+      "key": "McKinney, TX",
+      "count": 1
+    },
+    {
+      "key": "Medford, MA",
+      "count": 1
+    },
+    {
+      "key": "Melrose, MA",
+      "count": 1
+    },
+    {
+      "key": "Mesquite, TX",
+      "count": 1
+    },
+    {
+      "key": "Miami Gardens, FL",
+      "count": 1
+    },
+    {
+      "key": "Miami Springs, FL",
+      "count": 1
+    },
+    {
+      "key": "Milton, MA",
+      "count": 1
+    },
+    {
+      "key": "Miramar, FL",
+      "count": 1
+    },
+    {
+      "key": "Newton, MA",
+      "count": 1
+    },
+    {
+      "key": "North Miami Beach, FL",
+      "count": 1
+    },
+    {
+      "key": "North Richland Hills, TX",
+      "count": 1
+    },
+    {
+      "key": "Queen Creek, AZ",
+      "count": 1
+    },
+    {
+      "key": "Roslindale, MA",
+      "count": 1
+    },
+    {
+      "key": "San Tan Valley, AZ",
+      "count": 1
+    },
+    {
+      "key": "Somerville, MA",
+      "count": 1
+    },
+    {
+      "key": "St. Petersburg, FL",
+      "count": 1
+    },
+    {
+      "key": "Stoughton, MA",
+      "count": 1
+    },
+    {
+      "key": "Tamarac, FL",
+      "count": 1
+    },
+    {
+      "key": "Tempe, AZ",
+      "count": 1
+    },
+    {
+      "key": "Vista, CA",
+      "count": 1
+    },
+    {
+      "key": "Wakefield, MA",
+      "count": 1
+    },
+    {
+      "key": "Waltham, MA",
+      "count": 1
+    },
+    {
+      "key": "Watauga, TX",
+      "count": 1
+    },
+    {
+      "key": "West Roxbury, MA",
+      "count": 1
+    },
+    {
+      "key": "Weymouth, MA",
+      "count": 1
+    },
+    {
+      "key": "Winthrop, MA",
+      "count": 1
+    },
+    {
+      "key": "Woburn, MA",
+      "count": 1
+    }
+  ],
+  "candidates_by_category": [
+    {
+      "key": "Plumber",
+      "count": 359
+    },
+    {
+      "key": "HVAC contractor",
+      "count": 19
+    },
+    {
+      "key": "Drainage service",
+      "count": 5
+    },
+    {
+      "key": "Air conditioning repair service",
+      "count": 4
+    },
+    {
+      "key": "Heating contractor",
+      "count": 4
+    },
+    {
+      "key": "Air conditioning contractor",
+      "count": 3
+    },
+    {
+      "key": "Contractor",
+      "count": 2
+    },
+    {
+      "key": "Fontanero",
+      "count": 2
+    },
+    {
+      "key": "Electrician",
+      "count": 1
+    },
+    {
+      "key": "General contractor",
+      "count": 1
+    },
+    {
+      "key": "Home help",
+      "count": 1
+    },
+    {
+      "key": "Labor union",
+      "count": 1
+    },
+    {
+      "key": "Mechanical contractor",
+      "count": 1
+    },
+    {
+      "key": "Tool store",
+      "count": 1
+    },
+    {
+      "key": "Wholesaler",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "citySlug": "malden",
+  "generatedAt": "2026-08-25T14:02:55.826Z",
+  "providers": [
+    {
+      "id": "ChIJ7ZynAudx44kRndXpI1gcFRk",
+      "name": "Barter Plumbing and Heating",
+      "phone": "+1 781-321-7586",
+      "website": "http://www.321plumbing.com/",
+      "address": "22 Hawthorne St, Malden, MA 02148",
+      "city": "Malden",
+      "stateCode": "MA",
+      "postalCode": "2148",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,4282236",
+      "longitude": "-71,0802489",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.826Z"
+    },
+    {
+      "id": "ChIJfcnw_X9x44kRNbqK9JWJzJ0",
+      "name": "Shalin Plumbing & Heating",
+      "phone": "+1 781-558-4680",
+      "website": "https://www.shalinplumbing.com/",
+      "address": "59 Bowdoin St, Malden, MA 02148",
+      "city": "Malden",
+      "stateCode": "MA",
+      "postalCode": "2148",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"7AM-4PM\"], \"Sunday\": [\"9AM-4PM\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,4269015",
+      "longitude": "-71,0502088",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.826Z"
+    },
+    {
+      "id": "ChIJSz2nIMhz44kR3ptgXwmnqNo",
+      "name": "Buckley Brothers Inc",
+      "phone": "+1 781-322-7509",
+      "website": "https://www.buckleybrothers.net/",
+      "address": "56 Edmund St, Malden, MA 02148",
+      "city": "Malden",
+      "stateCode": "MA",
+      "postalCode": "2148",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7AM-5PM\"], \"Tuesday\": [\"7AM-5PM\"], \"Wednesday\": [\"7AM-5PM\"], \"Thursday\": [\"7AM-5PM\"], \"Friday\": [\"7AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,4337666",
+      "longitude": "-71,0699477",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.826Z"
+    }
+  ]
+}

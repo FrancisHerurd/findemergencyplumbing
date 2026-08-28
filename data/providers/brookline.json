@@ -1,0 +1,25 @@
+{
+  "citySlug": "brookline",
+  "generatedAt": "2026-08-25T14:02:55.721Z",
+  "providers": [
+    {
+      "id": "ChIJ3RjdWG9jWIsR0J-1G6Y_CPs",
+      "name": "Avantel Plumber of Boston MA",
+      "phone": "+1 857-491-4570",
+      "website": "https://bostonplumber.avantel.net/",
+      "address": "50 Euston St, Brookline, MA 02446",
+      "city": "Brookline",
+      "stateCode": "MA",
+      "postalCode": "2446",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,347937",
+      "longitude": "-71,1095245",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-25T14:02:55.721Z"
+    }
+  ]
+}

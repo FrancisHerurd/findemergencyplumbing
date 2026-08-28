@@ -1,5 +1,5 @@
 {
-  "id": "0e589484-8c53-42a5-8c80-56633d60051d",
+  "id": "1511339c-c0b4-49b4-845a-ac311e4ba1e7",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -26,14 +26,20 @@
           "primaryKey": false,
           "notNull": true
         },
-        "state": {
-          "name": "state",
+        "state_code": {
+          "name": "state_code",
           "type": "varchar(2)",
           "primaryKey": false,
           "notNull": true
         },
-        "zip_example": {
-          "name": "zip_example",
+        "state_name": {
+          "name": "state_name",
+          "type": "varchar(50)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "postal_code_example": {
+          "name": "postal_code_example",
           "type": "varchar(10)",
           "primaryKey": false,
           "notNull": false
@@ -71,12 +77,6 @@
           "primaryKey": false,
           "notNull": true
         },
-        "phone": {
-          "name": "phone",
-          "type": "varchar(20)",
-          "primaryKey": false,
-          "notNull": true
-        },
         "slug": {
           "name": "slug",
           "type": "varchar(160)",
@@ -89,8 +89,32 @@
           "primaryKey": false,
           "notNull": true
         },
-        "is_24h": {
-          "name": "is_24h",
+        "phone": {
+          "name": "phone",
+          "type": "varchar(20)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "website": {
+          "name": "website",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "address": {
+          "name": "address",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "postal_code": {
+          "name": "postal_code",
+          "type": "varchar(10)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "is_24_hours": {
+          "name": "is_24_hours",
           "type": "boolean",
           "primaryKey": false,
           "notNull": true,
@@ -109,11 +133,26 @@
           "primaryKey": false,
           "notNull": false
         },
-        "address_label": {
-          "name": "address_label",
-          "type": "varchar(200)",
+        "status": {
+          "name": "status",
+          "type": "varchar(20)",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true,
+          "default": "'draft'"
+        },
+        "is_test_data": {
+          "name": "is_test_data",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
         }
       },
       "indexes": {},

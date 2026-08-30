@@ -1,0 +1,44 @@
+{
+  "citySlug": "lewisville-tx",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJv4AdqoguTIYR5yxvp3u37WA",
+      "name": "All Metroplex Plumbing",
+      "phone": "+1 214-717-9911",
+      "website": "http://allmetroplexplumbing.com/",
+      "address": "2038 Devin Ln, Lewisville, TX 75067",
+      "city": "Lewisville",
+      "stateCode": "TX",
+      "postalCode": "75067",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7AM-6PM\"], \"Tuesday\": [\"7AM-6PM\"], \"Wednesday\": [\"7AM-6PM\"], \"Thursday\": [\"7AM-6PM\"], \"Friday\": [\"7AM-6PM\"], \"Saturday\": [\"8AM-5PM\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "33,0135439",
+      "longitude": "-97,0011832",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    },
+    {
+      "id": "ChIJrYXTeOsvTIYRzcAecBPKTRM",
+      "name": "CW Service Pros Plumbing, Heating & Air Conditioning",
+      "phone": "+1 972-845-8220",
+      "website": "https://www.cwservicepros.com/lewisville-plumbers/",
+      "address": "1890 Midway Rd, Lewisville, TX 75056",
+      "city": "Lewisville",
+      "stateCode": "TX",
+      "postalCode": "75056",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "33,0464182",
+      "longitude": "-96,9375597",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

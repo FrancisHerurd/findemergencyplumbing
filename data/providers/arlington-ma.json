@@ -1,0 +1,44 @@
+{
+  "citySlug": "arlington-ma",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJE84fsUd244kRiIvk_SW-w-0",
+      "name": "Mouradian Plumbing & Heating",
+      "phone": "+1 781-790-3890",
+      "website": "https://www.mouradianplumbingheating.com/",
+      "address": "32 Prentiss Rd #204, Arlington, MA 02476",
+      "city": "Arlington",
+      "stateCode": "MA",
+      "postalCode": "2476",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"8AM-4PM\"], \"Tuesday\": [\"8AM-4PM\"], \"Wednesday\": [\"8AM-4PM\"], \"Thursday\": [\"8AM-4PM\"], \"Friday\": [\"8AM-4PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,4197567",
+      "longitude": "-71,1661111",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    },
+    {
+      "id": "ChIJVVVVVVx244kRlbMjrov0ymU",
+      "name": "ABC Plumbing Drain Sewer Cleaning",
+      "phone": "+1 781-641-3823",
+      "website": "http://www.abcplumbinganddraincleaning.com/",
+      "address": "26 Amsden St, Arlington, MA 02474",
+      "city": "Arlington",
+      "stateCode": "MA",
+      "postalCode": "2474",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,40424",
+      "longitude": "-71,1384631",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

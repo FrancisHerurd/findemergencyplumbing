@@ -1,0 +1,44 @@
+{
+  "citySlug": "arlington-tx",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJ_____28mTIYRzOp4tys-Ok4",
+      "name": "Ernie's Plumbing Service, Inc.",
+      "phone": "+1 888-802-0005",
+      "website": "https://www.erniesplumbing.com/",
+      "address": "1809 W Pioneer Pkwy, Arlington, TX 76013",
+      "city": "Arlington",
+      "stateCode": "TX",
+      "postalCode": "76013",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"8AM-5PM\"], \"Tuesday\": [\"8AM-5PM\"], \"Wednesday\": [\"8AM-5PM\"], \"Thursday\": [\"8AM-5PM\"], \"Friday\": [\"8AM-5PM\"], \"Saturday\": [\"8AM-3PM\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,7096004",
+      "longitude": "-97,1350581",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    },
+    {
+      "id": "ChIJQ3S5VhJjToYRgSCbgHnXFwU",
+      "name": "Baker Brothers Plumbing, Air & Electric",
+      "phone": "+1 817-595-0116",
+      "website": "https://bakerbrothersplumbing.com/arlington-tx/%3Futm_campaign%3Dgmb_bk-arl_home_all_arlington%26utm_medium%3Dgmb%26utm_source%3Dgoogle",
+      "address": "7315 Commercial Blvd E, Arlington, TX 76001",
+      "city": "Arlington",
+      "stateCode": "TX",
+      "postalCode": "76001",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,6253377",
+      "longitude": "-97,125212",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

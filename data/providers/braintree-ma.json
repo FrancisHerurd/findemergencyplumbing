@@ -1,0 +1,25 @@
+{
+  "citySlug": "braintree-ma",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJ5wijtCKD44kRvuyCwXa1_wE",
+      "name": "HL Bowman Inc Plumbing Heating & AC",
+      "phone": "+1 617-207-7075",
+      "website": "https://hlbowman.com/locations/boston-ma/%3Futm_source%3Dgoogle%2Bbusiness%2Blisting%26utm_medium%3Dorganic%26utm_campaign%3Dclick%2Bto%2Bwebsite%26utm_content%3Dbraintree%2Bma",
+      "address": "45 Johnson Ln, Braintree, MA 02184",
+      "city": "Braintree",
+      "stateCode": "MA",
+      "postalCode": "2184",
+      "category": "HVAC contractor",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,193723",
+      "longitude": "-71,0310905",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

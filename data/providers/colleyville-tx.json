@@ -1,0 +1,25 @@
+{
+  "citySlug": "colleyville-tx",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJq6q-mYPVTYYRZuloC66DMxc",
+      "name": "Mark Ondras Plumbing",
+      "phone": "",
+      "website": "",
+      "address": "1708 Arthur Dr, Colleyville, TX 76034",
+      "city": "Colleyville",
+      "stateCode": "TX",
+      "postalCode": "76034",
+      "category": "",
+      "workingHours": "",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,8830523",
+      "longitude": "-97,1402048",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

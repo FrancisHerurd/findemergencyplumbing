@@ -1,0 +1,63 @@
+{
+  "citySlug": "chandler-az",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJe9KtWfmsK4cRqrObzUx7nIU",
+      "name": "EZ Flow Plumbing, LLC",
+      "phone": "+1 602-613-4525",
+      "website": "https://www.ezflowplumbingaz.com/",
+      "address": "3400 N Arizona Ave #112-113, Chandler, AZ 85225",
+      "city": "Chandler",
+      "stateCode": "AZ",
+      "postalCode": "85225",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7:30AM-9PM\"], \"Tuesday\": [\"7:30AM-9PM\"], \"Wednesday\": [\"7:30AM-9PM\"], \"Thursday\": [\"7:30AM-9PM\"], \"Friday\": [\"Closed\"], \"Saturday\": [\"9AM-5PM\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "33,3552525",
+      "longitude": "-111,8423159",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    },
+    {
+      "id": "ChIJRTIEt5-rK4cRB5JyYybUU0A",
+      "name": "Plumbers Near Me - Water Heater & Plumbing Services",
+      "phone": "+1 480-674-5931",
+      "website": "https://plumbersnearme.services/service-areas/chandler-plumbing-services/",
+      "address": "201 S Washington St Spc A, Chandler, AZ 85225",
+      "city": "Chandler",
+      "stateCode": "AZ",
+      "postalCode": "85225",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"6AM-10PM\"], \"Tuesday\": [\"6AM-10PM\"], \"Wednesday\": [\"6AM-10PM\"], \"Thursday\": [\"6AM-10PM\"], \"Friday\": [\"6AM-10PM\"], \"Saturday\": [\"8AM-10PM\"], \"Sunday\": [\"6AM-10PM\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "33,3004538",
+      "longitude": "-111,8399096",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    },
+    {
+      "id": "ChIJfQ83x7apK4cRY8ozF0FkbMs",
+      "name": "Ground Zero Plumbing, AC and Electrical - Chandler",
+      "phone": "+1 480-448-0603",
+      "website": "https://www.groundzeroplumbingac.com/",
+      "address": "17 S Roosevelt Ave, Chandler, AZ 85226",
+      "city": "Chandler",
+      "stateCode": "AZ",
+      "postalCode": "85226",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "33,3012158",
+      "longitude": "-111,9506039",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

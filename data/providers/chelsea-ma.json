@@ -1,0 +1,25 @@
+{
+  "citySlug": "chelsea-ma",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJRa0aULhx44kRIvB0tmqgwM8",
+      "name": "Drew Donarumo Plumbing and Heating",
+      "phone": "+1 617-293-6801",
+      "website": "https://www.drewdonarumoplumbing.net/",
+      "address": "714 Broadway, Chelsea, MA 02150",
+      "city": "Chelsea",
+      "stateCode": "MA",
+      "postalCode": "2150",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"6AM-5PM\"], \"Tuesday\": [\"6AM-5PM\"], \"Wednesday\": [\"6AM-5PM\"], \"Thursday\": [\"6AM-5PM\"], \"Friday\": [\"6AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,3963822",
+      "longitude": "-71,0282531",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

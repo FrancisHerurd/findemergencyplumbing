@@ -1,0 +1,25 @@
+{
+  "citySlug": "coral-gables-fl",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJv4clHhnI2YgRkgSiO8hoxro",
+      "name": "Coral Gables Plumbers",
+      "phone": "+1 305-600-5510",
+      "website": "http://www.coralgablesplumbers.com/",
+      "address": "102 Edgewater Dr, Coral Gables, FL 33133",
+      "city": "Coral Gables",
+      "stateCode": "FL",
+      "postalCode": "33133",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"7AM-7PM\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "25,7069603",
+      "longitude": "-80,2572618",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

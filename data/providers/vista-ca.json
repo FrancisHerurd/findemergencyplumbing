@@ -1,0 +1,25 @@
+{
+  "citySlug": "vista-ca",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJF1m_z_B23IAR3w0bRGmpCl0",
+      "name": "Expert Plumbers, Inc.",
+      "phone": "+1 760-295-3756",
+      "website": "http://www.expertplumber.net/",
+      "address": "1386 Poinsettia Ave Suite F, Vista, CA 92081",
+      "city": "Vista",
+      "stateCode": "CA",
+      "postalCode": "92081",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"6AM-11PM\"], \"Tuesday\": [\"6AM-11PM\"], \"Wednesday\": [\"6AM-11PM\"], \"Thursday\": [\"6AM-11PM\"], \"Friday\": [\"6AM-11PM\"], \"Saturday\": [\"6AM-11PM\"], \"Sunday\": [\"6AM-11PM\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "33,1378957",
+      "longitude": "-117,2217431",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

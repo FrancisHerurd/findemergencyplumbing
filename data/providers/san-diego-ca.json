@@ -1,6 +1,6 @@
 {
   "citySlug": "san-diego-ca",
-  "generatedAt": "2026-08-25T14:02:55.901Z",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
   "providers": [
     {
       "id": "ChIJN9Dok85P2YARb9GsXlg-YGM",
@@ -19,7 +19,7 @@
       "latitude": "32,5824693",
       "longitude": "-117,0423768",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJE1wFeYxV2YAR5N3NvdyYvcE",
@@ -38,7 +38,7 @@
       "latitude": "32,7150709",
       "longitude": "-117,119322",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJX8A42zpV2YARJNE92be54kU",
@@ -57,7 +57,7 @@
       "latitude": "32,8898442",
       "longitude": "-117,1506308",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJh6-W3zWr3oAREHv_YYhDUmw",
@@ -76,7 +76,7 @@
       "latitude": "32,7658725",
       "longitude": "-117,2040159",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJ_e9_diVY2YARFdDC-cvxKJE",
@@ -95,7 +95,7 @@
       "latitude": "32,8363403",
       "longitude": "-117,1473157",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJW6hB9oZNwokRvwE6VIAKybM",
@@ -114,7 +114,7 @@
       "latitude": "32,7175226",
       "longitude": "-117,1560246",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJ_3iUbmZT2YARntaBbzEIKpU",
@@ -133,7 +133,7 @@
       "latitude": "32,7097482",
       "longitude": "-117,1451566",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJFQchifZV2YAR9O9lX6He12Y",
@@ -152,7 +152,7 @@
       "latitude": "32,7720904",
       "longitude": "-117,1358186",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJrb02lrBT2YAR8LOqPb6h9J4",
@@ -171,7 +171,7 @@
       "latitude": "32,8340026",
       "longitude": "-117,1354075",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJHajIgehU2YAR9V8j_yBIen0",
@@ -190,7 +190,7 @@
       "latitude": "32,7427135",
       "longitude": "-117,1448313",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJPwWE4n1V2YARl2oMrtsXJ0I",
@@ -209,7 +209,7 @@
       "latitude": "32,7311949",
       "longitude": "-117,1699106",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJfc6yWQlV2YARaLoPYEg3WAw",
@@ -228,7 +228,26 @@
       "latitude": "32,7630436",
       "longitude": "-117,114956",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    },
+    {
+      "id": "ChIJQ7Y73zhV2YARclRzZ8pXp94",
+      "name": "Solid Plumbing & Drains Inc",
+      "phone": "+1 619-597-2566",
+      "website": "https://solidplumbingdrains.com/san-diego-county/san-diego/",
+      "address": "1901 First Ave. Suite 217-H, San Diego, CA 92101",
+      "city": "San Diego",
+      "stateCode": "CA",
+      "postalCode": "92101",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,725433",
+      "longitude": "-117,163591",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJmVzUpFTrOq0Ra-bkF-3LXic",
@@ -247,7 +266,7 @@
       "latitude": "32,8304262",
       "longitude": "-117,1470431",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJTxvVx6VT2YAR70T2EDA8d_I",
@@ -266,7 +285,7 @@
       "latitude": "32,7132682",
       "longitude": "-117,1644884",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJyd1JqH8B3IARiACaTDD9Ja4",
@@ -285,7 +304,7 @@
       "latitude": "32,8274737",
       "longitude": "-117,2095876",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJv4BiJEudeoIRaegZCjLXDks",
@@ -304,7 +323,26 @@
       "latitude": "32,7493912",
       "longitude": "-117,1787007",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    },
+    {
+      "id": "ChIJwZdAzNPDEW0RXjq1SmrVy0Y",
+      "name": "Lefty’s Plumbing I Emergency Drain Cleaning Services San Diego",
+      "phone": "+1 619-717-4152",
+      "website": "http://www.leftysplumbingservice.com/",
+      "address": "3094 National Ave Ste D, San Diego, CA 92113",
+      "city": "San Diego",
+      "stateCode": "CA",
+      "postalCode": "92113",
+      "category": "Drainage service",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,6962209",
+      "longitude": "-117,1277941",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJS_bHQ4H_24ARWPtyjatDl1s",
@@ -323,7 +361,7 @@
       "latitude": "32,8315075",
       "longitude": "-117,1470178",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJQQUZEE3-24AR-MoaIT-aZBQ",
@@ -342,7 +380,7 @@
       "latitude": "32,8382464",
       "longitude": "-117,1243658",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJ2d3S3rcB3IARGzGOgicREDE",
@@ -361,7 +399,7 @@
       "latitude": "32,797168",
       "longitude": "-117,251461",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJr574Mzd-TgsRSCHsndsRwsc",
@@ -380,7 +418,7 @@
       "latitude": "32,7584773",
       "longitude": "-117,1527023",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJ7SRNp9b_24ARud-UZvhgX9k",
@@ -399,7 +437,7 @@
       "latitude": "32,8151782",
       "longitude": "-117,1277499",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJHZnAYgpV2YARhLthnmnwIuQ",
@@ -418,7 +456,7 @@
       "latitude": "32,7515943",
       "longitude": "-117,1023553",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJE6Cyp63_24ARZVxlvbgM38c",
@@ -437,7 +475,7 @@
       "latitude": "32,9116492",
       "longitude": "-117,112062",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJt2uSlAj524ARwfwNgbxvfW8",
@@ -456,7 +494,7 @@
       "latitude": "32,8854084",
       "longitude": "-117,1571274",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJ6RUPFcb524ARFbhgsKE4wbY",
@@ -475,7 +513,26 @@
       "latitude": "32,8257279",
       "longitude": "-117,1607576",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    },
+    {
+      "id": "ChIJnQwTSm5O2YARLah-rUAZT90",
+      "name": "Coastal Rooter - San Diego Plumbing",
+      "phone": "+1 760-893-9152",
+      "website": "https://coastalrooterca.com/san-diego/",
+      "address": "5694 Mission Center Rd #248, San Diego, CA 92108",
+      "city": "San Diego",
+      "stateCode": "CA",
+      "postalCode": "92108",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,776146",
+      "longitude": "-117,154981",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJuXXuhcFV2YARarJbfb-uu8M",
@@ -494,7 +551,7 @@
       "latitude": "32,7873918",
       "longitude": "-117,1568304",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJb2o48m9O2YARThQtVSDIgvQ",
@@ -513,7 +570,7 @@
       "latitude": "32,8262767",
       "longitude": "-117,228616",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJsebLosqm7AkRedZ8K-ElV4I",
@@ -532,7 +589,7 @@
       "latitude": "32,7699104",
       "longitude": "-117,1428956",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJR73GoG_N2mAR51XdDkxTatk",
@@ -551,7 +608,7 @@
       "latitude": "32,7279141",
       "longitude": "-117,072977",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJtfTx6GBV2YAREQe5j96VU10",
@@ -570,7 +627,7 @@
       "latitude": "32,7843843",
       "longitude": "-117,1097916",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     },
     {
       "id": "ChIJFf8dH6FR2YAR80L73rGzkLg",
@@ -589,7 +646,7 @@
       "latitude": "32,713143",
       "longitude": "-117,0577699",
       "status": "approved",
-      "sourceCheckedAt": "2026-08-25T14:02:55.900Z"
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
     }
   ]
 }

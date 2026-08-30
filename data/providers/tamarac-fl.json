@@ -1,0 +1,25 @@
+{
+  "citySlug": "tamarac-fl",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJucAnHjAC2YgRqgzNPJbeads",
+      "name": "Coastal Plumbing & Mechanical Service",
+      "phone": "+1 954-732-7342",
+      "website": "https://coastal-plumber.com/",
+      "address": "3900 NW 49th St, Tamarac, FL 33309",
+      "city": "Tamarac",
+      "stateCode": "FL",
+      "postalCode": "33309",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "26,185236",
+      "longitude": "-80,2017954",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

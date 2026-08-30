@@ -1,0 +1,25 @@
+{
+  "citySlug": "watauga-tx",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJB_E95hx4ToYR9RkxnbPO7To",
+      "name": "ABC Plumbing",
+      "phone": "+1 817-427-3222",
+      "website": "https://www.abcplumbingtx.com/",
+      "address": "5616 Main St, Watauga, TX 76148",
+      "city": "Watauga",
+      "stateCode": "TX",
+      "postalCode": "76148",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,8576687",
+      "longitude": "-97,2629961",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

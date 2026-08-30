@@ -1,0 +1,25 @@
+{
+  "citySlug": "florida-city-fl",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJF7AySNzn2YgR_WmiIFEQb6I",
+      "name": "MIAMI SERVICE PLUMBERS | Plumbers In Homestead",
+      "phone": "+1 305-440-1734",
+      "website": "https://miamiserviceplumbers.com/",
+      "address": "379 NW 12th Ave, Florida City, FL 33034",
+      "city": "Florida City",
+      "stateCode": "FL",
+      "postalCode": "33034",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "25,452054",
+      "longitude": "-80,495601",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

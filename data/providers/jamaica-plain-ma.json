@@ -1,0 +1,25 @@
+{
+  "citySlug": "jamaica-plain-ma",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJ-_IQbbM5fYYRPceeP7EY7T0",
+      "name": "S.D. Plumbing & Heating",
+      "phone": "+1 781-901-7638",
+      "website": "http://sdplumbing-heating.com/",
+      "address": "374R Centre St, Jamaica Plain, MA 02130",
+      "city": "Jamaica Plain",
+      "stateCode": "MA",
+      "postalCode": "2130",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,3220972",
+      "longitude": "-71,1089691",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

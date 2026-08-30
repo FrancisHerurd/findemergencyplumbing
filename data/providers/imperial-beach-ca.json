@@ -1,0 +1,25 @@
+{
+  "citySlug": "imperial-beach-ca",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJ9yD3ClpN2YARyNByiEsrRNI",
+      "name": "Just For You Plumbing and Heating",
+      "phone": "+1 619-374-0306",
+      "website": "https://justforyouplumbers.com/imperial-beach-ca/",
+      "address": "600 Palm Ave # 121, Imperial Beach, CA 91932",
+      "city": "Imperial Beach",
+      "stateCode": "CA",
+      "postalCode": "91932",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7AM-10PM\"], \"Tuesday\": [\"7AM-10PM\"], \"Wednesday\": [\"7AM-10PM\"], \"Thursday\": [\"7AM-10PM\"], \"Friday\": [\"7AM-10PM\"], \"Saturday\": [\"7AM-10PM\"], \"Sunday\": [\"7AM-10PM\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,5851124",
+      "longitude": "-117,1201625",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

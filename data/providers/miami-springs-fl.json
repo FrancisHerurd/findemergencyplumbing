@@ -1,0 +1,25 @@
+{
+  "citySlug": "miami-springs-fl",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJC9ljCiS62YgRmTDBYC7pVj0",
+      "name": "Douglas Orr Plumbing, Inc.",
+      "phone": "+1 305-240-6731",
+      "website": "https://orrplumbing.com/",
+      "address": "301 Flagler Dr, Miami Springs, FL 33166",
+      "city": "Miami Springs",
+      "stateCode": "FL",
+      "postalCode": "33166",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "25,818521",
+      "longitude": "-80,304668",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

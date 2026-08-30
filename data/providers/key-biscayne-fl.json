@@ -1,0 +1,25 @@
+{
+  "citySlug": "key-biscayne-fl",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJ8fTKA23K2YgRdmAgHGh-qF8",
+      "name": "Call A Plumber",
+      "phone": "+1 305-361-6066",
+      "website": "",
+      "address": "800 Crandon Blvd #202, Key Biscayne, FL 33149",
+      "city": "Key Biscayne",
+      "stateCode": "FL",
+      "postalCode": "33149",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"8AM-5PM\"], \"Tuesday\": [\"8AM-5PM\"], \"Wednesday\": [\"8AM-5PM\"], \"Thursday\": [\"8AM-5PM\"], \"Friday\": [\"8AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "25,6862558",
+      "longitude": "-80,1633517",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

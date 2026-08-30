@@ -1,0 +1,25 @@
+{
+  "citySlug": "mesquite-tx",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJq6qqaiSZToYRdtopStaW5Ts",
+      "name": "Baker Brothers Plumbing, Air & Electric",
+      "phone": "+1 214-324-8811",
+      "website": "https://bakerbrothersplumbing.com/%3Futm_campaign%3Dgmb_bk-msq_home_everyone_gmb-mesquite%26utm_medium%3Dgmb%26utm_source%3Dgoogle",
+      "address": "2615 Big Town Blvd, Mesquite, TX 75150",
+      "city": "Mesquite",
+      "stateCode": "TX",
+      "postalCode": "75150",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,8004991",
+      "longitude": "-96,6688938",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

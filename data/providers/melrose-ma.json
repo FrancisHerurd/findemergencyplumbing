@@ -1,0 +1,25 @@
+{
+  "citySlug": "melrose-ma",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJFbQKPpVz44kR8YDkX9sw3xg",
+      "name": "Floros Plumbing & Heating - Melrose Massachusetts",
+      "phone": "+1 617-607-3396",
+      "website": "https://florosplumbingandheating.com/",
+      "address": "66 Russell St, Melrose, MA 02176",
+      "city": "Melrose",
+      "stateCode": "MA",
+      "postalCode": "2176",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7AM-11PM\"], \"Tuesday\": [\"7AM-11PM\"], \"Wednesday\": [\"7AM-11PM\"], \"Thursday\": [\"7AM-11PM\"], \"Friday\": [\"7AM-11PM\"], \"Saturday\": [\"7AM-11PM\"], \"Sunday\": [\"7AM-11PM\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,4513015",
+      "longitude": "-71,0753777",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

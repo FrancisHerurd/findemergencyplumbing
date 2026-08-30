@@ -1,0 +1,25 @@
+{
+  "citySlug": "stoughton-ma",
+  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "providers": [
+    {
+      "id": "ChIJ428mlKmc5IkRCghPbEAlvWM",
+      "name": "Zeolla Plumbing and heating",
+      "phone": "+1 781-344-4247",
+      "website": "",
+      "address": "2 Canton St Ste C201, Stoughton, MA 02072",
+      "city": "Stoughton",
+      "stateCode": "MA",
+      "postalCode": "2072",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "42,1244765",
+      "longitude": "-71,1046054",
+      "status": "approved",
+      "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    }
+  ]
+}

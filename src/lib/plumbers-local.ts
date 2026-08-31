@@ -157,10 +157,42 @@ export function getPlumbersByCitySlug(citySlug: string): Plumber[] {
   return result;
 }
 
+// ============================================================
+// FIX: getAvailableCitySlugs() y getCityInfoBySlug() ahora leen
+// data/providers/*.json (fuente real de negocios aprobados) en
+// vez de data/mvp/mvp-cities-priority.csv (que solo tenía 20
+// ciudades y quedó desactualizado respecto a las 85 reales).
+// ============================================================
+
+const PROVIDERS_DIR = path.resolve(process.cwd(), "data", "providers");
+
+// Nombres completos de estado para los que solo tenemos el código
+// (los JSON de providers no guardan el nombre completo del estado).
+const STATE_NAMES: Record<string, string> = {
+  AZ: "Arizona",
+  CA: "California",
+  FL: "Florida",
+  MA: "Massachusetts",
+  TX: "Texas",
+  NY: "New York",
+};
+
+type ProviderFileShape = {
+  citySlug: string;
+  providers: Array<{
+    city: string;
+    stateCode: string;
+  }>;
+};
+
 export function getAvailableCitySlugs(): string[] {
-  const all = getAllPlumbers();
-  const slugs = new Set(all.map((p) => p.citySlug));
-  return [...slugs].sort();
+  if (!fs.existsSync(PROVIDERS_DIR)) return [];
+
+  return fs
+    .readdirSync(PROVIDERS_DIR)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => f.replace(/\.json$/, ""))
+    .sort();
 }
 
 export function getCityInfoBySlug(citySlug: string): {
@@ -169,14 +201,25 @@ export function getCityInfoBySlug(citySlug: string): {
   stateCode: string;
   count: number;
 } | null {
-  const plumbers = getPlumbersByCitySlug(citySlug);
-  if (plumbers.length === 0) return null;
+  const filePath = path.join(PROVIDERS_DIR, `${citySlug}.json`);
+  if (!fs.existsSync(filePath)) return null;
 
-  const first = plumbers[0];
+  let data: ProviderFileShape;
+  try {
+    data = JSON.parse(fs.readFileSync(filePath, "utf-8")) as ProviderFileShape;
+  } catch {
+    return null;
+  }
+
+  if (!data.providers || data.providers.length === 0) return null;
+
+  const first = data.providers[0];
+  const stateCode = first.stateCode ?? "";
+
   return {
-    city: first.city,
-    state: first.state,
-    stateCode: first.stateCode,
-    count: plumbers.length,
+    city: first.city ?? "",
+    state: STATE_NAMES[stateCode] ?? stateCode,
+    stateCode,
+    count: data.providers.length,
   };
 }

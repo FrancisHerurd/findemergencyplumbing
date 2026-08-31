@@ -15,6 +15,14 @@ type CityDirectoryProps = {
   cities: City[];
 };
 
+const STATE_CODE_TO_SLUG: Record<string, string> = {
+  AZ: "arizona",
+  CA: "california",
+  FL: "florida",
+  MA: "massachusetts",
+  TX: "texas",
+};
+
 export default function CityDirectory({ cities }: CityDirectoryProps) {
   const [query, setQuery] = useState("");
 
@@ -115,54 +123,68 @@ export default function CityDirectory({ cities }: CityDirectoryProps) {
           </div>
         ) : (
           <div className="space-y-8">
-            {states.map((state) => (
-              <section
-                key={state.stateCode}
-                aria-labelledby={`state-${state.stateCode}`}
-              >
-                <div className="mb-3 flex items-baseline justify-between gap-4">
-                  <h2
-                    id={`state-${state.stateCode}`}
-                    className="text-2xl font-bold text-slate-950"
-                  >
-                    {state.state}
-                  </h2>
+            {states.map((state) => {
+              const stateSlug = STATE_CODE_TO_SLUG[state.stateCode];
 
-                  <span className="text-sm font-medium text-slate-500">
-                    {state.cities.length}{" "}
-                    {state.cities.length === 1 ? "city" : "cities"}
-                  </span>
-                </div>
-
-                <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                  {state.cities.map((city) => (
-                    <Link
-                      key={city.slug}
-                      href={`/plumbers/${city.slug}`}
-                      className="hover-lift group flex min-h-20 items-center justify-between rounded-xl border border-slate-200 bg-white p-4 shadow-sm transition-colors hover:border-blue-500 hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
+              return (
+                <section
+                  key={state.stateCode}
+                  aria-labelledby={`state-${state.stateCode}`}
+                >
+                  <div className="mb-3 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                    <h2
+                      id={`state-${state.stateCode}`}
+                      className="text-2xl font-bold text-slate-950"
                     >
-                      <span className="min-w-0">
-                        <span className="block truncate font-semibold text-slate-950 group-hover:text-blue-800">
-                          {city.city}
-                        </span>
+                      {state.state}
+                    </h2>
 
-                        <span className="mt-1 block text-sm text-slate-600">
-                          {city.count}{" "}
-                          {city.count === 1 ? "provider" : "providers"}
-                        </span>
+                    <div className="flex items-center gap-4">
+                      {stateSlug && (
+                        <Link
+                          href={`/city/${stateSlug}`}
+                          className="text-sm font-semibold text-blue-700 hover:underline"
+                        >
+                          View {state.state} hub →
+                        </Link>
+                      )}
+                      <span className="text-sm font-medium text-slate-500">
+                        {state.cities.length}{" "}
+                        {state.cities.length === 1 ? "city" : "cities"}
                       </span>
+                    </div>
+                  </div>
 
-                      <span
-                        aria-hidden="true"
-                        className="ml-4 text-xl text-blue-700 transition-transform group-hover:translate-x-1"
+                  <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                    {state.cities.map((city) => (
+                      <Link
+                        key={city.slug}
+                        href={`/plumbers/${city.slug}`}
+                        className="hover-lift group flex min-h-20 items-center justify-between rounded-xl border border-slate-200 bg-white p-4 shadow-sm transition-colors hover:border-blue-500 hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
                       >
-                        →
-                      </span>
-                    </Link>
-                  ))}
-                </div>
-              </section>
-            ))}
+                        <span className="min-w-0">
+                          <span className="block truncate font-semibold text-slate-950 group-hover:text-blue-800">
+                            {city.city}
+                          </span>
+
+                          <span className="mt-1 block text-sm text-slate-600">
+                            {city.count}{" "}
+                            {city.count === 1 ? "provider" : "providers"}
+                          </span>
+                        </span>
+
+                        <span
+                          aria-hidden="true"
+                          className="ml-4 text-xl text-blue-700 transition-transform group-hover:translate-x-1"
+                        >
+                          →
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                </section>
+              );
+            })}
           </div>
         )}
       </div>

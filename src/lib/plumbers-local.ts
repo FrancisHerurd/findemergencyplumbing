@@ -223,3 +223,60 @@ export function getCityInfoBySlug(citySlug: string): {
     count: data.providers.length,
   };
 }
+
+// ============================================================
+// Agrupación de ciudades por estado, para las páginas hub
+// /city/[stateSlug] (ej. /city/arizona, /city/texas).
+// ============================================================
+
+export const STATE_SLUGS: Record<string, string> = {
+  arizona: "AZ",
+  california: "CA",
+  florida: "FL",
+  massachusetts: "MA",
+  texas: "TX",
+};
+
+export type StateCityGroup = {
+  stateSlug: string;
+  stateCode: string;
+  stateName: string;
+  cities: Array<{
+    citySlug: string;
+    city: string;
+    count: number;
+  }>;
+};
+
+export function getAvailableStateSlugs(): string[] {
+  return Object.keys(STATE_SLUGS);
+}
+
+export function getCitiesByStateSlug(stateSlug: string): StateCityGroup | null {
+  const stateCode = STATE_SLUGS[stateSlug];
+  if (!stateCode) return null;
+
+  const cities = getAvailableCitySlugs()
+    .map((slug) => {
+      const info = getCityInfoBySlug(slug);
+      if (!info || info.stateCode !== stateCode) return null;
+      return { citySlug: slug, city: info.city, count: info.count };
+    })
+    .filter((c): c is { citySlug: string; city: string; count: number } => c !== null)
+    .sort((a, b) => a.city.localeCompare(b.city));
+
+  if (cities.length === 0) return null;
+
+  return {
+    stateSlug,
+    stateCode,
+    stateName: STATE_NAMES[stateCode] ?? stateCode,
+    cities,
+  };
+}
+
+export function getAllStateGroups(): StateCityGroup[] {
+  return getAvailableStateSlugs()
+    .map((slug) => getCitiesByStateSlug(slug))
+    .filter((g): g is StateCityGroup => g !== null);
+}

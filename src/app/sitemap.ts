@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import {
   getAvailableCitySlugs,
   getCityInfoBySlug,
+  getAvailableStateSlugs,
 } from "@/lib/plumbers-local";
 
 const siteUrl =
@@ -25,6 +26,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       (item): item is NonNullable<typeof item> => item !== null,
     );
 
+  const stateUrls = getAvailableStateSlugs().map((stateSlug) => ({
+    url: `${siteUrl}/city/${stateSlug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.75,
+  }));
+
   return [
     {
       url: siteUrl,
@@ -38,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    ...stateUrls,
     ...cityUrls,
   ];
 }

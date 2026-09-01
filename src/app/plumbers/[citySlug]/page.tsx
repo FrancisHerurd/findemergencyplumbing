@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { loadProviders, getAvailableCities } from '@/data/providers';
+import { generateCityIntro } from '@/lib/city-content';
 
 interface PageProps {
   params: Promise<{ citySlug: string }>;
@@ -22,6 +23,8 @@ export default async function PlumbersPage({ params }: PageProps) {
   const cityName = firstProvider.city || citySlug.split('-').slice(0, -1).map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
   const stateCode = firstProvider.stateCode || citySlug.split('-').pop()?.toUpperCase() || 'CA';
 
+  const intro = generateCityIntro(cityName, stateCode, providersData.providers);
+
   return (
     <div className="flex-1 bg-gray-50">
       <div className="bg-white border-b border-gray-200">
@@ -31,6 +34,9 @@ export default async function PlumbersPage({ params }: PageProps) {
           </h1>
           <p className="mt-2 text-lg text-gray-600">
             {providersData.providers.length} local plumbers available 24/7
+          </p>
+          <p className="mt-4 max-w-3xl text-base leading-7 text-gray-700">
+            {intro}
           </p>
         </div>
       </div>
@@ -117,6 +123,34 @@ export default async function PlumbersPage({ params }: PageProps) {
             </div>
           ))}
         </div>
+
+        <div className="mt-12 grid gap-8 md:grid-cols-2">
+          <section className="rounded-xl border border-gray-200 bg-white p-6">
+            <h2 className="text-xl font-bold text-gray-900">Common plumbing emergencies</h2>
+            <ul className="mt-4 space-y-3 text-sm leading-6 text-gray-700 list-disc list-inside">
+              <li>Burst or leaking pipes causing water damage</li>
+              <li>Clogged drains or toilets that won&apos;t clear</li>
+              <li>No hot water or a failed water heater</li>
+              <li>Sewer line backups</li>
+              <li>Gas leaks near plumbing fixtures (evacuate and call your gas utility first)</li>
+            </ul>
+          </section>
+
+          <section className="rounded-xl border border-gray-200 bg-white p-6">
+            <h2 className="text-xl font-bold text-gray-900">How to choose an emergency plumber</h2>
+            <ul className="mt-4 space-y-3 text-sm leading-6 text-gray-700 list-disc list-inside">
+              <li>Confirm they answer the phone directly, even outside business hours</li>
+              <li>Ask for an estimate before work begins whenever possible</li>
+              <li>Check that they are licensed to work in your state</li>
+              <li>Ask if the quoted price includes parts, labor, and any after-hours fee</li>
+              <li>Get the total cost confirmed before authorizing repairs</li>
+            </ul>
+          </section>
+        </div>
+
+        <p className="mt-8 text-xs text-gray-500">
+          This directory uses controlled test data during development. Provider information should be verified directly with each business before contacting them for service.
+        </p>
       </div>
     </div>
   );

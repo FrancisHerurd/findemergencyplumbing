@@ -1,6 +1,6 @@
 {
   "citySlug": "national-city-ca",
-  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "generatedAt": "2026-09-01T17:58:00.000Z",
   "providers": [
     {
       "id": "ChIJXTIvL8dN2YARWve5A25VRTs",
@@ -172,6 +172,63 @@
       "longitude": "-117,0960024",
       "status": "approved",
       "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    },
+    {
+      "id": "ChIJ23KAqCBV2YARzTIDf8R8zf8",
+      "name": "1st Response Plumber, Water Damage Restoration, Leak Detection of San Diego",
+      "phone": "+1 858-203-0930",
+      "website": "https://1stresponseplumber.com/",
+      "address": "301 W 28th St # L, National City, CA 91950",
+      "city": "National City",
+      "stateCode": "CA",
+      "postalCode": "91950",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,6578377",
+      "longitude": "-117,104664",
+      "status": "approved",
+      "sourceCheckedAt": "2026-09-01T17:58:00.000Z"
+    },
+    {
+      "id": "ChIJ__9TNEFS2YARbHx0sjcO9pU",
+      "name": "Fleetwood Plumbing Inc",
+      "phone": "+1 619-477-7293",
+      "website": "",
+      "address": "1416 Hoover Ave, National City, CA 91950",
+      "city": "National City",
+      "stateCode": "CA",
+      "postalCode": "91950",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"9AM-5PM\"], \"Tuesday\": [\"9AM-5PM\"], \"Wednesday\": [\"9AM-5PM\"], \"Thursday\": [\"9AM-5PM\"], \"Friday\": [\"9AM-5PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,6696389",
+      "longitude": "-117,107171",
+      "status": "approved",
+      "sourceCheckedAt": "2026-09-01T17:58:00.000Z"
+    },
+    {
+      "id": "ChIJye5PwiBS2YARa7qBqE9aux4",
+      "name": "San Diego All Star Plumbing",
+      "phone": "+1 619-927-8535",
+      "website": "http://www.sandiegoallstarplumbing.com/",
+      "address": "1630 Prospect St, National City, CA 91950",
+      "city": "National City",
+      "stateCode": "CA",
+      "postalCode": "91950",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"8AM-4PM\"], \"Tuesday\": [\"8AM-4PM\"], \"Wednesday\": [\"8AM-4PM\"], \"Thursday\": [\"8AM-4PM\"], \"Friday\": [\"8AM-4PM\"], \"Saturday\": [\"Closed\"], \"Sunday\": [\"Closed\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,6746895",
+      "longitude": "-117,0812682",
+      "status": "approved",
+      "sourceCheckedAt": "2026-09-01T17:58:00.000Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "citySlug": "bonita-ca",
-  "generatedAt": "2026-08-30T17:44:03.120Z",
+  "generatedAt": "2026-09-01T17:58:00.000Z",
   "providers": [
     {
       "id": "ChIJoWCBwvpP2YAR8JlM4e0YNQk",
@@ -39,6 +39,63 @@
       "longitude": "-116,9958586",
       "status": "approved",
       "sourceCheckedAt": "2026-08-30T17:44:03.120Z"
+    },
+    {
+      "id": "ChIJq96FJ9ZR2YARuz9fk7ALnpQ",
+      "name": "Rankin Plumbing & Repair",
+      "phone": "+1 619-752-9653",
+      "website": "https://rankinplumbingfix.com/",
+      "address": "4045 Bonita Rd Ste 243, Bonita, CA 91902",
+      "city": "Bonita",
+      "stateCode": "CA",
+      "postalCode": "91902",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,6591983",
+      "longitude": "-117,0402201",
+      "status": "approved",
+      "sourceCheckedAt": "2026-09-01T17:58:00.000Z"
+    },
+    {
+      "id": "ChIJNfGOB0FP2YARUzjzdAz92Oo",
+      "name": "High Plumbing",
+      "phone": "+1 619-547-0205",
+      "website": "",
+      "address": "4190 Bonita Rd Unit 21, Bonita, CA 91902",
+      "city": "Bonita",
+      "stateCode": "CA",
+      "postalCode": "91902",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"Open 24 hours\"], \"Tuesday\": [\"Open 24 hours\"], \"Wednesday\": [\"Open 24 hours\"], \"Thursday\": [\"Open 24 hours\"], \"Friday\": [\"Open 24 hours\"], \"Saturday\": [\"Open 24 hours\"], \"Sunday\": [\"Open 24 hours\"]}",
+      "is24Hours": true,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,6594844",
+      "longitude": "-117,0372188",
+      "status": "approved",
+      "sourceCheckedAt": "2026-09-01T17:58:00.000Z"
+    },
+    {
+      "id": "ChIJS5BxTizDvmkRcQvUqa-jrIs",
+      "name": "Hyperflow Plumbing",
+      "phone": "+1 858-833-6430",
+      "website": "http://www.hyperflowplumbing.com/",
+      "address": "4364 Bonita Rd, Bonita, CA 91902",
+      "city": "Bonita",
+      "stateCode": "CA",
+      "postalCode": "91902",
+      "category": "Plumber",
+      "workingHours": "{\"Monday\": [\"7AM-7PM\"], \"Tuesday\": [\"7AM-7PM\"], \"Wednesday\": [\"7AM-7PM\"], \"Thursday\": [\"7AM-7PM\"], \"Friday\": [\"7AM-7PM\"], \"Saturday\": [\"7AM-7PM\"], \"Sunday\": [\"10AM-4PM\"]}",
+      "is24Hours": false,
+      "mapUrl": "",
+      "plusCode": "",
+      "latitude": "32,6597042",
+      "longitude": "-117,0332616",
+      "status": "approved",
+      "sourceCheckedAt": "2026-09-01T17:58:00.000Z"
     }
   ]
 }

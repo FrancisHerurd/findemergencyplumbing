@@ -5,6 +5,7 @@ import {
     getAvailableStateSlugs,
     getCitiesByStateSlug,
 } from "@/lib/plumbers-local";
+import PlumbingPhoto from "@/components/plumbing-photo";
 
 export const revalidate = 3600;
 
@@ -45,24 +46,30 @@ export default async function StatePage({ params }: Props) {
         <main className="flex-1 bg-slate-50">
             <section className="border-b border-slate-200 bg-white">
                 <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
-                    <p className="text-sm font-semibold uppercase tracking-wide text-blue-700">
-                        Find Emergency Plumbing
-                    </p>
-                    <h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
-                        Emergency plumbers in {group.stateName}
-                    </h1>
-                    <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">
-                        Browse cities in {group.stateName} with emergency plumbing
-                        listings and find a local provider for urgent repairs.
-                    </p>
-                    <p className="mt-4 text-sm">
-                        <Link
-                            href="/cities"
-                            className="font-medium text-blue-700 hover:underline"
-                        >
-                            ← Back to all cities
-                        </Link>
-                    </p>
+                    <div className="flex items-start justify-between gap-6">
+                        <div>
+                            <p className="text-sm font-semibold uppercase tracking-wide text-blue-700">
+                                Find Emergency Plumbing
+                            </p>
+                            <h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
+                                Emergency plumbers in {group.stateName}
+                            </h1>
+                            <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">
+                                Browse cities in {group.stateName} with emergency plumbing
+                                listings and find a local provider for urgent repairs.
+                            </p>
+                            <p className="mt-4 text-sm">
+                                <Link
+                                    href="/cities"
+                                    className="font-medium text-blue-700 hover:underline"
+                                >
+                                    ← Back to all cities
+                                </Link>
+                            </p>
+                        </div>
+
+                        <PlumbingPhoto size="md" className="hidden sm:block" />
+                    </div>
                 </div>
             </section>
 

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { loadProviders, getAvailableCities } from '@/data/providers';
 import { generateCityIntro, MIN_PROVIDERS_FOR_INDEX } from '@/lib/city-content';
+import CityPhoto from '@/components/city-photo';
 
 interface PageProps {
   params: Promise<{ citySlug: string }>;
@@ -57,15 +58,21 @@ export default async function PlumbersPage({ params }: PageProps) {
     <div className="flex-1 bg-gray-50">
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-10 sm:px-6 lg:px-8">
-          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900">
-            Emergency Plumbers in {cityName}, {stateCode}
-          </h1>
-          <p className="mt-2 text-lg text-gray-600">
-            {providersData.providers.length} local plumbers available 24/7
-          </p>
-          <p className="mt-4 max-w-3xl text-base leading-7 text-gray-700">
-            {intro}
-          </p>
+          <div className="flex items-start justify-between gap-6">
+            <div>
+              <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900">
+                Emergency Plumbers in {cityName}, {stateCode}
+              </h1>
+              <p className="mt-2 text-lg text-gray-600">
+                {providersData.providers.length} local plumbers available 24/7
+              </p>
+              <p className="mt-4 max-w-3xl text-base leading-7 text-gray-700">
+                {intro}
+              </p>
+            </div>
+
+            <CityPhoto citySlug={citySlug} cityName={cityName} size="md" className="hidden sm:block" />
+          </div>
         </div>
       </div>
 

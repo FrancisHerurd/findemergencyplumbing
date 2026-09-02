@@ -1,0 +1,690 @@
+{
+  "allston-ma": {
+    "file": "allston-ma.jpg",
+    "query": "Allston skyline",
+    "isFallback": false,
+    "photographer": "Alireza AM",
+    "photographerUrl": "https://www.pexels.com/@alireza-am-2149054085",
+    "pexelsUrl": "https://www.pexels.com/photo/elegant-garden-view-through-stone-archway-39026636/"
+  },
+  "apache-junction-az": {
+    "file": "apache-junction-az.jpg",
+    "query": "Apache Junction skyline",
+    "isFallback": false,
+    "photographer": "Papillon One",
+    "photographerUrl": "https://www.pexels.com/@papillonone",
+    "pexelsUrl": "https://www.pexels.com/photo/cactus-and-bushes-under-hill-in-arid-countryside-22042443/"
+  },
+  "arlington-ma": {
+    "file": "arlington-ma.jpg",
+    "query": "Arlington skyline",
+    "isFallback": false,
+    "photographer": "Sideesh Balasubramani",
+    "photographerUrl": "https://www.pexels.com/@sideesh-balasubramani-944779",
+    "pexelsUrl": "https://www.pexels.com/photo/modern-skyline-and-historic-bridge-reflection-36958676/"
+  },
+  "arlington-tx": {
+    "file": "arlington-tx.jpg",
+    "query": "Arlington skyline",
+    "isFallback": false,
+    "photographer": "Sideesh Balasubramani",
+    "photographerUrl": "https://www.pexels.com/@sideesh-balasubramani-944779",
+    "pexelsUrl": "https://www.pexels.com/photo/modern-skyline-and-historic-bridge-reflection-36958676/"
+  },
+  "belmont-ma": {
+    "file": "belmont-ma.jpg",
+    "query": "Belmont skyline",
+    "isFallback": false,
+    "photographer": "Peter Withiel",
+    "photographerUrl": "https://www.pexels.com/@peter-withiel-564889179",
+    "pexelsUrl": "https://www.pexels.com/photo/melbourne-skyline-from-hawthorn-australia-38187104/"
+  },
+  "bonita-ca": {
+    "file": "bonita-ca.jpg",
+    "query": "Bonita skyline",
+    "isFallback": false,
+    "photographer": "Rafael Minguet Delgado",
+    "photographerUrl": "https://www.pexels.com/@thales13",
+    "pexelsUrl": "https://www.pexels.com/photo/playa-junto-al-faro-23121599/"
+  },
+  "boston-ma": {
+    "file": "boston-ma.jpg",
+    "query": "Boston skyline",
+    "isFallback": false,
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/john-hancock-tower-in-boston-21314036/"
+  },
+  "braintree-ma": {
+    "file": "braintree-ma.jpg",
+    "query": "Braintree skyline",
+    "isFallback": false,
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/urban-subway-station-in-boston-black-and-white-32680326/"
+  },
+  "brookline-ma": {
+    "file": "brookline-ma.jpg",
+    "query": "Brookline skyline",
+    "isFallback": false,
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "cambridge-ma": {
+    "file": "cambridge-ma.jpg",
+    "query": "Cambridge skyline",
+    "isFallback": false,
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "carol-city-fl": {
+    "file": "carol-city-fl.jpg",
+    "query": "Carol City skyline",
+    "isFallback": false,
+    "photographer": "Mathias Reding",
+    "photographerUrl": "https://www.pexels.com/@matreding",
+    "pexelsUrl": "https://www.pexels.com/photo/jingle-bells-music-sheet-in-close-up-photography-14145368/"
+  },
+  "carrollton-tx": {
+    "file": "carrollton-tx.jpg",
+    "query": "Carrollton skyline",
+    "isFallback": false,
+    "photographer": "Jose Uribe",
+    "photographerUrl": "https://www.pexels.com/@jose-uribe-200611789",
+    "pexelsUrl": "https://www.pexels.com/photo/yellow-and-blue-train-under-blue-sky-11560568/"
+  },
+  "cedar-hill-tx": {
+    "file": "cedar-hill-tx.jpg",
+    "query": "Cedar Hill skyline",
+    "isFallback": false,
+    "photographer": "Chris Flaten",
+    "photographerUrl": "https://www.pexels.com/@cflaten",
+    "pexelsUrl": "https://www.pexels.com/photo/view-of-a-lake-in-a-city-5110692/"
+  },
+  "chandler-az": {
+    "file": "chandler-az.jpg",
+    "query": "Chandler skyline",
+    "isFallback": false,
+    "photographer": "Jonathan Meyer",
+    "photographerUrl": "https://www.pexels.com/@jmeyer1220",
+    "pexelsUrl": "https://www.pexels.com/photo/silhouettes-on-palm-trees-in-sunset-sky-15693245/"
+  },
+  "charlestown-ma": {
+    "file": "charlestown-ma.jpg",
+    "query": "Massachusetts city skyline",
+    "isFallback": false,
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "chelsea-ma": {
+    "file": "chelsea-ma.jpg",
+    "query": "Chelsea skyline",
+    "isFallback": false,
+    "photographer": "Rachid Halihal",
+    "photographerUrl": "https://www.pexels.com/@rachid-halihal-2947511",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-manhattan-at-sunset-29238815/"
+  },
+  "chula-vista-ca": {
+    "file": "chula-vista-ca.jpg",
+    "query": "Chula Vista skyline",
+    "isFallback": false,
+    "photographer": "liu lei",
+    "photographerUrl": "https://www.pexels.com/@liu-lei-2152170289",
+    "pexelsUrl": "https://www.pexels.com/photo/urban-skyline-with-river-and-green-landscape-37635845/"
+  },
+  "colleyville-tx": {
+    "file": "colleyville-tx.jpg",
+    "query": "Colleyville skyline",
+    "isFallback": false,
+    "photographer": "Ryan  Stephens",
+    "photographerUrl": "https://www.pexels.com/@rstephens",
+    "pexelsUrl": "https://www.pexels.com/photo/modern-kitchen-with-marble-countertops-and-island-37677516/"
+  },
+  "coppell-tx": {
+    "file": "coppell-tx.jpg",
+    "query": "Coppell skyline",
+    "isFallback": false,
+    "photographer": "Talena Reese",
+    "photographerUrl": "https://www.pexels.com/@talenareese",
+    "pexelsUrl": "https://www.pexels.com/photo/modern-fort-worth-skyline-featuring-frost-tower-37255315/"
+  },
+  "coral-gables-fl": {
+    "file": "coral-gables-fl.jpg",
+    "query": "Coral Gables skyline",
+    "isFallback": false,
+    "photographer": "Dominik Gryzbon",
+    "photographerUrl": "https://www.pexels.com/@gryziu",
+    "pexelsUrl": "https://www.pexels.com/photo/coral-gables-view-with-miami-skyline-in-distance-31546910/"
+  },
+  "dallas-tx": {
+    "file": "dallas-tx.jpg",
+    "query": "Dallas skyline",
+    "isFallback": false,
+    "photographer": "Anat Morad",
+    "photographerUrl": "https://www.pexels.com/@anat-morad-275582206",
+    "pexelsUrl": "https://www.pexels.com/photo/city-view-under-blue-sky-13250722/"
+  },
+  "dedham-ma": {
+    "file": "dedham-ma.jpg",
+    "query": "Dedham skyline",
+    "isFallback": false,
+    "photographer": "Lucas Pezeta",
+    "photographerUrl": "https://www.pexels.com/@lucaspezeta",
+    "pexelsUrl": "https://www.pexels.com/photo/city-silhouette-on-sky-background-8228578/"
+  },
+  "doral-fl": {
+    "file": "doral-fl.jpg",
+    "query": "Doral skyline",
+    "isFallback": false,
+    "photographer": "Alain Garcia",
+    "photographerUrl": "https://www.pexels.com/@shotbyadrone",
+    "pexelsUrl": "https://www.pexels.com/photo/downtown-miami-2-19920541/"
+  },
+  "dorchester-ma": {
+    "file": "dorchester-ma.jpg",
+    "query": "Dorchester skyline",
+    "isFallback": false,
+    "photographer": "Marc Puddy",
+    "photographerUrl": "https://www.pexels.com/@marc-puddy-239926061",
+    "pexelsUrl": "https://www.pexels.com/photo/close-up-shot-of-a-maple-leaf-on-water-14430327/"
+  },
+  "euless-tx": {
+    "file": "euless-tx.jpg",
+    "query": "Euless skyline",
+    "isFallback": false,
+    "photographer": "Lucas Pezeta",
+    "photographerUrl": "https://www.pexels.com/@lucaspezeta",
+    "pexelsUrl": "https://www.pexels.com/photo/city-silhouette-on-sky-background-8228578/"
+  },
+  "farmers-branch-tx": {
+    "file": "farmers-branch-tx.jpg",
+    "query": "Farmers Branch skyline",
+    "isFallback": false,
+    "photographer": "Gu Ko",
+    "photographerUrl": "https://www.pexels.com/@gu-ko-2150570603",
+    "pexelsUrl": "https://www.pexels.com/photo/harvesting-green-olives-in-outdoor-grove-31667165/"
+  },
+  "florida-city-fl": {
+    "file": "florida-city-fl.jpg",
+    "query": "Florida City skyline",
+    "isFallback": false,
+    "photographer": "David Daza",
+    "photographerUrl": "https://www.pexels.com/@david-daza-1074551",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-miami-in-sunlight-30147234/"
+  },
+  "flower-mound-tx": {
+    "file": "flower-mound-tx.jpg",
+    "query": "Flower Mound skyline",
+    "isFallback": false,
+    "photographer": "Robert Medford",
+    "photographerUrl": "https://www.pexels.com/@robert-medford-2159174099",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-empty-baseball-stadium-on-a-sunny-day-36584176/"
+  },
+  "fort-lauderdale-fl": {
+    "file": "fort-lauderdale-fl.jpg",
+    "query": "Fort Lauderdale skyline",
+    "isFallback": false,
+    "photographer": "Blue Arauz",
+    "photographerUrl": "https://www.pexels.com/@blue",
+    "pexelsUrl": "https://www.pexels.com/photo/city-of-fort-lauderdale-in-florida-9867744/"
+  },
+  "fort-worth-tx": {
+    "file": "fort-worth-tx.jpg",
+    "query": "Fort Worth skyline",
+    "isFallback": false,
+    "photographer": "Talena Reese",
+    "photographerUrl": "https://www.pexels.com/@talenareese",
+    "pexelsUrl": "https://www.pexels.com/photo/buildings-in-a-city-10393078/"
+  },
+  "frisco-tx": {
+    "file": "frisco-tx.jpg",
+    "query": "Frisco skyline",
+    "isFallback": false,
+    "photographer": "Stephen Leonardi",
+    "photographerUrl": "https://www.pexels.com/@stephen-leonardi-587681991",
+    "pexelsUrl": "https://www.pexels.com/photo/golden-gate-bridge-with-san-francisco-skyline-28610497/"
+  },
+  "gilbert-az": {
+    "file": "gilbert-az.jpg",
+    "query": "Gilbert skyline",
+    "isFallback": false,
+    "photographer": "Chuck Shields",
+    "photographerUrl": "https://www.pexels.com/@chuck-shields-1116201851",
+    "pexelsUrl": "https://www.pexels.com/photo/majestic-saguaro-cacti-in-gilbert-arizona-landscape-34356412/"
+  },
+  "grand-prairie-tx": {
+    "file": "grand-prairie-tx.jpg",
+    "query": "Grand Prairie skyline",
+    "isFallback": false,
+    "photographer": "Tom Fisk",
+    "photographerUrl": "https://www.pexels.com/@tomfisk",
+    "pexelsUrl": "https://www.pexels.com/photo/a-sunset-over-a-city-skyline-with-tall-buildings-28355410/"
+  },
+  "grapevine-tx": {
+    "file": "grapevine-tx.jpg",
+    "query": "Grapevine skyline",
+    "isFallback": false,
+    "photographer": "Laura Stanley",
+    "photographerUrl": "https://www.pexels.com/@lstan",
+    "pexelsUrl": "https://www.pexels.com/photo/vines-with-grapes-growing-on-plantation-5644292/"
+  },
+  "hialeah-fl": {
+    "file": "hialeah-fl.jpg",
+    "query": "Hialeah skyline",
+    "isFallback": false,
+    "photographer": "Alain Garcia",
+    "photographerUrl": "https://www.pexels.com/@shotbyadrone",
+    "pexelsUrl": "https://www.pexels.com/photo/downtown-miami-19704820/"
+  },
+  "hollywood-fl": {
+    "file": "hollywood-fl.jpg",
+    "query": "Hollywood skyline",
+    "isFallback": false,
+    "photographer": "Stephen Leonardi",
+    "photographerUrl": "https://www.pexels.com/@stephen-leonardi-587681991",
+    "pexelsUrl": "https://www.pexels.com/photo/griffith-observatory-and-los-angeles-skyline-35120535/"
+  },
+  "hurst-tx": {
+    "file": "hurst-tx.jpg",
+    "query": "Hurst skyline",
+    "isFallback": false,
+    "photographer": "Karen F",
+    "photographerUrl": "https://www.pexels.com/@karen-f-1376469",
+    "pexelsUrl": "https://www.pexels.com/photo/urban-medical-center-skyline-with-hospital-34381866/"
+  },
+  "hyde-park-ma": {
+    "file": "hyde-park-ma.jpg",
+    "query": "Hyde Park skyline",
+    "isFallback": false,
+    "photographer": "Daniel Murcia",
+    "photographerUrl": "https://www.pexels.com/@daniel-murcia-135448395",
+    "pexelsUrl": "https://www.pexels.com/photo/drone-shot-of-hyde-park-winter-wonderland-27170062/"
+  },
+  "imperial-beach-ca": {
+    "file": "imperial-beach-ca.jpg",
+    "query": "Imperial Beach skyline",
+    "isFallback": false,
+    "photographer": "tyler jessop",
+    "photographerUrl": "https://www.pexels.com/@tyler-jessop-127684",
+    "pexelsUrl": "https://www.pexels.com/photo/blue-and-gray-guardhouse-on-beach-570943/"
+  },
+  "irving-tx": {
+    "file": "irving-tx.jpg",
+    "query": "Irving skyline",
+    "isFallback": false,
+    "photographer": "Kevin Yann",
+    "photographerUrl": "https://www.pexels.com/@kevin-yann-3696602",
+    "pexelsUrl": "https://www.pexels.com/photo/a-building-in-a-city-at-sunset-6538630/"
+  },
+  "jamaica-plain-ma": {
+    "file": "jamaica-plain-ma.jpg",
+    "query": "Jamaica Plain skyline",
+    "isFallback": false,
+    "photographer": "K",
+    "photographerUrl": "https://www.pexels.com/@kelly",
+    "pexelsUrl": "https://www.pexels.com/photo/church-in-city-17554870/"
+  },
+  "kendall-fl": {
+    "file": "kendall-fl.jpg",
+    "query": "Kendall skyline",
+    "isFallback": false,
+    "photographer": "Alain Garcia",
+    "photographerUrl": "https://www.pexels.com/@shotbyadrone",
+    "pexelsUrl": "https://www.pexels.com/photo/downtown-miami-5-19920549/"
+  },
+  "key-biscayne-fl": {
+    "file": "key-biscayne-fl.jpg",
+    "query": "Key Biscayne skyline",
+    "isFallback": false,
+    "photographer": "Alain Garcia",
+    "photographerUrl": "https://www.pexels.com/@shotbyadrone",
+    "pexelsUrl": "https://www.pexels.com/photo/downtown-miami-2-19920541/"
+  },
+  "lewisville-tx": {
+    "file": "lewisville-tx.jpg",
+    "query": "Lewisville skyline",
+    "isFallback": false,
+    "photographer": "Erik Mclean",
+    "photographerUrl": "https://www.pexels.com/@introspectivedsgn",
+    "pexelsUrl": "https://www.pexels.com/photo/a-highway-in-a-city-18462224/"
+  },
+  "malden-ma": {
+    "file": "malden-ma.jpg",
+    "query": "Malden skyline",
+    "isFallback": false,
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "mattapan-ma": {
+    "file": "mattapan-ma.jpg",
+    "query": "Mattapan skyline",
+    "isFallback": false,
+    "photographer": "Lucas Pezeta",
+    "photographerUrl": "https://www.pexels.com/@lucaspezeta",
+    "pexelsUrl": "https://www.pexels.com/photo/city-silhouette-on-sky-background-8228578/"
+  },
+  "mckinney-tx": {
+    "file": "mckinney-tx.jpg",
+    "query": "McKinney skyline",
+    "isFallback": false,
+    "photographer": "ALI",
+    "photographerUrl": "https://www.pexels.com/@ali-2289586",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-on-sunny-day-34069354/"
+  },
+  "medford-ma": {
+    "file": "medford-ma.jpg",
+    "query": "Medford skyline",
+    "isFallback": false,
+    "photographer": "Diana Orey",
+    "photographerUrl": "https://www.pexels.com/@photographyurway",
+    "pexelsUrl": "https://www.pexels.com/photo/dog-on-a-walk-in-winter-6656900/"
+  },
+  "melrose-ma": {
+    "file": "melrose-ma.jpg",
+    "query": "Melrose skyline",
+    "isFallback": false,
+    "photographer": "Spencer Haynes",
+    "photographerUrl": "https://www.pexels.com/@spencer-haynes-2160345977",
+    "pexelsUrl": "https://www.pexels.com/photo/vibrant-summer-garden-in-melrose-scotland-36655598/"
+  },
+  "mesa-az": {
+    "file": "mesa-az.jpg",
+    "query": "Mesa skyline",
+    "isFallback": false,
+    "photographer": "Ramon Perucho",
+    "photographerUrl": "https://www.pexels.com/@rperucho",
+    "pexelsUrl": "https://www.pexels.com/photo/green-grass-field-near-brown-mountain-under-blue-sky-10157046/"
+  },
+  "mesquite-tx": {
+    "file": "mesquite-tx.jpg",
+    "query": "Mesquite skyline",
+    "isFallback": false,
+    "photographer": "Stephen Leonardi",
+    "photographerUrl": "https://www.pexels.com/@stephen-leonardi-587681991",
+    "pexelsUrl": "https://www.pexels.com/photo/stunning-sand-dunes-under-a-vibrant-sky-28639032/"
+  },
+  "miami-beach-fl": {
+    "file": "miami-beach-fl.jpg",
+    "query": "Miami Beach skyline",
+    "isFallback": false,
+    "photographer": "Brendon Spring",
+    "photographerUrl": "https://www.pexels.com/@lee81",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-city-buildings-beside-the-ocean-8574669/"
+  },
+  "miami-fl": {
+    "file": "miami-fl.jpg",
+    "query": "Miami skyline",
+    "isFallback": false,
+    "photographer": "Yaseen",
+    "photographerUrl": "https://www.pexels.com/@yaseen-788738",
+    "pexelsUrl": "https://www.pexels.com/photo/panoramic-shot-of-city-1660830/"
+  },
+  "miami-gardens-fl": {
+    "file": "miami-gardens-fl.jpg",
+    "query": "Miami Gardens skyline",
+    "isFallback": false,
+    "photographer": "Yaseen",
+    "photographerUrl": "https://www.pexels.com/@yaseen-788738",
+    "pexelsUrl": "https://www.pexels.com/photo/panoramic-shot-of-city-1660830/"
+  },
+  "miami-springs-fl": {
+    "file": "miami-springs-fl.jpg",
+    "query": "Miami Springs skyline",
+    "isFallback": false,
+    "photographer": "Yaseen",
+    "photographerUrl": "https://www.pexels.com/@yaseen-788738",
+    "pexelsUrl": "https://www.pexels.com/photo/panoramic-shot-of-city-1660830/"
+  },
+  "milton-ma": {
+    "file": "milton-ma.jpg",
+    "query": "Milton skyline",
+    "isFallback": false,
+    "photographer": "John Bravar",
+    "photographerUrl": "https://www.pexels.com/@john-bravar-1100374994",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-cityscape-with-greenery-and-skyline-38354316/"
+  },
+  "miramar-fl": {
+    "file": "miramar-fl.jpg",
+    "query": "Miramar skyline",
+    "isFallback": false,
+    "photographer": "Paola  Zerman",
+    "photographerUrl": "https://www.pexels.com/@paola-zerman-62573890",
+    "pexelsUrl": "https://www.pexels.com/photo/sunlight-at-sunset-over-city-8101443/"
+  },
+  "national-city-ca": {
+    "file": "national-city-ca.jpg",
+    "query": "National City skyline",
+    "isFallback": false,
+    "photographer": "Eric Butler",
+    "photographerUrl": "https://www.pexels.com/@eric-butler-145490410",
+    "pexelsUrl": "https://www.pexels.com/photo/big-american-flag-displayed-on-a-glass-building-10460330/"
+  },
+  "newton-ma": {
+    "file": "newton-ma.jpg",
+    "query": "Newton skyline",
+    "isFallback": false,
+    "photographer": "Ron Lach",
+    "photographerUrl": "https://www.pexels.com/@ron-lach",
+    "pexelsUrl": "https://www.pexels.com/photo/boy-and-girl-making-move-a-ball-of-newton-s-cradle-9785595/"
+  },
+  "north-miami-beach-fl": {
+    "file": "north-miami-beach-fl.jpg",
+    "query": "North Miami Beach skyline",
+    "isFallback": false,
+    "photographer": "Mohamed HAKIM",
+    "photographerUrl": "https://www.pexels.com/@hakimos999",
+    "pexelsUrl": "https://www.pexels.com/photo/skyscrapers-seen-from-bay-8221224/"
+  },
+  "north-miami-fl": {
+    "file": "north-miami-fl.jpg",
+    "query": "North Miami skyline",
+    "isFallback": false,
+    "photographer": "Yaseen",
+    "photographerUrl": "https://www.pexels.com/@yaseen-788738",
+    "pexelsUrl": "https://www.pexels.com/photo/panoramic-shot-of-city-1660830/"
+  },
+  "north-richland-hills-tx": {
+    "file": "north-richland-hills-tx.jpg",
+    "query": "North Richland Hills skyline",
+    "isFallback": false,
+    "photographer": "Talena Reese",
+    "photographerUrl": "https://www.pexels.com/@talenareese",
+    "pexelsUrl": "https://www.pexels.com/photo/fort-worth-skyline-at-sunset-in-texas-36847210/"
+  },
+  "phoenix-az": {
+    "file": "phoenix-az.jpg",
+    "query": "Phoenix skyline",
+    "isFallback": false,
+    "photographer": "Matthew Jackson",
+    "photographerUrl": "https://www.pexels.com/@matthewjackson",
+    "pexelsUrl": "https://www.pexels.com/photo/a-woman-sitting-on-a-mountain-peak-at-sunset-22764344/"
+  },
+  "queen-creek-az": {
+    "file": "queen-creek-az.jpg",
+    "query": "Queen Creek skyline",
+    "isFallback": false,
+    "photographer": "Stephen Leonardi",
+    "photographerUrl": "https://www.pexels.com/@stephen-leonardi-587681991",
+    "pexelsUrl": "https://www.pexels.com/photo/sacramento-skyline-view-from-suburban-area-28490241/"
+  },
+  "quincy-ma": {
+    "file": "quincy-ma.jpg",
+    "query": "Quincy skyline",
+    "isFallback": false,
+    "photographer": "Mohan Nannapaneni",
+    "photographerUrl": "https://www.pexels.com/@mnannapaneni",
+    "pexelsUrl": "https://www.pexels.com/photo/ships-on-the-boston-harbor-13248624/"
+  },
+  "revere-ma": {
+    "file": "revere-ma.jpg",
+    "query": "Revere skyline",
+    "isFallback": false,
+    "photographer": "Miz Causevic",
+    "photographerUrl": "https://www.pexels.com/@mizchaushevich",
+    "pexelsUrl": "https://www.pexels.com/photo/snow-field-during-sunset-418292/"
+  },
+  "richardson-tx": {
+    "file": "richardson-tx.jpg",
+    "query": "Richardson skyline",
+    "isFallback": false,
+    "photographer": "Erik Mclean",
+    "photographerUrl": "https://www.pexels.com/@introspectivedsgn",
+    "pexelsUrl": "https://www.pexels.com/photo/view-of-a-highway-18462225/"
+  },
+  "roslindale-ma": {
+    "file": "roslindale-ma.jpg",
+    "query": "Roslindale skyline",
+    "isFallback": false,
+    "photographer": "Lucas Pezeta",
+    "photographerUrl": "https://www.pexels.com/@lucaspezeta",
+    "pexelsUrl": "https://www.pexels.com/photo/city-silhouette-on-sky-background-8228578/"
+  },
+  "san-diego-ca": {
+    "file": "san-diego-ca.jpg",
+    "query": "San Diego skyline",
+    "isFallback": false,
+    "photographer": "Humphrey  Jones-Behan",
+    "photographerUrl": "https://www.pexels.com/@humphrey007",
+    "pexelsUrl": "https://www.pexels.com/photo/curtain-wall-high-rise-buildings-813793/"
+  },
+  "san-tan-valley-az": {
+    "file": "san-tan-valley-az.jpg",
+    "query": "San Tan Valley skyline",
+    "isFallback": false,
+    "photographer": "Chuck Shields",
+    "photographerUrl": "https://www.pexels.com/@chuck-shields-1116201851",
+    "pexelsUrl": "https://www.pexels.com/photo/hummingbird-feeding-at-red-nectar-feeder-in-arizona-29351434/"
+  },
+  "scottsdale-az": {
+    "file": "scottsdale-az.jpg",
+    "query": "Scottsdale skyline",
+    "isFallback": false,
+    "photographer": "Brent Singleton",
+    "photographerUrl": "https://www.pexels.com/@brentsingletonphoto",
+    "pexelsUrl": "https://www.pexels.com/photo/luxurious-rooftop-pool-with-mountain-view-36486483/"
+  },
+  "somerville-ma": {
+    "file": "somerville-ma.jpg",
+    "query": "Somerville skyline",
+    "isFallback": false,
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/dynamic-urban-scene-in-somerville-massachusetts-34850392/"
+  },
+  "st-petersburg-fl": {
+    "file": "st-petersburg-fl.jpg",
+    "query": "St. Petersburg skyline",
+    "isFallback": false,
+    "photographer": "Vitali Adutskevich",
+    "photographerUrl": "https://www.pexels.com/@vadutskevich",
+    "pexelsUrl": "https://www.pexels.com/photo/sea-and-lakhta-center-behind-15704101/"
+  },
+  "stoughton-ma": {
+    "file": "stoughton-ma.jpg",
+    "query": "Stoughton skyline",
+    "isFallback": false,
+    "photographer": "Lucas Pezeta",
+    "photographerUrl": "https://www.pexels.com/@lucaspezeta",
+    "pexelsUrl": "https://www.pexels.com/photo/city-silhouette-on-sky-background-8228578/"
+  },
+  "tamarac-fl": {
+    "file": "tamarac-fl.jpg",
+    "query": "Tamarac skyline",
+    "isFallback": false,
+    "photographer": "Lucas Pezeta",
+    "photographerUrl": "https://www.pexels.com/@lucaspezeta",
+    "pexelsUrl": "https://www.pexels.com/photo/city-silhouette-on-sky-background-8228578/"
+  },
+  "tempe-az": {
+    "file": "tempe-az.jpg",
+    "query": "Tempe skyline",
+    "isFallback": false,
+    "photographer": "Roy Serafin",
+    "photographerUrl": "https://www.pexels.com/@roythephotographer",
+    "pexelsUrl": "https://www.pexels.com/photo/tempe-town-lake-bridge-illuminated-at-night-36845788/"
+  },
+  "tucson-az": {
+    "file": "tucson-az.jpg",
+    "query": "Tucson skyline",
+    "isFallback": false,
+    "photographer": "Lindsey Willard",
+    "photographerUrl": "https://www.pexels.com/@creativelindseyphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/stunning-desert-landscape-in-tucson-arizona-33363330/"
+  },
+  "vista-ca": {
+    "file": "vista-ca.jpg",
+    "query": "Vista skyline",
+    "isFallback": false,
+    "photographer": "Tri prihann",
+    "photographerUrl": "https://www.pexels.com/@tri-prihann-1023767234",
+    "pexelsUrl": "https://www.pexels.com/photo/cityscape-of-jakarta-in-indonesia-24743227/"
+  },
+  "wakefield-ma": {
+    "file": "wakefield-ma.jpg",
+    "query": "Wakefield skyline",
+    "isFallback": false,
+    "photographer": "David Pickup |  Advertising & Marketing  🇬🇧",
+    "photographerUrl": "https://www.pexels.com/@davidpickup",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-football-stadium-in-autumn-29195448/"
+  },
+  "waltham-ma": {
+    "file": "waltham-ma.jpg",
+    "query": "Waltham skyline",
+    "isFallback": false,
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/a-wooden-bridge-with-trees-and-sunlight-28270324/"
+  },
+  "watauga-tx": {
+    "file": "watauga-tx.jpg",
+    "query": "Watauga skyline",
+    "isFallback": false,
+    "photographer": "Mark Stebnicki",
+    "photographerUrl": "https://www.pexels.com/@nc-farm-bureau-mark",
+    "pexelsUrl": "https://www.pexels.com/photo/a-herd-of-cows-standing-in-a-field-28387895/"
+  },
+  "watertown-ma": {
+    "file": "watertown-ma.jpg",
+    "query": "Watertown skyline",
+    "isFallback": false,
+    "photographer": "Megs Harrison",
+    "photographerUrl": "https://www.pexels.com/@megs-harrison-172083451",
+    "pexelsUrl": "https://www.pexels.com/photo/a-city-skyline-near-the-ocean-at-night-11034190/"
+  },
+  "west-roxbury-ma": {
+    "file": "west-roxbury-ma.jpg",
+    "query": "West Roxbury skyline",
+    "isFallback": false,
+    "photographer": "Abraham Aldaraca",
+    "photographerUrl": "https://www.pexels.com/@abraham-aldaraca-846203580",
+    "pexelsUrl": "https://www.pexels.com/photo/view-of-pittsburgh-during-sunset-19507026/"
+  },
+  "weymouth-ma": {
+    "file": "weymouth-ma.jpg",
+    "query": "Weymouth skyline",
+    "isFallback": false,
+    "photographer": "David Allen",
+    "photographerUrl": "https://www.pexels.com/@n5dave",
+    "pexelsUrl": "https://www.pexels.com/photo/colorful-harbor-view-with-fishing-boat-at-dock-33783664/"
+  },
+  "winthrop-ma": {
+    "file": "winthrop-ma.jpg",
+    "query": "Winthrop skyline",
+    "isFallback": false,
+    "photographer": "Luis  Erives",
+    "photographerUrl": "https://www.pexels.com/@luis-erives-1457235",
+    "pexelsUrl": "https://www.pexels.com/photo/portland-skyline-at-sunset-with-trees-in-foreground-34475724/"
+  },
+  "woburn-ma": {
+    "file": "woburn-ma.jpg",
+    "query": "Woburn skyline",
+    "isFallback": false,
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  }
+}

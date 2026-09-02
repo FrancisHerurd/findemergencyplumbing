@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getAvailableCitySlugs, getCityInfoBySlug } from "@/lib/plumbers-local";
 import CityDirectory from "./city-directory";
-
+import PlumbingPhoto from "@/components/plumbing-photo";
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
@@ -41,18 +41,24 @@ export default async function CitiesPage() {
     <main className="flex-1 bg-slate-50">
       <section className="border-b border-slate-200 bg-white">
         <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
-          <p className="text-sm font-semibold uppercase tracking-wide text-blue-700">
-            Find Emergency Plumbing
-          </p>
+          <div className="flex items-start justify-between gap-6">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-wide text-blue-700">
+                Find Emergency Plumbing
+              </p>
 
-          <h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
-            Find emergency plumbers by city
-          </h1>
+              <h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
+                Find emergency plumbers by city
+              </h1>
 
-          <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">
-            Browse cities with controlled emergency plumbing listings and find
-            a local provider for urgent repairs.
-          </p>
+              <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">
+                Browse cities with controlled emergency plumbing listings and find
+                a local provider for urgent repairs.
+              </p>
+            </div>
+
+            <PlumbingPhoto size="md" className="hidden sm:block" />
+          </div>
         </div>
       </section>
 

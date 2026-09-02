@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import PlumbingPhoto from "@/components/plumbing-photo";
 
 type City = {
   name: string;
@@ -84,18 +85,24 @@ export default function HomePage() {
     <main className="min-h-screen bg-slate-100/60">
       <section className="bg-gradient-to-br from-blue-900 to-indigo-800 text-white">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
-          <p className="text-sm font-semibold uppercase tracking-widest text-blue-300">
-            Find Emergency Plumbing
-          </p>
+          <div className="flex flex-col-reverse items-start gap-6 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-widest text-blue-300">
+                Find Emergency Plumbing
+              </p>
 
-          <h1 className="mt-4 text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl">
-            24/7 Emergency Plumbers Near You
-          </h1>
+              <h1 className="mt-4 text-4xl font-extrabold leading-tight tracking-tight text-white sm:text-5xl">
+                24/7 Emergency Plumbers Near You
+              </h1>
 
-          <p className="mt-5 max-w-2xl text-lg leading-8 text-blue-200">
-            Find local plumbing professionals available now for urgent repairs.
-            Search by city and call directly.
-          </p>
+              <p className="mt-5 max-w-2xl text-lg leading-8 text-blue-200">
+                Find local plumbing professionals available now for urgent repairs.
+                Search by city and call directly.
+              </p>
+            </div>
+
+            <PlumbingPhoto size="lg" className="hidden sm:block" />
+          </div>
         </div>
       </section>
 

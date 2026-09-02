@@ -4,6 +4,7 @@ import {
   getCityInfoBySlug,
   getAvailableStateSlugs,
 } from "@/lib/plumbers-local";
+import { MIN_PROVIDERS_FOR_INDEX } from "@/lib/city-content";
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
@@ -13,7 +14,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .map((slug) => {
       const city = getCityInfoBySlug(slug);
 
-      if (!city) return null;
+      // Excluye del sitemap las ciudades sin datos o con contenido
+      // insuficiente (menos de MIN_PROVIDERS_FOR_INDEX proveedores).
+      if (!city || city.count < MIN_PROVIDERS_FOR_INDEX) return null;
 
       return {
         url: `${siteUrl}/plumbers/${slug}`,

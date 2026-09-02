@@ -1,6 +1,7 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { loadProviders, getAvailableCities } from '@/data/providers';
-import { generateCityIntro } from '@/lib/city-content';
+import { generateCityIntro, MIN_PROVIDERS_FOR_INDEX } from '@/lib/city-content';
 
 interface PageProps {
   params: Promise<{ citySlug: string }>;
@@ -9,6 +10,34 @@ interface PageProps {
 export async function generateStaticParams() {
   const cities = getAvailableCities();
   return cities.map(citySlug => ({ citySlug }));
+}
+
+function resolveCityAndState(citySlug: string, city?: string, stateCode?: string) {
+  const cityName = city || citySlug.split('-').slice(0, -1).map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  const resolvedStateCode = stateCode || citySlug.split('-').pop()?.toUpperCase() || 'CA';
+  return { cityName, resolvedStateCode };
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { citySlug } = await params;
+  const providersData = loadProviders(citySlug);
+
+  if (!providersData || providersData.providers.length === 0) {
+    return { title: 'City not found | Find Emergency Plumbing' };
+  }
+
+  const firstProvider = providersData.providers[0];
+  const { cityName, resolvedStateCode } = resolveCityAndState(citySlug, firstProvider.city, firstProvider.stateCode);
+  const count = providersData.providers.length;
+  const shouldIndex = count >= MIN_PROVIDERS_FOR_INDEX;
+
+  return {
+    title: `Emergency Plumbers in ${cityName}, ${resolvedStateCode} | Find Emergency Plumbing`,
+    description: `Find ${count} local emergency plumbing providers in ${cityName}, ${resolvedStateCode}. Call directly for urgent plumbing repairs.`,
+    robots: shouldIndex
+      ? { index: true, follow: true }
+      : { index: false, follow: true },
+  };
 }
 
 export default async function PlumbersPage({ params }: PageProps) {
@@ -20,8 +49,7 @@ export default async function PlumbersPage({ params }: PageProps) {
   }
 
   const firstProvider = providersData.providers[0];
-  const cityName = firstProvider.city || citySlug.split('-').slice(0, -1).map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-  const stateCode = firstProvider.stateCode || citySlug.split('-').pop()?.toUpperCase() || 'CA';
+  const { cityName, resolvedStateCode: stateCode } = resolveCityAndState(citySlug, firstProvider.city, firstProvider.stateCode);
 
   const intro = generateCityIntro(cityName, stateCode, providersData.providers);
 

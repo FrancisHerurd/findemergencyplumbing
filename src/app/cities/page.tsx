@@ -1,8 +1,17 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { getAvailableCitySlugs, getCityInfoBySlug } from "@/lib/plumbers-local";
-import CityDirectory from "./city-directory";
-import PlumbingPhoto from "@/components/plumbing-photo";
+import CitiesDirectory, { type CityEntry } from "@/components/cities-directory";
+
 export const revalidate = 3600;
+
+const STATE_NAMES: Record<string, string> = {
+  AZ: "Arizona",
+  CA: "California",
+  FL: "Florida",
+  MA: "Massachusetts",
+  TX: "Texas",
+};
 
 export const metadata: Metadata = {
   title: "Cities with Emergency Plumbers | Find Emergency Plumbing",
@@ -17,54 +26,54 @@ export const metadata: Metadata = {
   },
 };
 
+function deriveStateCode(slug: string): string {
+  return slug.split("-").pop()?.toUpperCase() || "";
+}
+
 export default async function CitiesPage() {
   const slugs = await getAvailableCitySlugs();
 
   const citiesWithInfo = await Promise.all(
     slugs.map(async (slug) => {
       const city = await getCityInfoBySlug(slug);
-
       if (!city) return null;
 
+      const stateCode = deriveStateCode(slug);
+
       return {
-        ...city,
+        name: city.city,
+        stateCode,
+        stateName: STATE_NAMES[stateCode] || stateCode,
+        count: city.count,
         slug,
-      };
+      } satisfies CityEntry;
     }),
   );
 
-  const cities = citiesWithInfo.filter(
-    (city): city is NonNullable<typeof city> => city !== null,
-  );
+  const cities = citiesWithInfo.filter((city): city is CityEntry => city !== null);
 
   return (
-    <main className="flex-1 bg-slate-50">
-      <section className="border-b border-slate-200 bg-white">
-        <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
-          <div className="flex items-start justify-between gap-6">
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-wide text-blue-700">
-                Find Emergency Plumbing
-              </p>
+    <main className="flex-1 bg-[#FAF7F2]">
+      <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <nav className="mb-6 flex items-center justify-center gap-2 text-sm text-[#6B6560]">
+          <Link href="/" className="hover:text-[#1C1B1F] hover:underline">Home</Link>
+          <span>/</span>
+          <span className="font-medium text-[#1C1B1F]">Browse Cities</span>
+        </nav>
 
-              <h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
-                Find emergency plumbers by city
-              </h1>
-
-              <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">
-                Browse cities with controlled emergency plumbing listings and find
-                a local provider for urgent repairs.
-              </p>
-            </div>
-
-            <PlumbingPhoto size="md" className="hidden sm:block" />
-          </div>
+        <div className="mx-auto max-w-2xl text-center">
+          <h1 className="font-[family-name:var(--font-fraunces)] text-4xl font-semibold text-[#1C1B1F] sm:text-5xl">
+            Browse All Cities
+          </h1>
+          <p className="mt-4 text-lg text-[#6B6560]">
+            Find emergency plumbers across every covered metropolitan area and municipality.
+          </p>
         </div>
-      </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-10 lg:px-8">
-        <CityDirectory cities={cities} />
-      </section>
+        <div className="mt-8">
+          <CitiesDirectory cities={cities} />
+        </div>
+      </div>
     </main>
   );
 }

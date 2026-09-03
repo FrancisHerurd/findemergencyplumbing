@@ -1,0 +1,776 @@
+{
+  "allston-ma": {
+    "file": "allston-ma.jpg",
+    "query": "Allston, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "apache-junction-az": {
+    "file": "apache-junction-az.jpg",
+    "query": "Arizona city skyline",
+    "isFallback": false,
+    "alt": "Night view of the illuminated Tempe Town Lake Bridge reflecting on the water surface.",
+    "photographer": "Roy Serafin",
+    "photographerUrl": "https://www.pexels.com/@roythephotographer",
+    "pexelsUrl": "https://www.pexels.com/photo/tempe-town-lake-bridge-at-night-with-reflections-36845792/"
+  },
+  "arlington-ma": {
+    "file": "arlington-ma.jpg",
+    "query": "Arlington, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "A busy street view in downtown Boston, Massachusetts during dusk showcasing urban architecture and traffic flow.",
+    "photographer": "Dominik Gryzbon",
+    "photographerUrl": "https://www.pexels.com/@gryziu",
+    "pexelsUrl": "https://www.pexels.com/photo/boston-arlington-street-urban-cityscape-at-dusk-31112663/"
+  },
+  "arlington-tx": {
+    "file": "arlington-tx.jpg",
+    "query": "Arlington, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of a cityscape with buildings and open spaces under a clear blue sky.",
+    "photographer": "ALI",
+    "photographerUrl": "https://www.pexels.com/@ali-2289586",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-on-sunny-day-34069354/"
+  },
+  "belmont-ma": {
+    "file": "belmont-ma.jpg",
+    "query": "Belmont, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "bonita-ca": {
+    "file": "bonita-ca.jpg",
+    "query": "California city skyline",
+    "isFallback": false,
+    "alt": "A breathtaking aerial view of Los Angeles skyscrapers illuminated against the night sky, showcasing the vibrant cityscape.",
+    "photographer": "Daniel Narinian",
+    "photographerUrl": "https://www.pexels.com/@daniel-narinian-191282363",
+    "pexelsUrl": "https://www.pexels.com/photo/city-with-high-rise-buildings-during-night-time-11677347/"
+  },
+  "boston-ma": {
+    "file": "boston-ma.jpg",
+    "query": "Boston, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Stunning view of Boston's skyline featuring the iconic John Hancock Tower and modern architecture.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/john-hancock-tower-in-boston-21314036/"
+  },
+  "braintree-ma": {
+    "file": "braintree-ma.jpg",
+    "query": "Braintree, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "brookline-ma": {
+    "file": "brookline-ma.jpg",
+    "query": "Brookline, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "cambridge-ma": {
+    "file": "cambridge-ma.jpg",
+    "query": "Cambridge, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "carol-city-fl": {
+    "file": "carol-city-fl.jpg",
+    "query": "Carol City, Florida skyline",
+    "isFallback": false,
+    "alt": "Aerial daytime view of Miami, Florida capturing city skyline and distant ocean.",
+    "photographer": "David Daza",
+    "photographerUrl": "https://www.pexels.com/@david-daza-1074551",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-miami-in-sunlight-30147234/"
+  },
+  "carrollton-tx": {
+    "file": "carrollton-tx.jpg",
+    "query": "Carrollton, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of a cityscape with buildings and open spaces under a clear blue sky.",
+    "photographer": "ALI",
+    "photographerUrl": "https://www.pexels.com/@ali-2289586",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-on-sunny-day-34069354/"
+  },
+  "cedar-hill-tx": {
+    "file": "cedar-hill-tx.jpg",
+    "query": "Cedar Hill, Texas skyline",
+    "isFallback": false,
+    "alt": "Stunning view of Austin's skyline at dusk with modern skyscrapers under a dramatic sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/austin-skyline-at-dusk-featuring-modern-skyscrapers-37197363/"
+  },
+  "chandler-az": {
+    "file": "chandler-az.jpg",
+    "query": "Chandler, Arizona skyline",
+    "isFallback": false,
+    "alt": "Aerial shot of Chandler, Arizona showcasing highways and residential areas under clear skies.",
+    "photographer": "Anthony Simuel",
+    "photographerUrl": "https://www.pexels.com/@anthony-simuel-362459",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-photography-of-highway-between-towns-11471652/"
+  },
+  "charlestown-ma": {
+    "file": "charlestown-ma.jpg",
+    "query": "Charlestown, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Stunning view of Boston's skyline with the icy Charles River in the foreground on a clear winter day.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/boston-skyline-overlooking-frozen-charles-river-in-winter-36669449/"
+  },
+  "chelsea-ma": {
+    "file": "chelsea-ma.jpg",
+    "query": "Chelsea, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Modern architecture with a bridge over the High Line in New York City highlighting urban design.",
+    "photographer": "Line Knipst",
+    "photographerUrl": "https://www.pexels.com/@line-knipst-574109081",
+    "pexelsUrl": "https://www.pexels.com/photo/high-rise-between-two-buildings-new-york-19101319/"
+  },
+  "chula-vista-ca": {
+    "file": "chula-vista-ca.jpg",
+    "query": "Chula Vista skyline",
+    "isFallback": false,
+    "alt": "Scenic view of skyline with river, green landscape, and blue sky.",
+    "photographer": "liu lei",
+    "photographerUrl": "https://www.pexels.com/@liu-lei-2152170289",
+    "pexelsUrl": "https://www.pexels.com/photo/urban-skyline-with-river-and-green-landscape-37635845/"
+  },
+  "colleyville-tx": {
+    "file": "colleyville-tx.jpg",
+    "query": "Colleyville, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of a cityscape with buildings and open spaces under a clear blue sky.",
+    "photographer": "ALI",
+    "photographerUrl": "https://www.pexels.com/@ali-2289586",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-on-sunny-day-34069354/"
+  },
+  "coppell-tx": {
+    "file": "coppell-tx.jpg",
+    "query": "Coppell, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of a cityscape with buildings and open spaces under a clear blue sky.",
+    "photographer": "ALI",
+    "photographerUrl": "https://www.pexels.com/@ali-2289586",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-on-sunny-day-34069354/"
+  },
+  "coral-gables-fl": {
+    "file": "coral-gables-fl.jpg",
+    "query": "Coral Gables skyline",
+    "isFallback": false,
+    "alt": "View of Miami skyline from Coral Gables at sunset with residential buildings in foreground.",
+    "photographer": "Dominik Gryzbon",
+    "photographerUrl": "https://www.pexels.com/@gryziu",
+    "pexelsUrl": "https://www.pexels.com/photo/coral-gables-view-with-miami-skyline-in-distance-31546910/"
+  },
+  "dallas-tx": {
+    "file": "dallas-tx.jpg",
+    "query": "Dallas, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of Dallas skyline featuring modern skyscrapers under a clear blue sky.",
+    "photographer": "Anat Morad",
+    "photographerUrl": "https://www.pexels.com/@anat-morad-275582206",
+    "pexelsUrl": "https://www.pexels.com/photo/city-view-under-blue-sky-13250722/"
+  },
+  "dedham-ma": {
+    "file": "dedham-ma.jpg",
+    "query": "Dedham, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "doral-fl": {
+    "file": "doral-fl.jpg",
+    "query": "Doral, Florida skyline",
+    "isFallback": false,
+    "alt": "A stunning view of Miami's illuminated skyline reflecting on water at night.",
+    "photographer": "Alain Garcia",
+    "photographerUrl": "https://www.pexels.com/@shotbyadrone",
+    "pexelsUrl": "https://www.pexels.com/photo/downtown-miami-2-19920541/"
+  },
+  "dorchester-ma": {
+    "file": "dorchester-ma.jpg",
+    "query": "Dorchester, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "euless-tx": {
+    "file": "euless-tx.jpg",
+    "query": "Euless, Texas skyline",
+    "isFallback": false,
+    "alt": "Illuminated skyscrapers reflecting in the river at night in downtown Austin, Texas.",
+    "photographer": "Elsie Soto",
+    "photographerUrl": "https://www.pexels.com/@elsiebsoto",
+    "pexelsUrl": "https://www.pexels.com/photo/skyscrapers-by-river-in-austin-at-night-20185085/"
+  },
+  "farmers-branch-tx": {
+    "file": "farmers-branch-tx.jpg",
+    "query": "Farmers Branch, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of a cityscape with buildings and open spaces under a clear blue sky.",
+    "photographer": "ALI",
+    "photographerUrl": "https://www.pexels.com/@ali-2289586",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-on-sunny-day-34069354/"
+  },
+  "florida-city-fl": {
+    "file": "florida-city-fl.jpg",
+    "query": "Florida City, Florida skyline",
+    "isFallback": false,
+    "alt": "Aerial daytime view of Miami, Florida capturing city skyline and distant ocean.",
+    "photographer": "David Daza",
+    "photographerUrl": "https://www.pexels.com/@david-daza-1074551",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-miami-in-sunlight-30147234/"
+  },
+  "flower-mound-tx": {
+    "file": "flower-mound-tx.jpg",
+    "query": "Flower Mound, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of a cityscape with buildings and open spaces under a clear blue sky.",
+    "photographer": "ALI",
+    "photographerUrl": "https://www.pexels.com/@ali-2289586",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-on-sunny-day-34069354/"
+  },
+  "fort-lauderdale-fl": {
+    "file": "fort-lauderdale-fl.jpg",
+    "query": "Fort Lauderdale, Florida skyline",
+    "isFallback": false,
+    "alt": "Aerial view of Fort Lauderdale high-rise buildings along the beach with boats on the water, exemplifying coastal city life.",
+    "photographer": "William Jacobs",
+    "photographerUrl": "https://www.pexels.com/@williamjacobs",
+    "pexelsUrl": "https://www.pexels.com/photo/fort-lauderdale-beachfront-high-rises-with-boats-32207987/"
+  },
+  "fort-worth-tx": {
+    "file": "fort-worth-tx.jpg",
+    "query": "Fort Worth, Texas skyline",
+    "isFallback": false,
+    "alt": "Urban cityscape of buildings in Fort Worth, Texas showcasing modern architecture.",
+    "photographer": "Talena Reese",
+    "photographerUrl": "https://www.pexels.com/@talenareese",
+    "pexelsUrl": "https://www.pexels.com/photo/buildings-in-a-city-10393078/"
+  },
+  "frisco-tx": {
+    "file": "frisco-tx.jpg",
+    "query": "Frisco, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of a cityscape with buildings and open spaces under a clear blue sky.",
+    "photographer": "ALI",
+    "photographerUrl": "https://www.pexels.com/@ali-2289586",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-on-sunny-day-34069354/"
+  },
+  "gilbert-az": {
+    "file": "gilbert-az.jpg",
+    "query": "Gilbert downtown",
+    "isFallback": false,
+    "alt": "Flatiron Building in New York City under a bright sky, showcasing its unique architecture.",
+    "photographer": "Michal Marek",
+    "photographerUrl": "https://www.pexels.com/@michalmarek",
+    "pexelsUrl": "https://www.pexels.com/photo/flat-iron-building-1750301/"
+  },
+  "grand-prairie-tx": {
+    "file": "grand-prairie-tx.jpg",
+    "query": "Grand Prairie, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of a cityscape with buildings and open spaces under a clear blue sky.",
+    "photographer": "ALI",
+    "photographerUrl": "https://www.pexels.com/@ali-2289586",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-on-sunny-day-34069354/"
+  },
+  "grapevine-tx": {
+    "file": "grapevine-tx.jpg",
+    "query": "Grapevine, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of a cityscape with buildings and open spaces under a clear blue sky.",
+    "photographer": "ALI",
+    "photographerUrl": "https://www.pexels.com/@ali-2289586",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-on-sunny-day-34069354/"
+  },
+  "hialeah-fl": {
+    "file": "hialeah-fl.jpg",
+    "query": "Hialeah, Florida skyline",
+    "isFallback": false,
+    "alt": "Gorgeous night view of Miami's illuminated skyline and bridge reflections on water, offering a captivating cityscape.",
+    "photographer": "Alain Garcia",
+    "photographerUrl": "https://www.pexels.com/@shotbyadrone",
+    "pexelsUrl": "https://www.pexels.com/photo/downtown-miami-19704820/"
+  },
+  "hollywood-fl": {
+    "file": "hollywood-fl.jpg",
+    "query": "Hollywood, Florida skyline",
+    "isFallback": false,
+    "alt": "Stunning aerial view of Hollywood, Florida's coastal cityscape with high-rise buildings and a serene waterway.",
+    "photographer": "Larry Milligan",
+    "photographerUrl": "https://www.pexels.com/@larry-milligan-1712939",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-the-city-of-fort-lauderdale-florida-18080724/"
+  },
+  "hurst-tx": {
+    "file": "hurst-tx.jpg",
+    "query": "Hurst, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of downtown Austin, Texas showcasing modern skyscrapers and urban infrastructure at dusk.",
+    "photographer": "Thomas  balabaud",
+    "photographerUrl": "https://www.pexels.com/@thomas-balabaud-735585",
+    "pexelsUrl": "https://www.pexels.com/photo/birds-eye-view-of-city-20021121/"
+  },
+  "hyde-park-ma": {
+    "file": "hyde-park-ma.jpg",
+    "query": "Hyde Park, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "View of Boston's skyline framed by lush trees from a city park.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/a-view-of-the-city-from-a-park-bench-27359141/"
+  },
+  "imperial-beach-ca": {
+    "file": "imperial-beach-ca.jpg",
+    "query": "California city skyline",
+    "isFallback": false,
+    "alt": "A breathtaking aerial view of Los Angeles skyscrapers illuminated against the night sky, showcasing the vibrant cityscape.",
+    "photographer": "Daniel Narinian",
+    "photographerUrl": "https://www.pexels.com/@daniel-narinian-191282363",
+    "pexelsUrl": "https://www.pexels.com/photo/city-with-high-rise-buildings-during-night-time-11677347/"
+  },
+  "irving-tx": {
+    "file": "irving-tx.jpg",
+    "query": "Irving downtown",
+    "isFallback": false,
+    "alt": "Scenic view of canal under modern bridge with clock tower and buildings in Irving, TX.",
+    "photographer": "roshan thapa",
+    "photographerUrl": "https://www.pexels.com/@roshan-thapa-145999779",
+    "pexelsUrl": "https://www.pexels.com/photo/view-of-a-canal-under-a-bridge-and-modern-buildings-in-a-city-13331927/"
+  },
+  "jamaica-plain-ma": {
+    "file": "jamaica-plain-ma.jpg",
+    "query": "Jamaica Plain, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "kendall-fl": {
+    "file": "kendall-fl.jpg",
+    "query": "Kendall, Florida skyline",
+    "isFallback": false,
+    "alt": "Captivating night view of Miami skyline with dazzling reflections on the water, showcasing city lights.",
+    "photographer": "Alain Garcia",
+    "photographerUrl": "https://www.pexels.com/@shotbyadrone",
+    "pexelsUrl": "https://www.pexels.com/photo/downtown-miami-5-19920549/"
+  },
+  "key-biscayne-fl": {
+    "file": "key-biscayne-fl.jpg",
+    "query": "Key Biscayne, Florida skyline",
+    "isFallback": false,
+    "alt": "Aerial daytime view of Miami, Florida capturing city skyline and distant ocean.",
+    "photographer": "David Daza",
+    "photographerUrl": "https://www.pexels.com/@david-daza-1074551",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-miami-in-sunlight-30147234/"
+  },
+  "lewisville-tx": {
+    "file": "lewisville-tx.jpg",
+    "query": "Lewisville, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of a cityscape with buildings and open spaces under a clear blue sky.",
+    "photographer": "ALI",
+    "photographerUrl": "https://www.pexels.com/@ali-2289586",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-on-sunny-day-34069354/"
+  },
+  "malden-ma": {
+    "file": "malden-ma.jpg",
+    "query": "Malden, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline of Lowell, Massachusetts with prominent buildings and smokestacks.",
+    "photographer": "Roddy Trull",
+    "photographerUrl": "https://www.pexels.com/@roddyt",
+    "pexelsUrl": "https://www.pexels.com/photo/lowell-massachusetts-urban-skyline-with-trees-30699500/"
+  },
+  "mattapan-ma": {
+    "file": "mattapan-ma.jpg",
+    "query": "Mattapan, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "mckinney-tx": {
+    "file": "mckinney-tx.jpg",
+    "query": "McKinney, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of a cityscape with buildings and open spaces under a clear blue sky.",
+    "photographer": "ALI",
+    "photographerUrl": "https://www.pexels.com/@ali-2289586",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-on-sunny-day-34069354/"
+  },
+  "medford-ma": {
+    "file": "medford-ma.jpg",
+    "query": "Medford, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "melrose-ma": {
+    "file": "melrose-ma.jpg",
+    "query": "Melrose, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "mesa-az": {
+    "file": "mesa-az.jpg",
+    "query": "Arizona city skyline",
+    "isFallback": false,
+    "alt": "Night view of the illuminated Tempe Town Lake Bridge reflecting on the water surface.",
+    "photographer": "Roy Serafin",
+    "photographerUrl": "https://www.pexels.com/@roythephotographer",
+    "pexelsUrl": "https://www.pexels.com/photo/tempe-town-lake-bridge-at-night-with-reflections-36845792/"
+  },
+  "mesquite-tx": {
+    "file": "mesquite-tx.jpg",
+    "query": "Mesquite, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of Austin, Texas skyline with landmarks including river and footbridge.",
+    "photographer": "Drone Task Force",
+    "photographerUrl": "https://www.pexels.com/@dronetaskforce",
+    "pexelsUrl": "https://www.pexels.com/photo/river-in-austin-18583622/"
+  },
+  "miami-beach-fl": {
+    "file": "miami-beach-fl.jpg",
+    "query": "Miami Beach, Florida skyline",
+    "isFallback": false,
+    "alt": "Aerial photo of Miami Beach with skyline and ocean, showcasing a vibrant summer cityscape.",
+    "photographer": "Brendon Spring",
+    "photographerUrl": "https://www.pexels.com/@lee81",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-city-buildings-beside-the-ocean-8574669/"
+  },
+  "miami-fl": {
+    "file": "miami-fl.jpg",
+    "query": "Miami, Florida skyline",
+    "isFallback": false,
+    "alt": "Aerial shot of Miami's skyline with watercraft patterns on the ocean surface.",
+    "photographer": "Mikhail Nilov",
+    "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
+    "pexelsUrl": "https://www.pexels.com/photo/high-rise-buildings-near-body-of-water-9400835/"
+  },
+  "miami-gardens-fl": {
+    "file": "miami-gardens-fl.jpg",
+    "query": "Miami Gardens, Florida skyline",
+    "isFallback": false,
+    "alt": "Aerial daytime view of Miami, Florida capturing city skyline and distant ocean.",
+    "photographer": "David Daza",
+    "photographerUrl": "https://www.pexels.com/@david-daza-1074551",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-miami-in-sunlight-30147234/"
+  },
+  "miami-springs-fl": {
+    "file": "miami-springs-fl.jpg",
+    "query": "Miami Springs, Florida skyline",
+    "isFallback": false,
+    "alt": "Aerial daytime view of Miami, Florida capturing city skyline and distant ocean.",
+    "photographer": "David Daza",
+    "photographerUrl": "https://www.pexels.com/@david-daza-1074551",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-miami-in-sunlight-30147234/"
+  },
+  "milton-ma": {
+    "file": "milton-ma.jpg",
+    "query": "Milton, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "miramar-fl": {
+    "file": "miramar-fl.jpg",
+    "query": "Miramar skyline",
+    "isFallback": false,
+    "alt": "The sun sets over Panama City's skyline, casting a warm glow on skyscrapers and urban landscape.",
+    "photographer": "Paola  Zerman",
+    "photographerUrl": "https://www.pexels.com/@paola-zerman-62573890",
+    "pexelsUrl": "https://www.pexels.com/photo/sunlight-at-sunset-over-city-8101443/"
+  },
+  "national-city-ca": {
+    "file": "national-city-ca.jpg",
+    "query": "National City, California skyline",
+    "isFallback": false,
+    "alt": "Stunning aerial shot of the Riverside County Administrative Center with American flag, showcasing urban landscape and architecture.",
+    "photographer": "Eric Butler",
+    "photographerUrl": "https://www.pexels.com/@eric-butler-145490410",
+    "pexelsUrl": "https://www.pexels.com/photo/big-american-flag-displayed-on-a-glass-building-10460330/"
+  },
+  "newton-ma": {
+    "file": "newton-ma.jpg",
+    "query": "Newton, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "north-miami-beach-fl": {
+    "file": "north-miami-beach-fl.jpg",
+    "query": "North Miami Beach, Florida skyline",
+    "isFallback": false,
+    "alt": "Serene view of Miami Beach skyline with skyscrapers and waterfront.",
+    "photographer": "Mohamed HAKIM",
+    "photographerUrl": "https://www.pexels.com/@hakimos999",
+    "pexelsUrl": "https://www.pexels.com/photo/skyscrapers-seen-from-bay-8221224/"
+  },
+  "north-miami-fl": {
+    "file": "north-miami-fl.jpg",
+    "query": "North Miami, Florida skyline",
+    "isFallback": false,
+    "alt": "Aerial daytime view of Miami, Florida capturing city skyline and distant ocean.",
+    "photographer": "David Daza",
+    "photographerUrl": "https://www.pexels.com/@david-daza-1074551",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-miami-in-sunlight-30147234/"
+  },
+  "north-richland-hills-tx": {
+    "file": "north-richland-hills-tx.jpg",
+    "query": "North Richland Hills, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of a cityscape with buildings and open spaces under a clear blue sky.",
+    "photographer": "ALI",
+    "photographerUrl": "https://www.pexels.com/@ali-2289586",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-on-sunny-day-34069354/"
+  },
+  "phoenix-az": {
+    "file": "phoenix-az.jpg",
+    "query": "Phoenix, Arizona skyline",
+    "isFallback": false,
+    "alt": "Breathtaking view of Phoenix cityscape and desert mountains at sunset with silhouetted cacti.",
+    "photographer": "Nicole Seidl",
+    "photographerUrl": "https://www.pexels.com/@nicole-seidl",
+    "pexelsUrl": "https://www.pexels.com/photo/sunset-over-phoenix-arizona-desert-landscape-32371655/"
+  },
+  "queen-creek-az": {
+    "file": "queen-creek-az.jpg",
+    "query": "Queen Creek downtown",
+    "isFallback": false,
+    "alt": "Aerial view of a sprawling residential area in Arizona under a bright day sky.",
+    "photographer": "Chris  The Island",
+    "photographerUrl": "https://www.pexels.com/@chris-the-island-3570397",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-residential-neighborhood-in-arizona-34873755/"
+  },
+  "quincy-ma": {
+    "file": "quincy-ma.jpg",
+    "query": "Quincy, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Elegant view of Boston Harbor with skyscrapers and boats at sunset, capturing urban charm.",
+    "photographer": "Mohan Nannapaneni",
+    "photographerUrl": "https://www.pexels.com/@mnannapaneni",
+    "pexelsUrl": "https://www.pexels.com/photo/ships-on-the-boston-harbor-13248624/"
+  },
+  "revere-ma": {
+    "file": "revere-ma.jpg",
+    "query": "Revere, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Paul Revere statue with Boston's modern skyline in the background. Captures iconic blend of history and urban life.",
+    "photographer": "Ki'ami King",
+    "photographerUrl": "https://www.pexels.com/@ki-ami-king-2150883319",
+    "pexelsUrl": "https://www.pexels.com/photo/boston-skyline-with-paul-revere-statue-at-dusk-38331626/"
+  },
+  "richardson-tx": {
+    "file": "richardson-tx.jpg",
+    "query": "Richardson, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of a cityscape with buildings and open spaces under a clear blue sky.",
+    "photographer": "ALI",
+    "photographerUrl": "https://www.pexels.com/@ali-2289586",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-urban-landscape-on-sunny-day-34069354/"
+  },
+  "roslindale-ma": {
+    "file": "roslindale-ma.jpg",
+    "query": "Roslindale, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "san-diego-ca": {
+    "file": "san-diego-ca.jpg",
+    "query": "San Diego, California skyline",
+    "isFallback": false,
+    "alt": "View of San Diego skyline with tall buildings and a ship on a bright day.",
+    "photographer": "Humphrey  Jones-Behan",
+    "photographerUrl": "https://www.pexels.com/@humphrey007",
+    "pexelsUrl": "https://www.pexels.com/photo/curtain-wall-high-rise-buildings-813793/"
+  },
+  "san-tan-valley-az": {
+    "file": "san-tan-valley-az.jpg",
+    "query": "San Tan Valley, Arizona skyline",
+    "isFallback": false,
+    "alt": "Breathtaking view of Phoenix cityscape and desert mountains at sunset with silhouetted cacti.",
+    "photographer": "Nicole Seidl",
+    "photographerUrl": "https://www.pexels.com/@nicole-seidl",
+    "pexelsUrl": "https://www.pexels.com/photo/sunset-over-phoenix-arizona-desert-landscape-32371655/"
+  },
+  "scottsdale-az": {
+    "file": "scottsdale-az.jpg",
+    "query": "Scottsdale downtown",
+    "isFallback": false,
+    "alt": "A bright Palm Springs street featuring iconic palm trees under a clear sky.",
+    "photographer": "Alex Trinh",
+    "photographerUrl": "https://www.pexels.com/@alex-trinh-883351063",
+    "pexelsUrl": "https://www.pexels.com/photo/palm-trees-around-sunlit-street-20499866/"
+  },
+  "somerville-ma": {
+    "file": "somerville-ma.jpg",
+    "query": "Somerville, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Vibrant street art mural showcasing community spirit in East Somerville, Massachusetts.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/colorful-mural-in-east-somerville-underpass-35401820/"
+  },
+  "st-petersburg-fl": {
+    "file": "st-petersburg-fl.jpg",
+    "query": "St. Petersburg, Florida skyline",
+    "isFallback": false,
+    "alt": "Scenic view of St. Petersburg, FL marina at dusk, featuring skyline and reflections in water.",
+    "photographer": "Neil Cabacang",
+    "photographerUrl": "https://www.pexels.com/@neil-cabacang-33524025",
+    "pexelsUrl": "https://www.pexels.com/photo/city-skyline-across-body-of-water-during-night-10634719/"
+  },
+  "stoughton-ma": {
+    "file": "stoughton-ma.jpg",
+    "query": "Stoughton, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline of Lowell, Massachusetts with prominent buildings and smokestacks.",
+    "photographer": "Roddy Trull",
+    "photographerUrl": "https://www.pexels.com/@roddyt",
+    "pexelsUrl": "https://www.pexels.com/photo/lowell-massachusetts-urban-skyline-with-trees-30699500/"
+  },
+  "tamarac-fl": {
+    "file": "tamarac-fl.jpg",
+    "query": "Tamarac, Florida skyline",
+    "isFallback": false,
+    "alt": "Aerial daytime view of Miami, Florida capturing city skyline and distant ocean.",
+    "photographer": "David Daza",
+    "photographerUrl": "https://www.pexels.com/@david-daza-1074551",
+    "pexelsUrl": "https://www.pexels.com/photo/aerial-view-of-miami-in-sunlight-30147234/"
+  },
+  "tempe-az": {
+    "file": "tempe-az.jpg",
+    "query": "Tempe, Arizona skyline",
+    "isFallback": false,
+    "alt": "Night view of the illuminated Tempe Town Lake Bridge reflecting on the water surface.",
+    "photographer": "Roy Serafin",
+    "photographerUrl": "https://www.pexels.com/@roythephotographer",
+    "pexelsUrl": "https://www.pexels.com/photo/tempe-town-lake-bridge-at-night-with-reflections-36845792/"
+  },
+  "tucson-az": {
+    "file": "tucson-az.jpg",
+    "query": "Arizona city skyline",
+    "isFallback": false,
+    "alt": "Night view of the illuminated Tempe Town Lake Bridge reflecting on the water surface.",
+    "photographer": "Roy Serafin",
+    "photographerUrl": "https://www.pexels.com/@roythephotographer",
+    "pexelsUrl": "https://www.pexels.com/photo/tempe-town-lake-bridge-at-night-with-reflections-36845792/"
+  },
+  "vista-ca": {
+    "file": "vista-ca.jpg",
+    "query": "Vista, California skyline",
+    "isFallback": false,
+    "alt": "View of Oakland skyline with lush greenery and bay in the background showcasing urban nature harmony.",
+    "photographer": "Stephen Leonardi",
+    "photographerUrl": "https://www.pexels.com/@stephen-leonardi-587681991",
+    "pexelsUrl": "https://www.pexels.com/photo/scenic-oakland-skyline-with-trees-and-bay-view-30258145/"
+  },
+  "wakefield-ma": {
+    "file": "wakefield-ma.jpg",
+    "query": "Wakefield, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "waltham-ma": {
+    "file": "waltham-ma.jpg",
+    "query": "Waltham, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline of Lowell, Massachusetts with prominent buildings and smokestacks.",
+    "photographer": "Roddy Trull",
+    "photographerUrl": "https://www.pexels.com/@roddyt",
+    "pexelsUrl": "https://www.pexels.com/photo/lowell-massachusetts-urban-skyline-with-trees-30699500/"
+  },
+  "watauga-tx": {
+    "file": "watauga-tx.jpg",
+    "query": "Watauga, Texas skyline",
+    "isFallback": false,
+    "alt": "Aerial view of Austin, Texas skyline with landmarks including river and footbridge.",
+    "photographer": "Drone Task Force",
+    "photographerUrl": "https://www.pexels.com/@dronetaskforce",
+    "pexelsUrl": "https://www.pexels.com/photo/river-in-austin-18583622/"
+  },
+  "watertown-ma": {
+    "file": "watertown-ma.jpg",
+    "query": "Watertown, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline of Lowell, Massachusetts with prominent buildings and smokestacks.",
+    "photographer": "Roddy Trull",
+    "photographerUrl": "https://www.pexels.com/@roddyt",
+    "pexelsUrl": "https://www.pexels.com/photo/lowell-massachusetts-urban-skyline-with-trees-30699500/"
+  },
+  "west-roxbury-ma": {
+    "file": "west-roxbury-ma.jpg",
+    "query": "West Roxbury, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "weymouth-ma": {
+    "file": "weymouth-ma.jpg",
+    "query": "Weymouth, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "winthrop-ma": {
+    "file": "winthrop-ma.jpg",
+    "query": "Winthrop, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  },
+  "woburn-ma": {
+    "file": "woburn-ma.jpg",
+    "query": "Woburn, Massachusetts skyline",
+    "isFallback": false,
+    "alt": "Skyline view of Cambridge, Massachusetts with Boston cityscape in the background under a clear sky.",
+    "photographer": "Phil Evenden",
+    "photographerUrl": "https://www.pexels.com/@philevenphotos",
+    "pexelsUrl": "https://www.pexels.com/photo/skyline-of-cambridge-with-boston-view-31099260/"
+  }
+}
